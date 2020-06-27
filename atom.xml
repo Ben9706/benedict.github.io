@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
-    <title>Gridea</title>
-    <updated>2020-05-18T04:50:14.832Z</updated>
+    <title>竹本一世</title>
+    <updated>2020-06-27T07:45:51.006Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>As we may think</subtitle>
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 竹本一世</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/post/hello-gridea/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[第一次工业革命带来的经验教训]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/post/82563856/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/post/82563856/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2019-09-15T04:52:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>这是一段摘要。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<p>这是一段摘要。</p>
 <!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+<p>作者：Larissa Schiavo<br>
+译者：竹本一世<br>
+原文链接：https://medium.com/@larissafschiavo/industrial-revolution-66aee1b2cc2d</p>
+<p>在 1830 年的英格兰，像曼彻斯特这样的北方城市已经开始工业化。随着火车和铁路的出现，货物和人员能以每小时 10 英里的速度极快移动。以蒸汽为动力的工厂如雨后春笋般出现在主要的大都市地区，彼时英国的乡村就像今天美国乡村一样，被落在了后面。亚历西斯·德·托克维尔（Alexis de Tocqueville）在 1835 年访问了英格兰，在他关于贫穷现象的回忆录中评论到，新建的工厂和道路虽然体现了经济的发展，但这一切都是建立在贫穷的基础上才得以实现的。<br>
+「如果查阅教区登记册，你会发现这个繁荣的国度有 1/6 的居民是以公众慈善为代价生活的，这实在令人难以置信。」托克维尔与官方统计数据相去不远，当时英国大约每 7 人中就有 1 人接受了某种形式的失业救助。<br>
+尽管存在近 200 年的时差，但这些技术的影响、应对措施和管理与当今围绕人工智能的问题有许多相似之处——它们都是节省劳动力的技术，且可能使整个行业显得落后。我仔细阅读了有关第一次工业革命中技术性工作转移的文件、抄本、原始文件和书籍，为与现在的世界的惊人相似而感到震惊。我从人们对这些技术的反应中总结出了 9 条经验教训，这些经验教训是以<strong>第四次工业革命</strong>为背景写成的。</p>
+<font color=#e3e7f1>
+<ul>
+<li>第一次工业革命：蒸汽技术革命，发生于 18 世纪 60 年代—19 世纪 40 年代，开创了以机器代替手工劳动的时代，首先发生于英国。</li>
+<li>第二次工业革命：电力技术革命，发生于 19 世纪中期，主要标志是电力的发明和广泛应用，主要人物有爱迪生等。</li>
+<li>第三次工业革命：计算机及信息技术革命，开始于 20 世纪 40 年代，主要标志是原子能和电子计算机的发明，主要人物有爱因斯坦、冯·诺伊曼等。</li>
+<li>第四次工业革命：全新技术革命，发生于21世纪的此刻，主要标志是人工智能、虚拟现实、量子通信。</li>
+</ul>
+</font>
+<h2 id="1重大的技术进步可能伴随着看似琐碎的事情而来">1.重大的技术进步可能伴随着看似琐碎的事情而来</h2>
+<p>新型织布机（及相关发明）与 18 世纪末以前织物生产和消费的现状完全不同。在历史上的大部分时间里，织布都是在简单的织布机上手工完成的，这是一项复杂而费力的工作，在技术上与罗马人使用的方法没有什么不同。编织是一项需要学徒、培训和时间去掌握的技能。羊毛（或亚麻地）、纺车和织布工之间的距离通常只有几英里远——由于缺乏快速的交通选择，这是一种超本地化（hyper-local）经济。据估计，在 13 世纪的时候一件简单的衬衫要花费相当于 3500 美元，而在 18 世纪末期，一个非常熟练的手工织布工每周可以生产大约 100 码的布料。衣服的制作其实很简单，几个世纪以来对大多数人来说几乎没有什么变化，衣服要么是在家庭经济中（由一个工匠家庭），要么是在家里做的。</p>
 ]]></content>
     </entry>
 </feed>
