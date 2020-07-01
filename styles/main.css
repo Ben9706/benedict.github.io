@@ -1459,3 +1459,12 @@ a.purple-link {
   margin: 0 16px 16px 0;
   border-radius: 16px;
 }
+
+      .post-content img {
+    display: block;
+    box-shadow: 0 0 30px #eee;
+    max-width: 50%;
+    border-radius: 2px;
+    margin: 16px auto;
+}
+    
