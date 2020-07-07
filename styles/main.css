@@ -1876,7 +1876,8 @@ word-break: normal;
 .post-container .post-detail {
     flex: 1;
     padding: 24px 32px;
-    width: 1000px;
+    width: 760px;
     border-radius: 4px;
+    text-align: justify;
 }
     
