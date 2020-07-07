@@ -1866,5 +1866,17 @@ word-break: normal;
 }
 
 .post-content h2 {
+    display: inline-block;
+    color: #0C1E29!important;
+    position: relative!important;
+    background: #FFFFFF!important;
+}
+
+/* 文章内页宽度 */
+.post-container .post-detail {
+    flex: 1;
+    padding: 24px 32px;
+    width: 1000px;
+    border-radius: 4px;
 }
     
