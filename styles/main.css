@@ -1816,8 +1816,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
           background: RGBA(89,120,243,0.2)!important;
         }
          
-      
-/* 导航栏文本加 */
+      /* 导航栏文本加 */
 .navbar .navbar-nav .nav-item a {
     font-weight: bold;
 }
@@ -1874,10 +1873,21 @@ word-break: normal;
 
 /* 文章内页宽度 */
 .post-container .post-detail {
-    flex: 1;
-    padding: 24px 32px;
-    width: 760px;
-    border-radius: 4px;
-    text-align: justify;
+    max-width: 760px;
+}
+
+/* 修改无序列表的字体颜色 */
+ul li {
+    list-style: disc;
+    font-size: 16px;
+    color: #4E616C;
+}
+
+/* 标题字体 */
+.navbar .navbar-brand .site-name {
+    font-size: 28px !important;
+    margin-left: 8px;
+    font-weight: bold;
+    color: #000000!important;
 }
     
