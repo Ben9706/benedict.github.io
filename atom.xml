@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>诚如我思</title>
-    <updated>2020-07-21T05:36:49.114Z</updated>
+    <updated>2020-07-26T13:31:59.921Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 诚如我思</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么普通人会在网络上成为混蛋？]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/internet-trolls/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/internet-trolls/">
+        </link>
+        <updated>2019-10-15T13:22:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在视觉主导的世界里找寻播客的价值]]></title>
         <id>https://ben9706.github.io/benedict.github.io/finding-the-value-of-podcasts-in-a-visually-dominant-world/</id>
