@@ -1,0 +1,314 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>#5 Interaction Design ：用户体验的研究与原型 | 诚如我思</title>
+<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1596730885315">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ben9706.github.io/benedict.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171547417-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-171547417-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            诚如我思
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            Home
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            Tags
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tag/qk2ARXsGt/" class="menu gt-a-link">
+                            Observations
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/contact" class="menu gt-a-link">
+                            Contact
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    #5 Interaction Design ：用户体验的研究与原型
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2019-02-17 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <h3 id="需求收集">需求收集</h3>
+<p>用户访谈是需求收集阶段十分常用的方法，可以分为<strong>临时拦截式访谈</strong>和<strong>计划性访谈</strong>两种。</p>
+<ol>
+<li>
+<p>临时拦截式访谈<br>
+发生在公共场合。<br>
+一般在 1 ～ 5 分钟内。<br>
+一般问的问题是：你对此的期待是什么？它的实际表现如何？<br>
+注：体验 = 预期 - 实际</p>
+</li>
+<li>
+<p>计划性访谈<br>
+发生在较安静的场合。<br>
+一般在 10 ～ 30 分钟内。<br>
+需要提前准备好访谈。</p>
+</li>
+</ol>
+<p>往往，被访谈者不能清晰地意识到自己最根本的诉求点是什么，访谈者可以通过连续追问多次为什么找到根本原因，这个方法被称为 <strong>5why 法</strong>。</p>
+<p>🐻：你为什么喜欢你的电脑？<br>
+🦊：因为我喜欢在线阅读新闻。<br>
+🐻：你为什么喜欢在线阅读新闻？<br>
+🦊：因为我需要保持对前沿科技新闻的敏感。<br>
+🐻：你为什么需要保持对前沿科技新闻的敏感？<br>
+🦊：因为这让我可以更好地完成我的工作。<br>
+🐻：你为什么想要更好完成工作？<br>
+🦊：因为这让我能更好地支持我的家人。</p>
+<h3 id="头脑风暴">头脑风暴</h3>
+<p>我们怎么在有限的时间里产出更多的想法？Liz Gerber 给了 5 条建议。</p>
+<ol>
+<li>Stay focused（在白板上写上机会点）</li>
+<li>Be obvious（每个人的视角都不同）</li>
+<li>Go for quantity（比起质量，先求数量）</li>
+<li>Build on the ideas（在想法上构建新的想法）</li>
+<li>Have fun ：）</li>
+</ol>
+<p>接下来我们将谈及具体的构思技巧，为了避免泛泛而谈，我们假设正在着手一个项目。</p>
+<p>项目背景：喜欢晚睡的青少年需要一种轻松的方式在旅途中吃早餐，因为他们在离开家之前没有时间吃早餐，然而早餐是当天最重要的一餐。</p>
+<p>项目目标：我们需要产生尽可能多的方法来改善在外的就餐体验。</p>
+<ol>
+<li>
+<p>List ideas<br>
+首先列出可以在旅途中改善吃早餐的所有方法，比如“早餐附在背包上。”</p>
+</li>
+<li>
+<p>Eliminate a constraint<br>
+选择消除某个限制条件。比如消除“青少年需要吃健康食品”这个限制，或者“他们的家人不想在早餐上花很多钱”，“青少年喜欢睡觉，根本不熬夜。”消除限制条件的目的是为了产出更多的想法。</p>
+</li>
+<li>
+<p>Make an analogy<br>
+类比，如果在旅途中吃东西就像早上刷牙，穿衣服或者拿起报纸一样，那么会如何？</p>
+</li>
+<li>
+<p>Exaggerate<br>
+夸张，比如我们夸大青少年早餐吃的食物量，青少年每天早上需要吃10个苹果才能保持健康，青少年需要10秒才能吃，或者青少年需要吃10顿饭才能吃饱等等，在这样的条件下，你还能够怎样优化体验？</p>
+</li>
+<li>
+<p>Get in the garbage<br>
+删除一些你觉得没有人喜欢的想法。</p>
+</li>
+</ol>
+<p>当你有了想法，也许你会自我思考，或者和团队分享，又或者询问利益相关者的看法，每一种方法的优点分别是：</p>
+<ul>
+<li>
+<p>个人思考<br>
+完全掌控想法<br>
+直接开工</p>
+</li>
+<li>
+<p>和团队分享<br>
+获得新的视角<br>
+激励团队<br>
+共同进步</p>
+</li>
+<li>
+<p>询问利益相关者<br>
+获得真实的反馈<br>
+得到认可</p>
+</li>
+</ul>
+<p>到这一步为止，我们已经收集了许多想法了，接下来我们要选择哪一个想法最好。你可以按照下面的标准做出选择。</p>
+<ul>
+<li>Most useful（最有用的是哪一个？）</li>
+<li>Most desirable（用户最想要的是哪一个？）</li>
+<li>Easiest to use（最容易使用的是哪一个？）</li>
+<li>Most functional（最容易实现的是哪一个？）</li>
+<li>Most sustainable（最可持续的是哪一个？可持续可以从两方面衡量：是否对环境有益，以及用户会不会为它买单 ）</li>
+</ul>
+<h3 id="整合信息">整合信息</h3>
+<p>当我们获取了大量的数据后，我们需要用一种更直观的方式罗列并分析这些数据。Liz Gerber 会在巨大的房间里贴满便签。她提到她的一次经历：在为印度人设计产品时，他们团队同时在放印度宝莱坞的歌，用来提醒自己到底在为谁做设计，这太可爱了。</p>
+<p>我们要如何去理解数据呢？Liz Gerber 推荐了四个方法：</p>
+<ol>
+<li>用户画像（Personas）</li>
+</ol>
+<p>用户画像是用现实话语描述虚构出的产品典型用户或目标用户，用户画像是一个原型，而不是一个真实存在的人，但用户画像应该被描述成足够真实的人。包括人物角色的需求、关注点和目标的细节，以及背景信息，如年龄、性别、行为和职业。这样一个复合角色融合了许多需求和不同人的价值观在一起，它可以提醒你正在为谁做设计。</p>
+<ol start="2">
+<li>用户旅程地图（Journey Maps ）</li>
+</ol>
+<p>用户旅程地图是可视地说明单个客户需求的文档，满足这些需求所必需的一系列交互，以及客户在整个过程中经历的最终情绪状态。通过详细描述客户在整个体验中的需求并揭示每个交互如何消极或积极地影响客户的情绪状态，设计师可以将大量研究结果和分析转换为简洁但视觉上引人注目的故事，组织的多个层面的利益相关者可以容易理解和解释。</p>
+<ol start="3">
+<li>
+<p>亲和图（Diagrams ）<br>
+亲和图可以帮助团队协作分析研究结果以及构思会议的想法。这里有一个RTB方法值得尝试。⽤玫瑰，荆棘，芽（RTB）⽅法对便利贴上的⻅解进⾏分类：正（玫瑰），消极（荆棘），机会（萌芽）。红⾊代表玫瑰，蓝⾊代表刺，最后⻩⾊代表芽。</p>
+</li>
+<li>
+<p>2x2 矩阵（2x2 Matrix）</p>
+</li>
+</ol>
+<p>2x2 矩阵是一种工具，用于支撑有关用户和设计空间的信息，以揭示关系。它可以帮助你发现更深入的见解或领域。2x2 矩阵也是一种很好的方式，可以直观地传达您想要传达给他人的关系。</p>
+<p>首先，绘制一个 2x2 矩阵（x 轴和 y 轴），为每个轴选择一个范围（两端都是对立的），并在地图上绘制项目。你可以探索任何一组事物：产品，动机，用户。<br>
+在这个过程里，你可能会尝试各种范围组合才能找到有意义的那一组。你还可以使用 2x2 矩阵来创建竞争格局，空象限可能表示市场机会（或非常糟糕的想法）。</p>
+<h3 id="制作原型">制作原型</h3>
+<p>原型的价值在于令其他人（无论是同事还是用户）能够知道未来产品的用户体验是怎样的，并探索和评估灵感，接下来我会描述一个原型案例。</p>
+<p>在早期的数码摄影项目中，目标是帮助客户设想数码相机可能是什么（这个项目是为柯达设计第一款数码相机），以及如何将相机和用户体验设计为一个完整的系统（包括图片存储，检索，操作等）。在项目的初始阶段，团队使用传统的通信技术，例如场景，静态和动态可视化以及交互式屏幕模拟。经过一系列的演示后，设计团队意识到客户并没有完全理解预期的用户体验和相机行为。当设计师根据当时的设计规范构建硬件和软件集成的「外观和感觉」原型时，取得了突破。该原型与理想产品的形状，尺寸或重量方面几乎没有相似之处。例如，有一条相当大的电缆从相机运行到台式计算机，在那里进行了所有处理。</p>
+<p>这款体验原型包含一个小型摄像机，安装在一个小型液晶面板上，装在一个盒子里。LCD 面板的尺寸由理想的分辨率确定，而不是由理想的物理尺寸确定，以便维持所提出的用户体验的关键方面。工作原型伴随着外观模型，以传达设计解决方案的适当尺寸和详细的形式方面。</p>
+<p>图为数码相机交互架构原型，该原型使用台式计算机的处理能力来操纵和控制系统的动态质量和屏幕行为。</p>
+<p>因为响应时间是用户体验的关键组成部分，该原型具有实时视频输入并实时捕获带有音频注释的静态照片的能力。由于处理是由运行常规软件的台式计算机完成的，并且具有简单的编程环境，因此很容易微调摄像机的响应时间，使设计团队和客户能够直观感受到对用户体验的影响。</p>
+<p>客户要求提供原型的多个副本，以不断验证新的设计概念。客户说，改变分辨率或响应速度会多方受阻，但原型使他们能够看到潜在的价值，感受并抵制这些变化的负面影响。</p>
+<p>图为柯达 DC 210。 这是柯达数码相机系列的第一款，体验原型所体现的交互架构和响应品质在这个设备上得到完美表现。</p>
+<p>这个例子充分展示了激励决策受众的重要性。了解使用者及其期望有助于确定原型的分辨率和保真度。当观众不熟悉这种特殊形式的原型时，还需要注意解释其具体意图。在这个数码相机示例中，设计团队构建了具有足够灵活性的体验原型，可以在实现所需用户体验的过程中经历多次细化迭代。设计人员正在创建一个原型设计平台，其中硬件组件经过精心挑选和构建，可持续使用。软件环境是在模块化体系结构中建立的，因此简单的代码更改不会影响工件在其他模式下的行为。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:90%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '3OcEc4YoPqF19tUqE6D7ucku-gzGzoHsz',
+		appKey: 'L8YCo2ODaGGsS8W4uIx7BI9D',
+		avatar: 'hide',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Want to comment? Become a contributor.',
+		visitor: false,
+	});
+</script>
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">竹本一世的博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/Ben9706" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/Ben02002859" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/benedict-yu" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        🚀 For All Mankind 🚀
+    </div>
+    <div>
+        <!-- Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://ben9706.github.io/benedict.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

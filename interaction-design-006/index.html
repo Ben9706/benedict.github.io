@@ -1,0 +1,257 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>#6 Interaction Design ：信息设计 | 诚如我思</title>
+<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1596730885315">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ben9706.github.io/benedict.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171547417-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-171547417-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            诚如我思
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            Home
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            Tags
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tag/qk2ARXsGt/" class="menu gt-a-link">
+                            Observations
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/contact" class="menu gt-a-link">
+                            Contact
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    #6 Interaction Design ：信息设计
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2019-02-18 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>本文为第六课 <strong>Information Design</strong> 中的部分课堂笔记。</p>
+<h3 id="为来自不同国家的人做设计">为来自不同国家的人做设计</h3>
+<p>看到上图的第一眼，会不会觉得有些违和感？</p>
+<p>原本应该在左侧的账号信息到了右侧，回到首页的 button 也不在左上角，而在右上角，整个页面就如镜像对称了一般，当然更主要的是：这是什么语言？！</p>
+<p>这是阿拉伯语，尽管我们熟悉的英语或汉语都是从左往右的阅读顺序，但全世界仍然有超过 5 亿人的阅读顺序是从右到左的（Right To Left，下文简称 RTL），比如阿拉伯语、希伯来语等。而这部分阅读习惯的差异显著表现在了页面布局上。</p>
+<p>但仔细一想，有些问题就显得令人无法确定：</p>
+<ul>
+<li>返回 button 的箭头应该向左向右？</li>
+<li>拨号界面的数字会变化吗？</li>
+<li>播放器的进度条是从左往右还是从右往左？</li>
+</ul>
+<p>Google Material Design 中 <a href="https://material.io/design/usability/bidirectionality.html?from=groupmessage&amp;isappinstalled=0">Bidirectionality</a> 部分详细介绍了该设计规则，当发生了镜像时，界面会：</p>
+<ul>
+<li>文本信息在图标的前面</li>
+<li>导航按钮按相反顺序显示</li>
+<li>示意方向的图标，如箭头、运动方向等</li>
+<li>文本(如果它被翻译成 RTL 语言)是右对齐的</li>
+</ul>
+<p>而有些内容则不会发生变化：</p>
+<ul>
+<li>不能传达方向的图标，比如照相机</li>
+<li>数字，如钟上的数字和电话号码</li>
+<li>图表</li>
+</ul>
+<p>图片来自于 Google Design。</p>
+<p>镜像的原因是因为不同的阅读习惯导致对于「前」和「后」的理解相反，所以在表示运动方向的图标上，需要镜像。</p>
+<p>图片来自于 Google Design。</p>
+<p>播放器中「上一首」和「下一首」反映的并不是运动方向，而是对现实中磁带的一种隐喻，所以并不需要镜像。</p>
+<p>因为媒体播放按钮和进度指示器反映磁带的方向，所以它们没有镜像，图片来自于 Google Design。</p>
+<p>Bidirectionality 体现了不同的语言习惯对于理解事物的影响，这让我想起了萨丕尔-沃尔夫假设，该假说认为不同的语言会决定母语者的思维，并由此演化成两种假设：<br>
+1  强假设：语言结构决定人类思维（这种假设已经几乎被否决了）<br>
+2  弱假设：语言结构影响人类行为（这种假设被认为具有可能，仍具争议）</p>
+<p>举例来说：</p>
+<ul>
+<li>德语、法语和西班牙语里，名词会有性别，那么以这些为母语的人会否觉得物品和抽象的概念也是有性别的？（实际上不会）</li>
+<li>语言里缺失“左”和“右”的母语者能否分辨左右方向？（实际上能）</li>
+<li>一些语言中用来描述蓝色和绿色的是同一个单词，那么此类母语者会否很难区分蓝色和绿色？（实际上是）</li>
+<li>母语中强调「东西南北」的人会否更倾向于使用绝对方向描述，而母语里经常使用相对方向的人则会使用「前后左右」的字眼？（实际上是）</li>
+</ul>
+<h3 id="设计智能产品">设计智能产品</h3>
+<p>Scott Klemmer 在 2016 年之前，分享了三个他认为的未来方向：融入家庭的设备、可穿戴设备以及对现有设备的计算进行增强。下面 3 个产品都没有涉及具体的图形用户界面，使用这些设备时，交互过程非常短暂，甚至不会意识到用户界面的存在。</p>
+<p>图片来自于该课程。</p>
+<p>图上最左侧是 Nest thermostat，它可以通过记录用户的室内温度数据，智能识别用户习惯，并将室温调整到最舒适的状态。2014 年 Google 收购了开发这款产品的厂商 Nest Lab。</p>
+<p>中间的是 FitBit 智能手环，可以记录心率，睡眠等。Apple Watch 也从 2014 年的初代在「iPhone 的附属品」与「奢侈时尚品」间摇摆不定，到一代代迭代版本确定了健康的用户诉求。</p>
+<p>最右边的是亚马逊 Dash 按钮，可以贴在或者挂在物品上，每个按钮只对应一样商品，按一下，就可以买下这件商品。通过这样的方式，亚马逊可以更准确地收集用户购买行为等数据，但随着手机上越来越丰富的订阅功能，在 2019 年上半年时，亚马逊宣布停产 Dash。</p>
+<p>距离这几款产品已经过去很久，Klemmer 当时的预测，无论是家庭设备（智能音箱），还是可穿戴设备（小米手环），如今我们并不陌生，但对于用户界面的探索仍然尚未止步。用户界面从最初的打孔卡，到命令语句，再到图形界面，到如今我们熟悉的触摸屏，体验逐步自然，使得越来越多的人可以低学习成本地使用设备。</p>
+<p>技术变得越来越普遍，因为它变得更容易使用，图片来自于 Medium。</p>
+<p>但，Google 在发布会上展现的 Duplex（一种可以为你打电话的人工智能助手）使得传统的界面显得多余冗长——你可以自然地对 Duplex 说出你要执行的动作，这个人工智能助手就会帮助你完成任务。</p>
+<p>使用 Duplex，网站、菜单、表单和其他 UI 元素正在成为一种障碍——在你和你想要实现的目标之间有一大堆缓慢而不必要的障碍。当你可以用简单的英语告诉计算机你想要什么的时候，为什么还要花时间浏览它们呢？（从这个角度上看，无屏幕的智能音箱就是一种无用户界面的理想状态，只是目前的对话有限。）</p>
+<p>现在的输入方式就像是用自然语言英语代替了代码，图片来自于 Medium。</p>
+<p>Think deferent</p>
+<p>如果你想了解更多有关 Duplex 会如何改变用户界面，可以阅读 Medium 上的这篇文章：<br>
+https://medium.com/hackernoon/why-google-duplex-might-make-my-design-job-redundant-311cd47b5120</p>
+<h3 id="数据可视化">数据可视化</h3>
+<p>“受到全球变暖的影响，未来 32 摄氏度以上的日子会变得越来越多。”</p>
+<p>当你阅读到上面这句话时，你会有地球危在旦夕，要立刻开始绿色生活的想法吗？大多数时候，冷冰冰的数据信息远不如图表来得直观，传递信息也不如图表高效，为了让人能够快速获得图表数据，数据可视化应运而生。</p>
+<p>纽约时报将数据可视化玩转得如火纯青。它发布的一篇可交互文章 <a href="https://www.nytimes.com/interactive/2018/08/30/climate/how-much-hotter-is-your-hometown.html"><em>How Much Hotter Is Your Hometown Than When You Were Born?</em></a> 中，在你输入你的家乡和出生日期后，你会看到这样一幅图。</p>
+<p>这张图传递了 3 个信息：<br>
+1  在我出生的 1997 年，上海每年超过 32 摄氏度的天数是 33 天。<br>
+2  在我 22 岁的此刻，上海每年超过 32 摄氏度的天数增长到了 39 天。<br>
+3  如果按照这个增长速度，在我 80 岁时，我要面对每年 58 天的高温天气。</p>
+<p>图简意赅，我记忆深刻，这也是数据可视化的价值所在，它可以帮助政府、公益组织更准确清晰地传达信息给人们。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:90%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '3OcEc4YoPqF19tUqE6D7ucku-gzGzoHsz',
+		appKey: 'L8YCo2ODaGGsS8W4uIx7BI9D',
+		avatar: 'hide',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Want to comment? Become a contributor.',
+		visitor: false,
+	});
+</script>
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">竹本一世的博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/Ben9706" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/Ben02002859" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/benedict-yu" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        🚀 For All Mankind 🚀
+    </div>
+    <div>
+        <!-- Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://ben9706.github.io/benedict.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

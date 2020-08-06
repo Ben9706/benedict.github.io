@@ -2000,4 +2000,11 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
+/* 列表文字样式 */
+ol li {
+    list-style: decimal;
+    font-size: 16px;
+    color: #4E616C;
+}
     

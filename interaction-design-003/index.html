@@ -1,0 +1,279 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>#3 Interaction Design ：社会计算 | 诚如我思</title>
+<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1596730885315">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ben9706.github.io/benedict.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171547417-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-171547417-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            诚如我思
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            Home
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            Tags
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tag/qk2ARXsGt/" class="menu gt-a-link">
+                            Observations
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/contact" class="menu gt-a-link">
+                            Contact
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    #3 Interaction Design ：社会计算
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2019-02-15 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>本文为 <strong>Social Computing</strong> 中的部分课堂笔记。</p>
+<!-- more -->
+<p>因为想要系统学习交互设计，于是我在 Coursera 上学习了美国加州大学圣地亚哥分校的 Interaction Design，课程是 Scott Klemmer 在 Stanford 任教的一些总结和延伸。课程很有意思，会从非常多最本质的角度去讲为什么要这样设计，比如通过讲鼠标的历史和原理，也是设计未知东西的一种借鉴。课程除了对于设计的系统外，还涉及到一部分统计学的知识，在第 7 课中讲了如何使用统计软件 R 来帮助设计师分析数据，做出决策。</p>
+<hr>
+<h3 id="社会计算">社会计算</h3>
+<p>社会计算（Social Computing）是社会行为和计算系统的交叉领域，它通过使用软件和技术，创造或二次创造社会习俗和社会环境。博客、电子邮件、即时通讯、社交网络服务、开源项目和其他社交软件都属于社会计算讨论的范畴。</p>
+<p>社交计算更学术的定义是「使用计算设备来促进或增强用户的社交互动，或者评估这些互动以获取新信息。」</p>
+<p>基础设备的逐步完善是社交计算逐步完善的背景。廉价的设备、模块化的内容和共享的计算资源带来的简单连接对全球经济和社会结构产生深远的影响。个人越来越多地从彼此身上获得信息，而不是从公司、媒体、宗教和政治团体等机构渠道获得。为了在社交计算时代繁荣发展，企业必须放弃自上而下的管理和沟通策略，将社会性融入产品和服务中，将员工和合作伙伴作为营销人员，并成为品牌忠诚者活生生的组成部分。</p>
+<p>层出不穷的在线软件使人们的社交方式具有了多样性，Scott Klemmer 画了一张图，他定义的纬度是「时间」和「地理位置」，除了图中举到的例子外，我再举出一些生活中的例子：</p>
+<ul>
+<li>相同时间相同地点：日常交流，XBOX 体感游戏。</li>
+<li>不同时间相同地点：会议室、登机信息板，冰箱上的便签，美团点评。</li>
+<li>相同时间不同地点：微信视频通话，即时消息，石墨文档多用户编辑，远程游戏。</li>
+<li>不同时间不同地点：邮箱，微博。</li>
+</ul>
+<p>手机的有趣之处在于它快速模糊了不同象限的边界并在这些象限中移动元素。但值得注意的是，许多产品并不明确在某个象限内，随着信息传输越来越快，即使最初主要是不同的时间不同地点，它也开始同步交互，想象一下，邮件刚发出去就收到回复；石墨文档里两个人同时编辑一篇文章等情况。</p>
+<h3 id="凝视视差">凝视视差</h3>
+<p>Milton Chen 在 Stanford 攻读博士学位的时候对于视频会议系统中的眼神交流做了研究，眼神接触是视觉交流语言中自然而且通常必不可少的元素，然而在大多数视频会议系统中感知眼神接触是困难的，这限制了它们的有效性。</p>
+<p>Milton Chen 进行了实验以确定人们对眼神接触的准确程度。他发现人们对眼睛接触的敏感性是不对称的，当人们看到我们的眼睛下方时，我们对眼睛接触的敏感度比他们向左，向右或在我们眼睛上方时看起来要低一个数量级。其他实验支持一种人们容易感知眼神接触的理论，也就是说，除非我们确定该人没有注视我们的眼睛，否则我们会认为某人正在与我们进行目光接触。这些实验结果表明了视频会议系统设计的参数。</p>
+<p>而这正是 HP Halo 这样的系统所做的。这是一个非常高端的视频会议系统的例子，你可以看到Milton Chen 发现的理论应用在了 HP Halo 上：摄像头在屏幕的上方，这样我们看着屏幕内的对方，但是看上去我们还是在和对方眼神交流。</p>
+<p>除此之外，HP Halo系统里还有一张执行会议桌，其中一半是桌子，屏幕的一侧和桌子的另一半位于屏幕的另一侧。这样设计的好处在于， 由于显示器尺寸的匹配，以便双方距离屏幕一样远，不会有的人在屏幕里很大，有的人很小。所以这既是科学理论应用在设计上的一个案例，也是一个系统与提示相匹配，得以增加交互的流畅性的例子。</p>
+<p>为什么大多数前置摄像头在左侧，我认为原因也是如此，即使你没有看着摄像头，看着屏幕，对方眼里你仍然和他在对视。</p>
+<h3 id="如何提升边开车边打电话的安全性">如何提升边开车边打电话的安全性？</h3>
+<p>为了研究一个始终存在的东西和一个随时可以调用的东西对于人们的交互有什么影响和区别， Scott Klemmer 提出了一个情景：一个司机，他在一边开车一边在打电话。</p>
+<p>从某种意义上说，无论是通过电话和人聊天，还是直接与旁边的人交谈，应该是同样危险的，因为司机都被分了神，无法专注开车。</p>
+<p>然而事实是：在驾车时通过电话交谈的人的事故发生率要高得多，一些研究估计这与驾驶醉酒的事故率相同。另外，使用蓝牙耳机并没有大幅降低事故率。</p>
+<p>相比之下，车内有一名实体乘客却可以降低风险， 为什么实体乘客可以降低风险，但是有一个虚拟乘客会增加风险呢？</p>
+<p>主要原因是实际乘客有能力，在交通复杂的时候调整他们的行为，甚至提醒司机注意路况，帮助司机作出判断。此外，另一种解释是，实体乘客增加了重量， 简单地通过重量增加和质量守恒的比率，对汽车而言，风险和后果会略有下降。</p>
+<p>基于以上的分析，如果我们想让司机一边开车一边打电话更安全一些，（当然这种行为仍然是违法的）我们应该如何设计呢？也许我们可以将司机所见的实时场景投影给电话另一边的人，通过一些提示，增加对彼此状态的了解，增强用户体验。</p>
+<h3 id="共享行程">共享行程</h3>
+<p>如果今天有人问你「下周三下午有空吗？」你会怎么回答？很多时候，这取决于是谁在问，如果马斯克问我，我一定说有空，但如果是一场我并没什么兴趣的活动，我就很可能会拒绝。</p>
+<p>这个问题的意义是，当我们在看共享日历的时候，我们往往是看到一个单独的任务，但是社交生活是有上下文联系的（Contextual），需要放在语境中来看待，最后你的处理的方式，比如说你在酒吧或海滩与朋友进行的对话， 和在办公室里的方式完全不同，这会给设计师带来更多的挑战，但它恰恰表现了人类文化的复杂性。</p>
+<p>此外，我们从另一个角度来看共享行程，单位里管理者和员工之间往往需要这样一份行程汇集，显示了所有人的安排，这样方便沟通。但实际上会遇到非常多的问题，比如其中最大的挑战是：是谁从中受益？又是谁为此付出更多？</p>
+<p>每个员工的记录行程的使用习惯是不同的，共享日历首先需要将所有人集合在一个平台上，这个成本代价就很大。其次，你的空余时间并不是没有工作的，刚刚结束一段工作，你不可能立刻出现在另一个地方做其他的事情。最终你会发现，受益的是管理者，因为他能知道员工的安排，但是维持这个系统，员工付出了更多，而且成本大于收益，也就是说，获利者和付出劳动者并不是同一群人。</p>
+<p>这方面的案例也有很多：Doodle 是一个可以快速简单找到大家共同的有空时间来安排会议的网站。Google 日历则集成了非常多的服务于一体，这让个人安排和公司业务安排之间没有那么大的迁移成本。</p>
+<h3 id="远程协作">远程协作</h3>
+<p>1898年，作家 Arthur 设想了一个世界，那里出现了视频电话，他猜想，人们见过了远处的风景之后，就会不再对其感到有兴趣，因为一切都是已知的了。</p>
+<p>如今我们已经身处这样一个世界里，我们知道 Arthur 是错的：随着计算机的发展，航空旅行量也增加了。显然 Arthur 低估了人类的好奇心，当距离消失，我们和原本未知的远处建立了初步的联系，这反而会激发人类去亲身体验。</p>
+<p>随着技术的发展，远程协作这种办公方式越来越多被人接受的时候，作为设计师，我们要如何为这种工作方式做设计？这里是两个案例。</p>
+<p>第一个案例是 Jim Herbsleb 对来自 15 个国家和 5 大洲的 4 家公司，共 362 个软件项目，研究了全球分布式软件团队的项目级配置选择对项目生产率，质量和利润的影响。最后发现：远程协作可以提高人们的创造力，但是同时也会降低最终的产出质量。</p>
+<p>第二个例子是 Sara Kiesler 对于 NSF（National Science Foundation）里高校之间的合作的研究，理论上高校之间的合作可以将专业知识做更广泛的传播。但是研究发现：</p>
+<ul>
+<li>多校区项目往往不如单独一所大学的项目成功</li>
+<li>更成功的项目往往使用了各种特定的协调机制</li>
+<li>多校区项目使用的协调机制少于单独一所大学的项目</li>
+<li>减少协调机制的使用调解了大学和绩效之间的关系</li>
+</ul>
+<p>远程协作的设计非常复杂，它并不是简单地通过一个工具联系起人们。我们来看看世界上最著名也是最成功的远程协作的例子——维基百科了，在 2003 年以前，很少有人会看好这样一个完全开源又极度分散的团队可以达成现在的成就：一共发布了超过 10,000,000 篇文章。</p>
+<p>Tom Erickson 和 Wendy Kellogg 创造了一个术语：<strong>社会半透明（Social Translucence ）</strong>。</p>
+<p>社会半透明有两个维度，首先，使社会信息可见的系统使参与者既能了解正在发生的事情，又能够因公众对该意识的了解而对其行为负责。其次，人们对物理学非常熟悉，这是他们社会互动可见性的基础。物理空间对社会显著信息是半透明的（并且不透明）这一事实是构建交互的重要资源。社交半透明的这些维度都不是数字领域中给出的。</p>
+<p>对此的一个应用场景是 Google 的文档界面（或任何在线协作软件），你可以在右上角看到一个个头像显示谁正在编辑，它以一种很轻量的方式告诉你这些，如果你想要单独联系他们中的谁，只要点击一下对方的头像就可以聊天对话了。</p>
+<h3 id="成功的社交媒体">成功的社交媒体</h3>
+<p>Scott Klemmer 提炼了六个使得社交媒体能够更成功的原则。</p>
+<h4 id="1内在或外在动机">1.内在或外在动机？</h4>
+<p>我们想要去旅游，是一种内在动机，而我们需要按时缴费，是一种外在动机。在设计社交媒体的时候，我们应该明确究竟是前者还是后者，或者二者都有。</p>
+<p>2007年，BJ Fogg 在斯坦福大学开设了「Facebook Class」，发布了一个作业：「设计一个程序，让人们去使用它。」没人会想到这 75 名学生上线的 31 个 App 在短短 10 周内共收获了1600万用户。其中有一个叫「send hotness」，它的运作模式是这样的：让学生互相点赞（send hotness），这看上去就是一个简单的消息应用程序。但是当别人给你点赞后，如果你想知道是谁点赞的，你需要在平台上至少有 10 个用户。所有人都想知道到底是谁，所以他们就会寻找 10 个朋友然后来使用这个平台，然后朋友又会发给他的朋友们……这种病毒式的方法让他们的App 在第 5 周的时候就已经有了 500 万用户。</p>
+<h4 id="2怎么证明">2.怎么证明？</h4>
+<p>现在你打开朋友圈，你看到你的一个朋友推荐了一篇文章，说明他觉得这篇文章还不错，这就是一种「社会认同」。这里是另一个案例：</p>
+<p>出于环保的目的，Robert Cialdini 研究了如何可以提高酒店毛巾重复使用率，他们试图看看哪种消息传递方式能够最有效地让人们改变他们的行为。他们认为最有效的事情之一就是在门把手上挂一张纸条：请重复使用毛巾。因为给出了标准的环境信息（standard environmental message)，于是大概有 35% 的客人会选择重复使用毛巾。</p>
+<p>随后，当把纸条上的文字改成了「本酒店大多数客人都会重复使用毛巾」，重复使用率上升到了 45%，这时候我们给出的是社交信息（social message）。</p>
+<p>最后，如果写着「78% 的客人在您入住的房间里重复使用毛巾」，重复使用率会更高。酒店通过将客人变成社区中的一员（所有入住的客人），达成了目的。通过社交渠道比简单地说明这是一个好的行为要有效得多。</p>
+<p>但值得一提的是，这样的状况并不是稳定不变的。在过去十多年里，过多的网站利用这样一种策略诱导消费者购买产品，且这种数字很可能存在虚假的泡沫。一个研究表示三分之二的英国公众（65％）将酒店预订网站使用的稀缺和社会证据索赔的例子解释为销售压力。其中一半用户表示他们可能会因为看到它们而对公司不信任（49％）。只有六分之一（16％）的人表示他们相信这些说法。</p>
+<p>这个研究意味着过去我们用于营销增长的一些行为设计，如「这个酒店还剩下2间」，对于用户心理来说已经产生了反作用，用户不再信任科技公司的这一套把戏。我们不得不思考两个问题：</p>
+<ul>
+<li>这是否像抗生素耐药性一样，在一个领域过度使用会破坏每个人干预措施的有效性？</li>
+<li>对科技和监督资本主义的反弹越来越大，这是否会影响行为科学？</li>
+</ul>
+<h4 id="3强连接还是弱连接">3.强连接还是弱连接？</h4>
+<p>人与人之间的关系，从沟通互动的频率来看，可以划分为强连接和弱连接。强连接的人们比如父母，伴侣，朋友等，弱连接比如身边没有那么关系密切的同事等。你会发现，你不会有非常多的强连接的人，但是你可以有非常多的弱连接的人。</p>
+<p>六十年代的时候，哈佛大学的一个研究生 Mark Granovetter 通过寻访麻省牛顿镇的居民如何找工作来探索社会网络。他非常惊讶地发现，一个人的工作和事业关系最密切的社会关系并不是「强连接」，而常常是「弱连接」。「弱连接」虽然不如「强连接」那样坚固，却有着极快的、可能具有低成本和高效能的传播效率，比如约会网站、电商网站，或者领英。</p>
+<h4 id="4你怎么能为重新解释留出空间">4.你怎么能为重新解释留出空间？</h4>
+<p>在 Facebook 之前，Friendster 是最知名的社交网站。随着越来越多的人加入网站，添加朋友，人们开始创建 Fakesters。Fakesters 是不属于社交网络的真人，比如说蝙蝠侠，然后你可以通过添加好友和蝙蝠侠成为好朋友。很多人喜欢 Fakesters，但是也有人指出在社交网络上不应该出现虚拟人物，Friendster 后来关闭了这些Fakesters 的账户，结果引起了非常多人的不满，后来 Friendster 甚至让这变得更糟糕了，他们创建了发布广告的虚拟人物，让更多的人失望。</p>
+<p>Twitter 上有一个账户叫「Karl the fog」，直译是旧金山的迷雾，人们会拍下当地的照片，然后@ Karl the fog。微博上也有类似的账户「古城钟楼」，每天定时发布「铛～铛～铛」，很多人也会在微博上@它发布自己在当地旅游的照片。事实证明人们很喜欢这种方式，这个微博账户有 100 多万的粉丝。</p>
+<p>通过豆瓣等网站，我们现在已经非常习惯添加标签或者话题了，Twitter 上也是这样，这种标签并不是系统中的，而是用户自发创建的，随后成为 Twitter 中不可或缺的一部分。当发生地震的时候，陌生人们可以通过标签发布“我们这里需要这个资源” ，或者医院可以说「我们有一定数量的床位」。</p>
+<p>随着时间的推移而发生，人们已经想出了如何管理流程，最初十分非结构化的流程变得非常重要，而且越来越多的，我们已经看到该结构发展并融入了平台。</p>
+<h4 id="5怎么能让-1-1-3">5.怎么能让 1 + 1 = 3？</h4>
+<p>当你在豆瓣上查找自己喜欢的电影，比如「霸王别姬」，你在下面会看到「喜欢这部电影的人还喜欢……」，你得到这些网络效应的价值随着网络的变大和每一条信息的增加， 每个人都获得了更多的利益。</p>
+<h4 id="6你怎样才能使好的行为变得容易而不良的行为无关紧要">6.你怎样才能使好的行为变得容易……而不良的行为无关紧要？</h4>
+<p>当你电话响了的时候，你可以选择接或者不接，假装因为很忙没有看见电话，这是一种合理的否认（Plausible Deniability）。麻省理工学院在发现学生做了非法行为的时候，会在这个学生下次登录时向他发送通知「嘿，有人一直在使用你的账户做非法的事情。」当然麻省理工学院非常确定那个人就是你，但有添加一定的距离和用户看似有合理拒绝的选择， 让他们回答嘿，这个人不是我。同时意识到有人在看着我，我最好不再这样做了，这个做法非常酷。</p>
+<p>第二种方法是自由主义家长制的策略（Libertarian paternalism），这是行为经济学中的一个想法：私人和公共机构在尊重行为自由以及尊重选择自由的同时，既有可能又合法。</p>
+<p>比如拥有「选择退出」自愿器官捐赠系统的国家的机关捐赠许可水平，会显著高于有选择权的国家，「默认同意，但是可以选择退出」的奥地利的同意率 99.98％，而具有非常相似的文化和经济状况但需要主动选择加入制度的德国的同意率仅为 12％。</p>
+<h3 id="amazon-mechanical-turk">Amazon Mechanical Turk</h3>
+<p>现在我们已经很熟悉众包（crowdsourcing)这种运作模式了。众包这种方式里非常有名的一个例子就是亚马逊的土耳其机器人（Amazon Mechanical Turk）。我们知道深度学习和人工智能等机器的智能化训练，需要依靠数量庞大的数据，这些按规则分类的数据集是无法单纯由设备完成的，只有通过人的智慧，才可以区分每一个细微的差别，而这些海量的数据需要大量人力来完成这项工作，Amazon Mechanical Turk 就是为了达到这个目的而建成的众包平台。</p>
+<p>这种微型任务的发布很吸引一些人，因为不涉及到雇主和职员的关系，而且随时随地就可以完成。对于发布者来说，可以用非常低廉的成本获得大量的数据。除此之外，还有很多有意思的任务，有一位艺术家想要收集工人的录音，于是在平台上招募了数百个录音，然后将它们全部叠放在一起，最终作品里包括所有这些工人在同一时间说同一个词语。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:90%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '3OcEc4YoPqF19tUqE6D7ucku-gzGzoHsz',
+		appKey: 'L8YCo2ODaGGsS8W4uIx7BI9D',
+		avatar: 'hide',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Want to comment? Become a contributor.',
+		visitor: false,
+	});
+</script>
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">竹本一世的博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/Ben9706" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/Ben02002859" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/benedict-yu" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        🚀 For All Mankind 🚀
+    </div>
+    <div>
+        <!-- Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://ben9706.github.io/benedict.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

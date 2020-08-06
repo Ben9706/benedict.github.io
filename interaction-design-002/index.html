@@ -1,0 +1,254 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>#2 Interaction Design ：设计原则简介 | 诚如我思</title>
+<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1596730885315">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ben9706.github.io/benedict.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171547417-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-171547417-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            诚如我思
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            Home
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            Tags
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tag/qk2ARXsGt/" class="menu gt-a-link">
+                            Observations
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/contact" class="menu gt-a-link">
+                            Contact
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    #2 Interaction Design ：设计原则简介
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2019-02-14 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>本文为 <strong>Design Principles: an Introduction</strong> 中的部分课堂笔记。</p>
+<!-- more -->
+<p>因为想要系统学习交互设计，于是我在 Coursera 上学习了美国加州大学圣地亚哥分校的 Interaction Design，课程是 Scott Klemmer 在 Stanford 任教的一些总结和延伸。课程很有意思，会从非常多最本质的角度去讲为什么要这样设计，比如通过讲鼠标的历史和原理，也是设计未知东西的一种借鉴。课程除了对于设计的系统外，还涉及到一部分统计学的知识，在第 7 课中讲了如何使用统计软件 R 来帮助设计师分析数据，做出决策。</p>
+<hr>
+<h3 id="量杯的创新">量杯的创新</h3>
+<p>OXO 是一家销售厨具的公司，在2008年的 Gel (Good Experience Live) 大会上，OXO 总裁 Alex Lee 谈到了他们的量杯，他们将第一批产品原型寄给消费者免费试用，这促使他们去实地考察和询问人们使用量杯时产生的问题，并且获得改进建议。他们获得的反馈包括 “它有时候太滑” 或者 “把手会变得太烫” ，但是没有人抱怨与测量相关的问题。他们观察到，用户在实际使用量杯时会先取一些液体倒入量杯中，再举起来看一下，再倒入一些，再举起来看一下，再加一点……</p>
+<p>这个过程不够自然高效，为此 OXO 设计了一个新的量杯：使人们可以从量杯上方看到读数，这为你的动作提供了连续的交互式的反馈。</p>
+<p>后来 Pyrex 出了一款汲取了 OXO 量杯设计思想的量杯，并在两个地方做了改良：它的读数方向和使用者的视角一致，想用盎司就用右手持杯，想要用毫升就用左手持杯；这个设计更为简洁漂亮，避免了一个厨房用品像医疗用品。</p>
+<p>图形用户界面关键的创新，就是输入直接在输出上执行， 是什么让一个界面使用起来简单，困难或者自然流畅？我们可以把量杯看成是一种用户界面，这里有两个步骤 ：第一步是采取行动，第二步是评估结果。作为设计者，这每一步都可能成功，也可能失败，在第一步中，你需要逾越执行鸿沟，用户如何能知道该去做什么？在第二步中，需要帮助用户去逾越的是评估鸿沟，用户如何能知道发生了什么？</p>
+<p>作为设计者,为了确定后面会出现哪些挑战，可以试问这六个重要的问题：</p>
+<ol>
+<li>人们通常是怎样判定一个设备的功能？</li>
+<li>人们可以执行什么动作？</li>
+<li>我如何确定人们从想法到肢体，对交互界面操作的对应关系？</li>
+<li>当有了计划以后,人们通常是怎样实施行动的？</li>
+<li>行动实施以后，人们又是怎样获知系统的状态的？</li>
+<li>人们是否能理解系统状态？</li>
+</ol>
+<p>为了梳理清晰，能做这么六件事让这些问题变得更简单 ：</p>
+<ol>
+<li>可视化（percevied affordances or signifiers)</li>
+<li>有反馈（为用户提供明确的,持续的反馈）</li>
+<li>一致性 (如手机界面符合 Material Design 的规范）</li>
+<li>非破坏性操作（人们始终可以撤销，返回）</li>
+<li>可发现性（为人们提供一个系统的途径，来挖掘某个 App 中的所有功能，比如观察别人使用一个新的网站，你可能会发现他们在研究出如何进行导航时会用鼠标滑过所有的菜单，查看所有可能的选项）</li>
+<li>可靠性（人们认为会发生的应该发生，而意料之外的结果则不应该出现 ）</li>
+</ol>
+<h3 id="slips-mistakes">Slips &amp; Mistakes</h3>
+<p>用户经常会犯错，但基于用户认知心理模型的不同，犯的错误也未必是同样的。</p>
+<p>第一类错误被称为 <strong>Slip</strong>：你知道系统工作的正确模型，但是偶然地做错了事情。（比如我想按一个按钮但是却按了另一个。）</p>
+<p>第二类错误被称为 <strong>Mistake</strong>：你觉得你在做正确的事情，但实际上你对于系统工作有错误的心智模型。（比如我正在开车，并且我认为我要通过高速公路出口去到我需要去的地方。）</p>
+<h3 id="数码世界和真实世界">数码世界和真实世界</h3>
+<p>作为一个设计师，我们会习惯利用熟悉的真实世界中的隐喻 ，帮助用户理解应该如何操作。但真实世界和数码世界是不同的，我们会下意识期待数码世界可以带来一些新的事物。就像 Jonathan Grudin 说的， 新科技和现实之间的断层必须要有，但是，作为一个设计者的目标，应当尽可能地减少它们之间的距离，这非常像上一篇文章中 Bill Buxton 的长鼻理论，能够将技术优雅且高效地让普通人能够使用的人，和发明这项技术的人一样值得被记住。</p>
+<h3 id="井字游戏">井字游戏</h3>
+<p>假设有一个纸牌的游戏规则是这样的：两个玩家，每人每次抽一个数字，直到一方有三个数字相加为 15。抽取的数字不能替换，也就是说如果我抽了5 别人就不能再抽5了 ，比如，如果玩家能把 4、5 和 6 抽到一起，相加为 15，那么就为胜利。</p>
+<p>这个游戏听上去是不是还有些小麻烦？但是如果我们换一个表达方式，你会发现，这不过就是一个井字游戏而已。</p>
+<p>如果我们能够转变思路，这个游戏就会变得非常简单。人工智能和认知科学研究者 Herb Simon 在 <em>The Sciences of the Artificial</em> 写：「Solving a problem simply means representing it so as to make the solution transparent.」</p>
+<p>举个例子来说，数学中的证明题，最后要证明为正确的东西在最开始的时候也是正确的，在过程中唯一改变的是，读者能够更清楚地认识到所要证明的确实是正确的。</p>
+<p>为什么抽数字游戏会这么难？因为它们加重了我们工作记忆的负担。我们在用户界面上能做的最重要的工作之一，就是通过把问题的限制嵌入到用户界面本身，来减轻工作记忆。你可能听过著名的工作记忆广度「7±2」：我们可以同时记住 7±2 个单位，这不完全正确，实际情况要复杂一些，但如果你想要一个设计师的经验法则，我会建议 2±2，就是说基本不需要用户记住那些你可以放在屏幕上的东西。</p>
+<h3 id="分布式认知原则distributed-cognition">分布式认知原则（Distributed Cognition）</h3>
+<p>在 App Store 中，不乏有那些提醒你吃药的工具。但是这个真的有用吗？如果我能记得打开 App ，那为什么我不能记得去吃药呢？</p>
+<p>Proteus 可食用药丸 (Proteus Ingestable Pill) ，这种药丸会在你吞下它时，发出微信号，你的手机或者网络就知道你已经服过药了。这种通过服用这类药丸来自动监测你是否服用过药的能力，就是一种自然的用户界面，这个吞服的动作不仅使你服用了药丸，还标记你已经完成了服用。</p>
+<p>这个系统还存在另一个自然的交互，除了药丸，还有一个需要粘在身上的信号发射器，这个信号发射器电池寿命有限，你要怎么启动这个信号发射器？这是一个像创可贴一样的系统，你启动信号发射器的方法就像是你剥去创可贴的覆盖膜，然后就可以使用了。</p>
+<h3 id="数据可视化的经典案例地铁地图">数据可视化的经典案例——地铁地图</h3>
+<p>不知道你有没有注意到过，地铁地图和实际地理位置有着非常大的区别，但在日常生活里并不会对我们产生什么不便的影响。地铁地图实际上是一个非常典型的数据可视化案例——将读者所需的信息强化表现，将读者不需要的信息全部剔除。目前世界各地的地铁线路图，实际上是衍生自 1931 年的伦敦地铁图。</p>
+<p>在 1926 年之前，伦敦地铁线路图是这样的，完全按照实际的地理位置来绘制，很难阅读到需要的信息。随后，制图师 Harry Beck 决定摆脱真实地理的局限，让地铁线路呈水平、垂直或对角线延伸。1933 年正式印刷使用的经典版本，被奉为地铁线路图设计的金科玉律一直被借鉴至今。</p>
+<h3 id="信食动物informavores">信食动物（Informavores）</h3>
+<p>1983 年，心理学家乔治·米勒提出术语信食动物 ( informavores )，用来表征消耗信息的有机体。信息并不单指文本图片等，我们感知到的温度，食物是否美味，都是一种信息。米勒说：「正如身体通过摄入负熵而生存，大脑也通过摄入信息而生存。从非常普遍的意义上讲，所有高等生物都是信食动物。」</p>
+<p>人类在生活中一直在不断在搜索信息。信食动物不断寻找和吞食信息，就像是杂食动物寻找和吞食事物，不论是信食动物还是采食动物都试图找寻快速获取大量目标物品的途径。</p>
+<p>无论是快速浏览新闻，还是观看最新视频，我们已经可以通过智能手机随时随地获取并消费信息，人们在闲暇时仍然忍不住使用手机，希望获取些新的内容，这让我相信米勒所言，人获取信息就像想要获取食物一样是一种天性使然。</p>
+<p>从早期演化的角度看，人类被驱使去消费信息是有原因的。生物体为了生存需要对环境信息进行有选择性的处理，从寻找食物来源(阳光、食物、水)到合适的配偶，演化塑造了注意力，也促进了相关信息的发现，以及将这些信息传递给其他人的能力。所有生物体本质上都是信食动物，为了在日益复杂的环境中生存而不断消耗信息。</p>
+<p>信息寻求的一部分涉及到生存，试图理解这个世界以及如何在其中获得成功。但另一部分大多是为了娱乐ーー从刺激中寻求快乐、新奇和愉悦。人类消费信息的欲望也因为这种驱动力的操纵而增加，注意力已经被商品化、分类和开发了。一部分原因是我们想要获得知识，但另一部分原因是人类倾向于依赖这种信息消费所产生的持续刺激和社会强化。</p>
+<p>另一方面，帕洛阿尔托研究中心( PARC ) 的研究科学家皮特·皮洛里和同事们花费了十几年，试图弄清楚提升或牵制人类找寻目标信息能力的不同信息源之间有何区别。指引信食动物进行搜索的主要属性之一，就是我们所谓的信息的「气味」 。在浏览网页的同时，我们也在利用页面给出的线索，来判断我们能否从当前页面获得目标信息，以及信息的可信度 。</p>
+<h3 id="hawthore">Hawthore</h3>
+<p>这是一个表现人类复杂性的例子。</p>
+<p>Hawthore 是20世纪30年代芝加哥郊外的西部电器工厂，工厂主希望知道照明水平的变化是如何影响生产力的，于是找来了心理学家帮助他，让工人的效率最大化。实验结果很出乎意料：无论是提高照明水平，还是降低照明水平，生产力都提高了，甚至每次干预后尝试了其他的组合，生产力也都提高了。最后心理学家的结论是：很可能是因为工人感觉到被人关心，而产生了对于实验的兴奋感，使得生产力提高。</p>
+<p>这样的例子会非常多，「实验表明，给猪听音乐，猪可以更健康」，或者其他实验者也有给植物听音乐的，产生这样的结论，很可能是因为实验者主观意愿上希望听音乐的猪或者植物长得更健康，于是潜意识里给到它们更多的照顾。</p>
+<p>人类的主观意愿很可能影响到客观的实验结果，Henry K. Beecher 在1955年提出的安慰剂效应，就指出了这种现象。与之对应的还有反安慰剂效应。</p>
+<p>实验者和被试验者都可能在实验中有所偏倚，而且这些往往很难自己意识到。所以医学中会出现双盲实验，即在试验过程中，实验者与被实验者都不知道被实验者所属的组别（实验组或对照组），分析者在分析资料时，通常也不知道正在分析的资料属于哪一组。这样可以消除可能出现在实验者和被试验者意识当中的主观偏差和个人偏好。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:90%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '3OcEc4YoPqF19tUqE6D7ucku-gzGzoHsz',
+		appKey: 'L8YCo2ODaGGsS8W4uIx7BI9D',
+		avatar: 'hide',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Want to comment? Become a contributor.',
+		visitor: false,
+	});
+</script>
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">竹本一世的博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/Ben9706" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/Ben02002859" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/benedict-yu" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        🚀 For All Mankind 🚀
+    </div>
+    <div>
+        <!-- Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://ben9706.github.io/benedict.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

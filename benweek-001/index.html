@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>竹本一周：No.001 | 诚如我思</title>
-<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1596617462837">
+<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1596730885315">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://ben9706.github.io/benedict.github.io//styles/main.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -113,6 +113,18 @@
                 </div>
                 <div class="post-content">
                     <p>每周我的所见所闻所思。</p>
+<ul>
+<li>有关 Quibi 的思考</li>
+<li>自制工具：Markdown 转微信公众号排版样式</li>
+<li>美国考虑封禁 TikTok</li>
+<li>谷歌前高管试图推出订阅制搜索服务</li>
+<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
+<li>《创意选择：苹果黄金时代的产品思维》</li>
+<li>爬取斗鱼关注人数</li>
+<li>交通工具面料选择</li>
+<li>无障碍访问性</li>
+<li>盗号灰产和数字遗产</li>
+</ul>
 <!-- more -->
 <h2 id="️-有关于我">✏️ 有关于我</h2>
 <p><a href="https://mp.weixin.qq.com/s/mdw2EiEvno8b2m3gtK2hEQ"><strong>打造移动端的好莱坞，Quibi 忽视了什么？</strong></a></p>
@@ -122,9 +134,9 @@
 <p>我非常讨厌微信公众号的排版后台，想知道它有多难用，只要看秀米、135编辑器等多么热门就知道了（考虑到今年微信公开课 Always Beta 上，张小龙宣称公众号原本的定位并不是长图文，这种难用突然变得能够理解了）。为了避免排版带来的繁琐工作，我使用并修改了开源程序 <a href="https://github.com/lyricat/wechat-format">wechat-format</a>，以符合自己的排版习惯，实现 Markdown 转公众号富文本的功能，并通过 Github Page 供其他朋友一起使用。如果你也有类似的需求，可以尝试该方法。</p>
 </br>
 <h2 id="新闻">📰 新闻</h2>
-<p><a href="http://weekly.caixin.com/2020-07-17/101581171.html?originReferrer=gh_caixinwang"><strong>美国考虑封禁 Tiktok</strong></a></p>
-<p>2018 年 Q3，Tiktok 在印度尼西亚因为内容违规被封禁一周，此后，围绕 Tiktok 的纷争越来越多，继印度下架中国 59 款 App 后，美国也考虑以安全隐私为由封禁 Tiktok。<strong>表面上看</strong>，核心的冲突点是「数据」，美国认为 Tiktok 的母公司字节跳动<strong>可能</strong>将美国用户数据传回中国（目前尚无证据证明，所有的说辞都添加上<strong>未来可能</strong>这一说法）。这非常奇怪，因为这种冲突理论上完全可以从技术角度去规避，尤其考虑到字节跳动在 2019 年初就开始将中国与海外进行访问权限的分割，已经做了非常多全球化努力。</p>
-<p><a href="https://www.washingtonpost.com/technology/2020/07/13/tiktok-privacy/">华盛顿邮报的这篇文章</a>从技术的角度认为，首先 TikTok 没有比 Facebook 获取更多的个人信息，其次，Tiktok 宣称所有美国用户的数据都存储在 AWS 上，那么完全可以管控数据流出方向（同样也合理），最后，所有当下从技术层面的分析都没有发现数据有被 Tiktok 滥用的情况。</p>
+<p><a href="http://weekly.caixin.com/2020-07-17/101581171.html?originReferrer=gh_caixinwang"><strong>美国考虑封禁 TikTok</strong></a></p>
+<p>2018 年 Q3，TikTok 在印度尼西亚因为内容违规被封禁一周，此后，围绕 TikTok 的纷争越来越多，继印度下架中国 59 款 App 后，美国也考虑以安全隐私为由封禁 TikTok。<strong>表面上看</strong>，核心的冲突点是「数据」，美国认为 TikTok 的母公司字节跳动<strong>可能</strong>将美国用户数据传回中国（目前尚无证据证明，所有的说辞都添加上<strong>未来可能</strong>这一说法）。这非常奇怪，因为这种冲突理论上完全可以从技术角度去规避，尤其考虑到字节跳动在 2019 年初就开始将中国与海外进行访问权限的分割，已经做了非常多全球化努力。</p>
+<p><a href="https://www.washingtonpost.com/technology/2020/07/13/tiktok-privacy/">华盛顿邮报的这篇文章</a>从技术的角度认为，首先 TikTok 没有比 Facebook 获取更多的个人信息，其次，Tiktok 宣称所有美国用户的数据都存储在 AWS 上，那么完全可以管控数据流出方向（同样也合理），最后，所有当下从技术层面的分析都没有发现数据有被 TikTok 滥用的情况。</p>
 <p>在<a href="https://interconnected.blog/can-bytedance-build-trust/#chinese-version-below">字节跳动能在海外建立诚信吗？</a>中，作者认为建立信任的最佳方式是开源。“Talk is cheap. Show me the code.”此外，Ben Thompson 在 <a href="https://stratechery.com/2020/the-tiktok-war/?utm_source=Memberful&amp;utm_campaign=82ce71cb8c-daily_update_2020_07_16&amp;utm_medium=email&amp;utm_term=0_d4c7fece27-82ce71cb8c-111383104">The TikTok War</a> 中也谈及很多地缘政治话题。</p>
 </br>
 <p><a href="https://www.nytimes.com/2020/06/19/technology/google-neeva-executive.html"><strong>谷歌前高管试图推出订阅制搜索服务</strong></a></p>
@@ -176,6 +188,13 @@
             </article>
         </div>
 
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://ben9706.github.io/benedict.github.io/internet-trolls/" class="post-title gt-a-link">
+                    为什么普通人会在网络上成为混蛋？
+                </a>
+            </div>
         
 
         
