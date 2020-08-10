@@ -1829,13 +1829,13 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     margin: 18px auto;
 }
 
-/* 文本颜色改为浅灰色 */
+/*  修改文本颜色 */
 .gt-post-content p {
     line-height: 1.725;
     margin-bottom: 18px;
     font-size: 16px;
     letter-spacing: 1.0382px;
-    color: #4E616C;
+    color:#292929;
 }
 
 
@@ -1852,6 +1852,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     text-align: center;
     padding: 24px;
     font-weight: bold;
+    color:#292929;
 }
 
 .post-list-container .post-inner .post .post-left .post-abstract * {
@@ -1880,14 +1881,13 @@ word-break: normal;
 ul li {
     list-style: disc;
     font-size: 16px;
-    color: #4E616C;
+    color:#292929;
 }
 
 /* 标题字体 */
 .navbar .navbar-brand .site-name {
     font-size: 28px !important;
     margin-left: 8px;
-
     font-weight: bold;
     color: #000000!important;
 }
@@ -2005,6 +2005,6 @@ body {
 ol li {
     list-style: decimal;
     font-size: 16px;
-    color: #4E616C;
+    color:#292929;
 }
     
