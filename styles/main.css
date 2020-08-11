@@ -1927,13 +1927,14 @@ body {
 
 /* Quote 样式 */
 .gt-post-content blockquote {
+    padding:4px 16px 4px 16px;
     background: none!important;
-    border-color: #5978F3!important;
+    border-color: #A9A9A9!important;
 }
 
 .gt-post-content blockquote p {
     margin-bottom: 0;
-    color:#5978F3!important;
+    color:#A9A9A9!important;
 }
 
 /* 加粗样式 */
