@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-08-13T10:30:16.983Z</updated>
+    <updated>2020-08-16T14:24:50.144Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.005]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-005/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-005/">
+        </link>
+        <updated>2020-08-16T14:08:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>我一周的思考。</p>
+<ul>
+<li>Notion 正式推出韩语版</li>
+<li>大胃王吃播是独有的文化现象吗？</li>
+<li>分类理论和标签类笔记软件</li>
+<li>汽车替代马匹的技术思考</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>我一周的思考。</p>
+<ul>
+<li>Notion 正式推出韩语版</li>
+<li>大胃王吃播是独有的文化现象吗？</li>
+<li>分类理论和标签类笔记软件</li>
+<li>汽车替代马匹的技术思考</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[竹本一周：No.004]]></title>
         <id>https://ben9706.github.io/benedict.github.io/benweek-004/</id>
