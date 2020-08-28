@@ -1821,10 +1821,10 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     font-weight: bold;
 }
 
-/* 图片尺寸缩放到50% */
+/* 图片尺寸100% */
 .gt-post-content img {
     display: block;
-    max-width: 50%;
+    max-width: 100%;
     border-radius: 2px;
     margin: 18px auto;
 }
@@ -1945,4 +1945,5 @@ b, strong {
     transition: all linear .2s;
     font-weight: normal!important;
 }
+
     

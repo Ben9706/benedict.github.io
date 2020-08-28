@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-08-16T16:35:38.573Z</updated>
+    <updated>2020-08-28T08:54:02.554Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -11,134 +11,14 @@
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
     <entry>
-        <title type="html"><![CDATA[竹本一周：No.005]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-005/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-005/">
+        <title type="html"><![CDATA[Epic、苹果税和垄断问题]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/">
         </link>
-        <updated>2020-08-16T14:08:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>我一周的思考。</p>
-<ul>
-<li>Notion 正式推出韩语版</li>
-<li>大胃王吃播是独有的文化现象吗？</li>
-<li>分类理论和标签类笔记软件</li>
-<li>汽车替代马匹的技术思考</li>
-</ul>
+        <updated>2020-08-28T07:18:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>上周，Epic 旗下知名游戏《堡垒之夜》先后被 App Store 和 Google Play 下架，起因是 Epic 在移动端购买页中增加了一种支付方式，并通过价格差异，鼓励用户不使用应用内支付（In App Purchase，下文简称 IAP），转而使用自己的支付系统以避免 30% 的抽成。被下架后，Epic 顺势提起反垄断诉讼。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>我一周的思考。</p>
-<ul>
-<li>Notion 正式推出韩语版</li>
-<li>大胃王吃播是独有的文化现象吗？</li>
-<li>分类理论和标签类笔记软件</li>
-<li>汽车替代马匹的技术思考</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.004]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-004/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-004/">
-        </link>
-        <updated>2020-08-09T17:08:42.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>香水市场和社交媒体</li>
-<li>美团袋鼠耳朵背后的设计思考</li>
-<li>为什么 Apple 和 Google 是竞争关系？</li>
-<li>创造的源动力</li>
-</ul>
-]]></summary>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>香水市场和社交媒体</li>
-<li>美团袋鼠耳朵背后的设计思考</li>
-<li>为什么 Apple 和 Google 是竞争关系？</li>
-<li>创造的源动力</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.003]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-003/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-003/">
-        </link>
-        <updated>2020-08-03T09:25:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>TikTok 和国会听证会</li>
-<li>网抑云 meme</li>
-<li>不用触控的触摸屏</li>
-<li>远程办公会降低效率吗？</li>
-<li>GPT-3 和 AI 产品</li>
-</ul>
-]]></summary>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>TikTok 和国会听证会</li>
-<li>网抑云 meme</li>
-<li>不用触控的触摸屏</li>
-<li>远程办公会降低效率吗？</li>
-<li>GPT-3 和 AI 产品</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.002]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-002/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-002/">
-        </link>
-        <updated>2020-07-26T16:48:06.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>GPT-3：第一个通用人工智能？</li>
-<li>纽约时报更换 CEO</li>
-<li>《新媒介与创新思维》</li>
-<li>语言和思维</li>
-<li>为什么人们喜欢负面角色？</li>
-</ul>
-]]></summary>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>GPT-3：第一个通用人工智能？</li>
-<li>纽约时报更换 CEO</li>
-<li>《新媒介与创新思维》</li>
-<li>语言和思维</li>
-<li>为什么人们喜欢负面角色？</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.001]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-001/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-001/">
-        </link>
-        <updated>2020-07-20T02:05:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>有关 Quibi 的思考</li>
-<li>自制工具：Markdown 转微信公众号排版样式</li>
-<li>美国考虑封禁 TikTok</li>
-<li>谷歌前高管试图推出订阅制搜索服务</li>
-<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
-<li>《创意选择：苹果黄金时代的产品思维》</li>
-<li>爬取斗鱼关注人数</li>
-<li>交通工具面料选择</li>
-<li>无障碍访问性</li>
-<li>盗号灰产和数字遗产</li>
-</ul>
-]]></summary>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>有关 Quibi 的思考</li>
-<li>自制工具：Markdown 转微信公众号排版样式</li>
-<li>美国考虑封禁 TikTok</li>
-<li>谷歌前高管试图推出订阅制搜索服务</li>
-<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
-<li>《创意选择：苹果黄金时代的产品思维》</li>
-<li>爬取斗鱼关注人数</li>
-<li>交通工具面料选择</li>
-<li>无障碍访问性</li>
-<li>盗号灰产和数字遗产</li>
-</ul>
+        <content type="html"><![CDATA[<p>上周，Epic 旗下知名游戏《堡垒之夜》先后被 App Store 和 Google Play 下架，起因是 Epic 在移动端购买页中增加了一种支付方式，并通过价格差异，鼓励用户不使用应用内支付（In App Purchase，下文简称 IAP），转而使用自己的支付系统以避免 30% 的抽成。被下架后，Epic 顺势提起反垄断诉讼。</p>
 ]]></content>
     </entry>
     <entry>
