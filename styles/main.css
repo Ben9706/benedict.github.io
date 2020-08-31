@@ -1946,4 +1946,8 @@ b, strong {
     font-weight: normal!important;
 }
 
+/* 修改代码背景颜色 */
+.gt-post-content code {
+    background: #F1F2F3!important;
+}
     

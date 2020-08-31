@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-08-28T08:54:02.554Z</updated>
+    <updated>2020-08-31T17:53:11.508Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
     <entry>
-        <title type="html"><![CDATA[Epic、苹果税和垄断问题]]></title>
+        <title type="html"><![CDATA[Epic、App Store 和垄断问题]]></title>
         <id>https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/</id>
         <link href="https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/">
         </link>
