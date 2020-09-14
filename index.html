@@ -1,242 +1,249 @@
-
 <html>
-  <head>
-    
-<meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="baidu-site-verification" content="amnzjsnjMJ" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>竹本一世</title>
-<meta name="description" content="竹本一世的博客">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1600080331905">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1600088522318">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://ben9706.github.io/benedict.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171547417-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171547417-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171547417-1');
-</script>
+        gtag('js', new Date());
+        gtag('config', 'UA-171547417-1');
+    </script>
 
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://ben9706.github.io/benedict.github.io/">
-        <img class="avatar" src="https://ben9706.github.io/benedict.github.io//images/avatar.png?v=1600080331905" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://ben9706.github.io/benedict.github.io/">
-        <h1 class="site-title">竹本一世</h1>
-      </a>
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            竹本一世
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            Home
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            Tags
-          </a>
-        
-      
-        
-          <a href="/tag/qk2ARXsGt/" class="menu purple-link">
-            Observations
-          </a>
-        
-      
-        
-          <a href="/contact" class="menu purple-link">
-            Contact
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/">
-        <h2 class="post-title">Epic、App Store 和垄断问题</h2>
-      </a>
-      <div class="post-abstract">
-        <p>上周，Epic 旗下知名游戏《堡垒之夜》先后被 App Store 和 Google Play 下架，起因是 Epic 在移动端购买页中增加了一种支付方式，并通过价格差异，鼓励用户不使用应用内支付（In App Purchase，下文简称 IAP），转而使用自己的支付系统以避免 30% 的抽成。被下架后，Epic 顺势提起反垄断诉讼。</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-08-28</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-              <a href="https://ben9706.github.io/benedict.github.io/tag/pcIrvSlCd/">
-                Technology &amp; Society
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            Home
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            Tags
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tag/qk2ARXsGt/" class="menu gt-a-link">
+                            Observations
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/contact" class="menu gt-a-link">
+                            Contact
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+
+        <div class="post-list-container">
+    <div class="post-inner">
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/">
+                            <span class="post-title gt-c-content-color-first">Epic、App Store 和垄断问题</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>上周，Epic 旗下知名游戏《堡垒之夜》先后被 App Store 和 Google Play 下架，起因是 Epic 在移动端购买页中增加了一种支付方式，并通过价格差异，鼓励用户不使用应用内支付（In App Purchase，下文简称 IAP），转而使用自己的支付系统以避免 30% 的抽成。被下架后，Epic 顺势提起反垄断诉讼。</p>
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-08-28 ·
+                        </time>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/pcIrvSlCd/" class="post-tag">
+                                # Technology &amp; Society
+                            </a>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/Gy--XL1AP/" class="post-tag">
+                                # Consumer
+                            </a>
+                        
+                    </div>
+                </div>
                 
-                  ，
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://ben9706.github.io/benedict.github.io/internet-trolls/">
+                            <span class="post-title gt-c-content-color-first">为什么普通人会在网络上成为混蛋？</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-10-15 ·
+                        </time>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/0ynw1VUef/" class="post-tag">
+                                # Humanity
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-              <a href="https://ben9706.github.io/benedict.github.io/tag/Gy--XL1AP/">
-                Consumer
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://ben9706.github.io/benedict.github.io/finding-the-value-of-podcasts-in-a-visually-dominant-world/">
+                            <span class="post-title gt-c-content-color-first">在视觉主导的世界里找寻播客的价值</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>美国风投公司 A16Z 在今年上半年发布了<a href="https://a16z.com/2019/05/23/podcast-ecosystem-investing-2019">一篇长文</a>，说明了他们为什么对播客领域感兴趣，以及推测在该领域还存在什么机会点。在过去的 10 年里，播客稳步发展，从一个通过互联网分发文件的小众音频博客社区，到现在三分之一的美国人每月收听的巨大市场，这背后的原因绝对值得仔细思考。</p>
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-09-30 ·
+                        </time>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/VgghmM9lx/" class="post-tag">
+                                # Media
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+            </div>
         
-      </div>
-    </div>
-    
-  </section>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://ben9706.github.io/benedict.github.io/behaviour-motivation-and-habits/">
+                            <span class="post-title gt-c-content-color-first">行为，动机与习惯</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>在我日常的思考里，我最常想的问题就是为什么人们会在某种情况下做某种事。比如：为什么星巴克的猫爪咖啡，人们会争相去购买？为什么人们会数字成瘾？人们热衷于自拍是因为什么？</p>
 
-<section class="post-item">
-    <div class="content">
-      <a href="https://ben9706.github.io/benedict.github.io/internet-trolls/">
-        <h2 class="post-title">为什么普通人会在网络上成为混蛋？</h2>
-      </a>
-      <div class="post-abstract">
-        <p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-10-15</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://ben9706.github.io/benedict.github.io/tag/0ynw1VUef/">
-                Humanity
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-05-20 ·
+                        </time>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/Gy--XL1AP/" class="post-tag">
+                                # Consumer
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+            </div>
         
-      </div>
-    </div>
-    
-  </section>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://ben9706.github.io/benedict.github.io/east-west-differences-in-thinking/">
+                            <span class="post-title gt-c-content-color-first">东西方思维差异</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>当我注意到饭桌上中国人习惯合食而西方社会习惯分食时，我便对这一现象产生好奇：崇尚集体主义的东方，和主张个人主义的西方，在哪些行为习惯上有着显著的差异呢？而导致这一差异的原因又是什么？</p>
 
-<section class="post-item">
-    <div class="content">
-      <a href="https://ben9706.github.io/benedict.github.io/finding-the-value-of-podcasts-in-a-visually-dominant-world/">
-        <h2 class="post-title">在视觉主导的世界里找寻播客的价值</h2>
-      </a>
-      <div class="post-abstract">
-        <p>美国风投公司 A16Z 在今年上半年发布了<a href="https://a16z.com/2019/05/23/podcast-ecosystem-investing-2019">一篇长文</a>，说明了他们为什么对播客领域感兴趣，以及推测在该领域还存在什么机会点。在过去的 10 年里，播客稳步发展，从一个通过互联网分发文件的小众音频博客社区，到现在三分之一的美国人每月收听的巨大市场，这背后的原因绝对值得仔细思考。</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-09-30</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://ben9706.github.io/benedict.github.io/tag/VgghmM9lx/">
-                Media
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-02-15 ·
+                        </time>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/0ynw1VUef/" class="post-tag">
+                                # Humanity
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+            </div>
         
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://ben9706.github.io/benedict.github.io/behaviour-motivation-and-habits/">
-        <h2 class="post-title">行为，动机与习惯</h2>
-      </a>
-      <div class="post-abstract">
-        <p>在我日常的思考里，我最常想的问题就是为什么人们会在某种情况下做某种事。比如：为什么星巴克的猫爪咖啡，人们会争相去购买？为什么人们会数字成瘾？人们热衷于自拍是因为什么？</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-05-20</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://ben9706.github.io/benedict.github.io/tag/Gy--XL1AP/">
-                Consumer
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://ben9706.github.io/benedict.github.io/east-west-differences-in-thinking/">
-        <h2 class="post-title">东西方思维差异</h2>
-      </a>
-      <div class="post-abstract">
-        <p>当我注意到饭桌上中国人习惯合食而西方社会习惯分食时，我便对这一现象产生好奇：崇尚集体主义的东方，和主张个人主义的西方，在哪些行为习惯上有着显著的差异呢？而导致这一差异的原因又是什么？</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-02-15</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://ben9706.github.io/benedict.github.io/tag/0ynw1VUef/">
-                Humanity
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://ben9706.github.io/benedict.github.io/time-clocks-and-people/">
-        <h2 class="post-title">时间，钟表与人类</h2>
-      </a>
-      <div class="post-abstract">
-        <p>这篇文章是我对于人与时间关系的本质的思考，我希望更深刻地理解人类日常生活中一些行为习惯的意义，以及该如何去帮助人类塑造更良好的习惯。<br>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://ben9706.github.io/benedict.github.io/time-clocks-and-people/">
+                            <span class="post-title gt-c-content-color-first">时间，钟表与人类</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <p>这篇文章是我对于人与时间关系的本质的思考，我希望更深刻地理解人类日常生活中一些行为习惯的意义，以及该如何去帮助人类塑造更良好的习惯。<br>
 我对以下问题一直很感兴趣：</p>
 <ul>
 <li>Apple 的屏幕使用时间报告真的有减少人们使用手机的时间吗？</li>
@@ -244,81 +251,72 @@
 <li>我们怎么重新设计一种时间表征方式，让人们养成更良好的习惯？</li>
 </ul>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-01-20</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://ben9706.github.io/benedict.github.io/tag/VgghmM9lx/">
-                Media
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-01-20 ·
+                        </time>
+                        
+                            <a href="https://ben9706.github.io/benedict.github.io/tag/VgghmM9lx/" class="post-tag">
+                                # Media
+                            </a>
+                        
+                    </div>
+                </div>
                 
-              </a>
-            
-          </span>
+            </div>
         
-      </div>
     </div>
+</div>
+
+        <div class="pagination-container">
     
-  </section>
-
-
-<div class="pagination-container">
-  
-  
+    
 </div>
 
 
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">竹本一世的博客</div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/Ben9706" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/Ben02002859" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-    
-      
-        <a href="https://www.zhihu.com/people/yu-zhi-fei-78" target="_blank">
-          <i class="fab fa-zhihu"></i>
-        </a>
-      
-    
-      
-    
-  </div>
-  🚀为了全人类 🚀 | <a class="rss" href="https://ben9706.github.io/benedict.github.io//atom.xml" target="_blank">RSS</a>
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">竹本一世的博客</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/Ben9706" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/Ben02002859" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/benedict-yu" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        🚀为了全人类 🚀
+    </div>
+    <div>
+        <a href="https://ben9706.github.io/benedict.github.io//atom.xml" target="_blank">RSS</a></a>
+    </div>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+    hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
