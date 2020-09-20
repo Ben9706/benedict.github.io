@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-09-15T08:48:17.873Z</updated>
+    <updated>2020-09-20T17:43:40.213Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,301 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[ 竹本一周：No.008]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-008/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-008/">
+        </link>
+        <updated>2020-09-20T17:30:30.000Z</updated>
+        <content type="html"><![CDATA[<p>早上好，受到灵感买家俱乐部伙伴的鼓励，我正在考虑将这个系列通过 Newsletter 的形式推送给读者，如果你有什么经验或者建议，非常欢迎和我分享。另外，我初步在我的网站上增加了搜索功能，然而目前它几乎是不可使用的，我正在学习搜索的原理，以及如何使用 meilisearch 替换它，我非常欢迎你有类似的经验能够和我分享：）</p>
+<p>👉我的邮箱：<a href="mailto:benedict.yu@hotmail.com">benedict.yu@hotmail.com</a></p>
+</br>
+<hr>
+<h2 id="thinking">Thinking</h2>
+<h3 id="苹果和微软的定价策略">🗞 苹果和微软的定价策略</h3>
+<p>在过去几周，苹果、微软、索尼等企业都推出新的硬件或订阅服务。有一些定价策略很值得玩味：</p>
+<h4 id="apple-one">Apple One</h4>
+<p>首先是苹果推出的 Apple One，这项订阅服务类似于亚马逊的 Prime 会员，一次性打包了多项服务：</p>
+<ul>
+<li>Fitness+：本次新推出的健身课程，和 Peloton 形成竞争/促进关系</li>
+<li>Apple News+</li>
+<li>Apple Arcade</li>
+<li>Apple TV</li>
+<li>Apple Music</li>
+<li>iCloud（50GB/200GB/2TB，取决于服务等级）</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1600623228283.png" alt="" loading="lazy"></figure>
+<p>其中 Apple News+、Apple Music 属于有边际成本的业务，每多售出一份，都需要支付一定的版权费用。因此，很容易产生一个疑问：为什么苹果所有的定价等级都包括 Apple Music，而不是其他没有边际成本的服务？</p>
+<p><a href="https://stratechery.com/2020/apples-time-flies-event-j-one-fitness-and-peloton/">Ben Thompson</a> 的分析启发了我：</p>
+<p>首先，这项订阅在试图挤压 Spotify 的市场，Spotify 永远不可能推出一项优惠服务，能够提供额外的手机存储空间。其次，所有服务使用的语言都是英语，只有音乐能够跨越语言障碍（所有人都听英语音乐，相较起来英语新闻的流通量就少很多），而且 Apple News+ 和 Apple TV 都受到地缘影响（例如在中国完全无法使用）。最后，除了 Apple Music，其他流媒体服务并不成功，如果作为主要服务，不太吸引人。</p>
+<h4 id="xbox">Xbox</h4>
+<p>游戏版权是个非常有趣的话题，实体卡带可以转租出去（由此还诞生了专门的二手租赁市场），而数字版则和账户绑定在一起，不能和卡带一样传播。（也有人出于收藏的心理购买实体卡带，例如《塞尔达传说 荒野之息》之于我）</p>
+<p>这种版权特性也影响了主机策略，微软在宣布上一代 Xbox One 时，他们计划将卡带也和账户绑定，这当然有利于卖出更多的游戏，但如此一来，卡带唯一的优势只有不用等待下载。玩家非常反对这项措施，微软也随之修改这项计划，宣称<a href="https://news.xbox.com/en-us/2013/06/19/update/">不会进行限制</a>。</p>
+<p>本次微软推出的 Xbox Series x 拥有光驱，Xbox Series s 没有光驱，这意味着 s 只能运行数字版游戏，此外，x 比 s 的配置要高一些，x 的价格是 $499，s 则是 $299。（了解更多两个主机的性能差异可以阅读 The Verge 的<a href="https://www.theverge.com/21432635/xbox-series-x-s-release-date-news-price-features-specs-hardware-games">这篇文章</a>）</p>
+<p>真正有趣的地方是微软的第二种定价策略 Xbox All Access：</p>
+<ul>
+<li>Xbox Series x：$34.99/24个月，一共 $839.76</li>
+<li>Xbox Series s：$24.99/24个月，一共 $599.76</li>
+</ul>
+<p>这都要比原本的主机价格要高出不少，但这个费用也包括原本另一项游戏订阅服务，允许用户免费玩 100 多个高质量游戏，这样比较起来要划算得多，而且，游戏还支持在 PC 和安卓手机上运行（即云游戏业务，出于一些原因，游戏无法在苹果设备上运行，我在另一篇文章《<a href="https://theblog.benedictyu.cn/epic-appstore-antitrust/">Epic、App Store 和垄断问题</a>》中有提及），对微软来说，Xbox 只是能够访问他们游戏服务的一个特殊设备，而不是全部。</p>
+<p>微软这样做的原因是显然的：游戏主机无法带来盈利，Xbox Series x 上搭载了 154 亿个电晶体管，芯片生产的成本也变高，最初外界的预期价格在 $600，而实际售价是 $499，相似的，Switch 的售价 $299，<a href="https://sea.pcmag.com/computer-console-gaming/14963/nintendo-switch-build-cost-estimated-to-be-257">硬件成本高达 $257</a>。</p>
+<p>另一个不太明显的原因是，微软自己有云服务业务 Azure，云游戏业务的成功也有助于 Azure 的发展。</p>
+<p>最后，我对独家经营权还有一些疑问未解开，我未提到这部分影响。</p>
+</br>
+<h3 id="市场在促进大众文化破坏小众文化吗">🗞  市场在促进大众文化，破坏小众文化吗？</h3>
+<p>在过去的两周里，我读完了<a href="https://book.douban.com/subject/1958122/">《创造性破坏：全球化与文化多样性》</a>，收获颇丰。许多学者都认为全球化贸易破坏了文化多样性，例如在电影行业中，动作电影最容易出口到不同国家（因为英雄主义、刺激和暴力在不同文化里是类似的），喜剧则因为有较强的地缘性，很难被传播，因此电影制作者倾向于选择制作动作电影。</p>
+<p>作者泰勒·考恩的观点是，同质性和多样性是一枚硬币的两面，而非相反的过程，市场在增加个人选择可能的同时，也在使文化变得更为同质。认为全球化破坏了文化多样性这一观点，实际是在将国家和国家、社会和社会对比，而非比较一个个独立的个体。如果通过贸易使个体得到了多样性选择，而导致社会变得雷同，这未尝不是一件好事。</p>
+<p>想像一个拥有许多独立文化的世界，每一种文化都专门从事某种产品的生产。每种文化的内部都是同质的，文化间的差异则相当大。对个人来说，这种多样性其实是无关紧要的。每个个体所处的都是一个单调的社会，没有正面的选择自由。然后，我们再想像个完全相反的世界。在这个世界里，我们可以四海为家，随时随地看看小众戏剧，欣赏法国印象主义绘画，吃寿司，听爵乐，当然这些产品的水准都很高。在这幅很吸引人的场景中，社会间的多样性很弱，但每个社会内部的多样性水平却非常高。这样的比较可以说明（但并不是证明），<strong>社会内部的多样性要比社会间的多样性更重要</strong>，后者主要具有的只是工具价值。</p>
+<p>进一步思考：那么大众文化带来的产品会否在鼓励肤浅的喜好呢？</p>
+<p>这同样能根据双重性来回答。例如，当前玩俄罗斯方块的玩家变少了（因为玩家有了更多可选择的游戏），但是现在玩俄罗斯方块的玩家的游戏记录却要比过去要高。</p>
+</br>
+<h3 id="互联网和礼物文化">🗞 互联网和礼物文化</h3>
+<p>这应该是一种巧合，也可能是宝婷在“<a href="https://www.xiaoyuzhoufm.com/episodes/5f644d2f83c34e85dd4467e7?s=eyJ1IjogIjVlNmYyZDEyYjNjNWJjYTVmNjM3YzUwMyJ9">《不可理论》 34：诺兰作为文本</a>”中提到的感受，我在阅读阎云翔的<a href="https://book.douban.com/subject/26951502/">《礼物的流动：中国村庄中的互惠原则与社会网络》</a>时，很自然将人类学视角讨论的礼物文化和互联网关联在一起思考，并找到了一些共性。随后，我又读到了 <a href="https://alexdanco.com/2020/09/12/the-kids-are-alright-an-interview-with-eugene-wei-and-julie-young-gift-culture-part-4/amp/?__twitter_impression=true">Alexdanco 的 Gift Culture 系列</a>，作者认为开源和在 Twitter 分享想法都是礼物文化的表现，这和我的思考角度非常相似！</p>
+<p>这种感觉十分奇妙，即因为看似不相关的事件之间有了联系，也因为产生了共鸣。</p>
+</br>
+<h2 id="others">Others</h2>
+<ul>
+<li>Airtable 获得 D 轮融资，估值达到 26 亿美元。<a href="https://techcrunch.com/2020/09/14/airtable-raises-185m-and-launches-new-low-code-and-automation-features/">Link</a></li>
+<li>人体体温热成像监控相机真的能准确检测体温吗？<a href="https://ipvm.com/reports/china-fever-comp?utm_source=Premium+list&amp;utm_campaign=d5a6f02512-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-d5a6f02512-71175497&amp;mc_cid=d5a6f02512&amp;mc_eid=6268a77188">Link</a></li>
+<li>新浪微博对逝者账号设置保护状态，不能登录、发布或删除内容：该功能应该是在回应 6 月的<a href="https://www.huxiu.com/article/360668.html">《死者复生的微博账号背后，是支持流量市场的盗号灰产》</a>，但可惜的是，侧重点在“防止盗号”，而非“数字遗产”上。另外，具体的执行方式也有待观察。<a href="http://www.bjnews.com.cn/news/2020/09/17/769926.html">Link</a></li>
+<li>NASA 的吉祥物是史努比。<a href="https://www.nasa.gov/feature/nasa-and-peanuts-celebrate-apollo-10-s-50th-anniversary">Link</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.007]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-007/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-007/">
+        </link>
+        <updated>2020-09-13T16:57:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>早上好！上周我食物中毒了一次，但这没有阻挡我思考的步伐：）</p>
+<ul>
+<li><a href="#1">美国大选前，科技公司们调整产品策略</a></li>
+<li><a href="#2">围绕外卖骑手引发的讨论</a></li>
+<li><a href="#3">Roam Research 新估值和它的创始人</a></li>
+<li><a href="#4">为什么乐高没有做出《我的世界》？</a></li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>早上好！上周我食物中毒了一次，但这没有阻挡我思考的步伐：）</p>
+<ul>
+<li><a href="#1">美国大选前，科技公司们调整产品策略</a></li>
+<li><a href="#2">围绕外卖骑手引发的讨论</a></li>
+<li><a href="#3">Roam Research 新估值和它的创始人</a></li>
+<li><a href="#4">为什么乐高没有做出《我的世界》？</a></li>
+</ul>
+<!-- more -->
+</br>
+<hr>
+<h3 id="1">🗞 美国大选前，科技公司们调整产品策略</h3>
+<p>11 月 3 日将举行美国总统选举。硅谷科技公司们纷纷调整了自己产品的策略，以最大可能避免影响选举。</p>
+<p>Facebook 的措施：</p>
+<ul>
+<li>在总统选举的最后一周禁止政治广告。</li>
+<li>在 Facebook 和 Instagram 的顶部常驻“投票信息中心”，包含如何准确投票、经过验证的信息和视频，直到选举日。</li>
+<li>Facebook 暂时限制每条信息可以转发 5 个链接的用户数量，WhatsApp 也实行了类似的限制，以此来应对恶作剧和其他有害内容的传播（疫情期间的假新闻），结果全球转发信息量下降了 25%。当 WhatsApp 更进一步，限制一次只能分享 1 个后，下降达到 70%。（这可能从侧面反映信息的重复率有多高）</li>
+</ul>
+<p>Google 的<a href="https://blog.google/products/search/our-latest-investments-information-quality-search-and-news">措施</a>：</p>
+<ul>
+<li>最新发布的新闻未必是最准确的，Google 在过去几年优化了准确识别突发新闻的能力和响应速度。</li>
+<li>加深与政府机构、卫生组织和维基百科的伙伴关系，以确保提供可靠、准确的信息，并防止潜在的破坏行为，例如用户查询失业人数，直接导向到政府机构的数据，对于选举信息，与非党派的民间组织合作，提供关于投票方法、候选人、选举结果等方面的权威信息。</li>
+<li>通过<a href="https://developers.google.com/search/docs/data-types/factcheck">Fact Check</a>，增强人们判断假新闻的能力：<a href="https://blog.google/products/search/fact-check-now-available-google-search-and-news-around-world/">Fact Check now available in Google Search and News around the world</a>。其中示意的检索例子“The world is flat”可能是在调侃 NBA 球星欧文在一次采访中表示地球是平的。</li>
+<li>删除带有预测候选人性质的搜索预测。</li>
+</ul>
+<p>Twitter 的<a href="https://blog.twitter.com/en_us/topics/company/2020/civic-integrity-policy-update.html">措施</a>：</p>
+<ul>
+<li>删除可能误导民众理解法律的虚假信息。</li>
+<li>删除可能导致民众不信任选举过程的信息，例如关于操纵选举操纵、篡改选票、计票或选举结果等却未经证实的信息。</li>
+<li>删除可能干涉选举结果的信息，例如在选举结果出现前宣布某党派胜利。</li>
+</ul>
+<p>我认为很值得持续关注这些科技公司避免假新闻和提升信息有效性的做法，这些公司有足够多的动力和法律驱动完善平台机制。<br>
+</br></p>
+<h3 id="2">🗞 围绕外卖骑手引发的讨论</h3>
+<p>本周《人物》有关外卖骑手的文章引发了激烈的讨论，一个朋友说：“也许每个时代都有自己的纺织女工”。以下是有关该话题的 3 个延伸：</p>
+<h4 id="工作和业务时间边界的模糊"><a href="https://www.zhihu.com/question/420025438/answer/1460576833">工作和业务时间边界的模糊</a></h4>
+<p>在制造业中，生产和再生产的时间界限是严格规定好的，但是在平台经济中，工作和业余时间的边界却是模糊的。在“更多订单意味更多收入”的激励下，虽然没有有形的生产管理制度，但骑手有动力付出更多的劳动时间。</p>
+<p>这种边界的模糊不仅出现在零工经济中。尤里安·库克里奇（Julian Kücklich）提出<a href="http://www.tianfuxinlun.com/uploadfile/news_images/tfxl/2019-01-08/190102.pdf">“玩工”（Playbour）</a>概念，指对游戏二次加工的玩家（例如使用自己创作的 mod）。这些玩家和平台没有雇佣关系，产出物往往被认为是休息娱乐的衍生物，但这类玩家付出大量个人时间，为游戏平台吸引用户、创造内容、修改游戏漏洞以完善体验，这降低了公司在研发和营销上的人力成本和其他费用，却未得到收入和法律的保护（例如版权纠纷）。</p>
+<h4 id="如何更客观地做新闻报道">如何更客观地做新闻报道？</h4>
+<p>一些人认为《人物》的文章过份强调了骑手视角，例如如果阅读<a href="https://mp.weixin.qq.com/s/cPQn9u3khWUkbOBDqj_WEA">外卖平台如何为骑手做体验设计</a>，可能不会对平台产生过激的敌对心理。一个值得记录的案例是非盈利新闻媒体 The Markup 对<a href="https://themarkup.org/allstates-algorithm/2020/02/25/car-insurance-suckers-list">美国保险公司Allstate的算法歧视问题</a>的深度报道，该媒体不仅拥有记者的叙事视角，也拥有不错的数据分析能力，他们将自己的调研结果公开在 Github 上，并写了<a href="https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list">一篇文章</a>说明他们的调研过程。</p>
+<h4 id="神奇的印度外卖5千人每天送20万份出错率000034"><a href="https://mp.weixin.qq.com/s/1wBUGCOFs24xh0EY4Zwhcw">神奇的印度外卖：5千人每天送20万份，出错率0.00034%</a></h4>
+<p>这篇文章介绍了有着 130 年历史的印度外卖服务“达巴瓦拉”——指运送饭盒的人。该外卖体系没有手机或电脑作为基建支持，配送者大多目不识丁，但仍然保持较低的出错率，其中一些文化现象和中国明显不同：</p>
+<ul>
+<li>几乎所有配送者都来自相同的村庄，那里的人信奉印度教的 Vithala 神。Vithala 教导人们，提供食物是人的最高功德之一。这意味着配送者将工作和践行信仰关联在一起，虽然工资不高，但他们却都非常敬业，因为这是在敬拜神灵</li>
+<li>大多数印度人更习惯吃家里的饭，因此取货地点常常从家里出发。有时候客户忘了带钱包、手表，也会由配送者一同送去，不会额外收费。（付费模式是月度订阅）</li>
+<li>通过统一的标识语言，确定配送地点。</li>
+<li>孟买的街区错综复杂，Google 地图的表现有时不如这些配送者来得出色。</li>
+</ul>
+<p>这也影响了印度其他公司，例如 B2B 物流公司 Runner 创始人表示将调整对送餐员的激励机制，更多地奖励准时送达而非奖励订单数量多的人。</p>
+</br>
+<h3 id="3" >🗞 Roam Research 新估值和它的创始人 </h3>
+<p>近期有很多远程协作的产品获得投资者的关注，Zoom、 Notion 和 Coda 都是其中的翘楚，Asana 在二级市场的估值也已经达到 50 亿美元，计划在未来几周内上市。</p>
+<p>发扬了双向链接的笔记软件 <a href="https://roamresearch.com/">Roam Research</a> 最近筹集 900 万美元，估值达到 2 亿美元，比种子轮的估值中值高出约 25 倍。已经有超过 10 万人注册了该产品，Roam 预计年收入在 100 万美元。</p>
+<p>对于知识工作者来说，双向链接绝对是一次值得尝试的体验，它扩展了人类找寻信息的途径：联想能力。然而，过于陡峭的学习曲线和重度使用才能发挥价值的特性，导致该产品的主要用户都是一些专家学者，有人认为，Roam Research 不像笔记软件，更像是一个 IDE（例如 Visual Studio）。</p>
+<p>如果你想在付费前试一试双向链接是不是适合自己，也可以使用 <a href="https://obsidian.md/">Obsidian</a>，这款产品生成的所有 markdown 文件都存储在本地（因此它目前还不能算是 SaaS），你可以简单且免费地使用它，以我在上文提到的骑手事件为例，我在 Obsidian 中记录的知识图谱如下图：</p>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1600016290688.png" alt="" loading="lazy"></figure>
+<p>此外，我想聊聊 Roam Research 的创始人 White-Sullivan，他在 2010 年 TED×Boston 的<a href="https://www.youtube.com/watch?v=Xb6PMb-cL5o">演讲</a>上分享了自己的洞察和愿景：</p>
+<ul>
+<li>在政治投票中，观点差异非常大，几乎没有中间地带。</li>
+<li>自由派的人倾向于住在自由派多的地方，保守派倾向于住在保守派多的地方。</li>
+</ul>
+<p>White-Sullivan 希望借由互联网促使人们看到更多不同的观点，打破茧房。他创办了 <a href="https://angel.co/company/localocracy">Localocracy</a>，希望促进更多不同党派和观点的人讨论，但从结果看，这一尝试并不理想，2011 年，White-Sullivan 以不到 100 万美元的价格卖给了 AOL（美国在线），在 2013 年停运。</p>
+<p>在该经历后，White-Sullivan 想到一种新的组织信息的方式（即现在的 Roam Research），但最初没有任何人喜欢和支持这个想法，Y Combinator 拒绝了他五次。（张潇雨的<a href="https://www.dedao.cn/article/yNwelz6kDn0aKekODJ7qLAO3Bb51jr">商业经典案例课</a>中，有一个专题是 YC，有人问 YC 严格的筛选机制下有没有错失的案例，也许 Roam 算是一个）</p>
+<p>也有人担心 Roam Research 只是昙花一现，他们想到 Evernote 曾经也有这种风头正盛的时候，2008 年推出时，它的理念是更好地组织智能手机和电脑上的信息，当时的估值超过 10 亿美元，用户超过 2 亿，但后来它逐渐落寞，经历多次裁员，始终没有 IPO。</p>
+</br>
+<h3 id="4">🗞为什么乐高没有做出《我的世界》？</h3>
+<p>在拼搭乐高的时候，我脑海里出现很多问题：</p>
+<ul>
+<li>乐高是如何管理零件数量的？</li>
+<li>乐高的生产难度不高，专利到期后出现很多竞品，为什么仍然能在该市场保持领先？</li>
+<li>乐高为什么没有做出《我的世界》？</li>
+</ul>
+<p>一些问题在读完<a href="https://book.douban.com/subject/25876460/">《乐高：创新者的世界》</a>后得到答案。2005 年，面对数字游戏的激烈竞争，乐高联系网魔公司一起开发一款 MMO（大型多人在线游戏），在乐高的设想中，全世界的孩子们都将进入网络世界，以人仔等虚拟身份跟其他人互动，一起打败一个叫莫尔斯特伦的黑暗势力和他的爪牙巴伦·堤福尼斯，并在每次任务成功之后收集相应的积木。这为塑料积木提供了一个低成本的替代品。同时，随着技术的进步，游戏体验也会升级，有可能吸引大量热爱游戏却不喜欢鲜艳的塑料积木的孩子们。最终，数码积木甚至会变得像塑料积木一样普遍。基于这些想法，乐高决定抢在竞争对手之前打破自己的业务模式，创造一个新的增长平台。（另一些促进乐高开展该项目的背景包括《魔兽世界》的成功，以及面临增长乏力的窘境）</p>
+<p>听上去很酷，但这个企划彻彻底底失败了：</p>
+<ul>
+<li>乐高坚持让宇宙系列提供市场上所有视频游戏中最清晰、最精细的积木。这和乐高的价值观有关：只有最好的才算好。然而这种做法不太适合迭代思维的网络产品上，这导致在技术上一块乐高积木比《魔兽世界》中的角色还要复杂，而且，这也超过了电脑的处理能力。</li>
+<li>另一个体现乐高不善于制作该类网络产品的例子是，乐高公司的律师在和网魔的合作中增加条款：“此游戏一旦推出则完全不能有错误。”这实在太严苛了。与乐高的价值观相对的，扎克伯格说“介于完美与完成之间”。</li>
+<li>由于乐高对该游戏没有非常清晰的构想，它被其他团队往不同方向上拉扯，始终没有一个明确的目标，例如乐高希望这款游戏不带有暴力元素，但网魔不这样想。另外，该企划的团队并不是一个远离总部的延伸部门（想一想最初的微信），它没有脱离乐高总部的控制而独自行动。</li>
+<li>最终，这个项目用了 5 年时间才完成，在 2010 年 10 月正式推出。这款游戏的付费策略最初也不如人意，在孩子玩游戏前，父母需要先支付 40 美元购买 DVD，安装后需注册购买一个月租费 10 美元的业务。对很多父母来说，这简直太贵了。乐高的管理者们用了将近一年的时间才意识到它的错误，并做了适当的调整，让孩子们可以免费通关，畅玩两三个世界场景。</li>
+<li>这款游戏拥有 87% 的预订购率，这远超行业不到 20% 的标准。但它实际注册用户仅有 38000 人，还不足以支撑其商业运营。（这可能说明了乐高的口碑和实际游玩体验间的落差之大）</li>
+<li>2012 年 1 月 30 日，乐高关停了这款游戏的服务器。</li>
+</ul>
+<p>另一面，在 2009 年 5 月，即乐高发布游戏前一年，一个瑞典视频游戏工程师马库斯·佩尔森发布了他开发的游戏的最初版本，这即是后来的《我的世界》。虽然这款游戏不如乐高的精良，但胜在价格便宜，获得永久的《我的世界》游戏许可权只需 13 美元。2011 年 1 月，《我的世界》销量突破百万，到 2012 年 8 月，《我的世界》用户超过 3600 万，其中近 700 万人购买了这款游戏，这代表这款游戏的电脑版进入了销售速度达到每年 10 亿美元的时代。另外，玩家还可以在《我的世界》上生成自己作品的文件，发送给 3D 打印公司获得实物模型（而且价格比乐高更便宜）。</p>
+</br>
+<h3 id="encore">🎉 Encore</h3>
+<ul>
+<li>
+<p><a href="https://book.douban.com/subject/26362836/">《献给阿尔吉侬的花束》</a> by 丹尼尔·凯斯：本周我读完了这本阿西莫夫都说好的科幻小说，读到最后我联想到香农，这样一个在多学科有所建树的天才，晚年患上阿尔兹海默症，从 1983 年显露出记忆衰退，到 2001 年去世，这 18 年间他是如何接纳自己一天不如一天的呢？</p>
+</li>
+<li>
+<p><a href="https://book.douban.com/subject/33380594/">《地下：东京地铁沙林毒气事件实录》</a> by 村上春树：1995 年1月，日本经历严重的阪神大地震，两个月后，在东京发生了沙林毒气事件。地震摧毁了日本抗震技术的神话，而沙林破坏了日本治安的神话。村上采访了亲历事件的人们，写下这本纪实文学作品。于他来说，写这本书的目的是：</p>
+<ul>
+<li>1995 年 3 月 20 日的早上，东京地下到底发生了什么？</li>
+<li>想更深入了解日本这个国家。（村上在写完《世界尽头和冷酷仙境》后，离开日本到外国生活有七八年）</li>
+<li>想知道奥姆真理教和沙林毒气事件为何会出现。（村上不希望刻画一个“受害者=无辜，施暴者=邪恶”的简单印象）</li>
+<li>想要知道该事件对日本造成了什么变化和影响。</li>
+</ul>
+<p>另外，村上一直对“地下（underground）”（本书书名）主题感兴趣，例如《世界尽头和冷酷仙境》和《奇鸟行状录》。沙林毒气事件还影响村上写下了《1Q84》。</p>
+<p>一次疼痛的阅读经历。</p>
+</li>
+<li>
+<p>Netflix 纪录片 《监视资本主义：智能陷阱》（The Social Dilemma）：介绍科技公司如何让我们成瘾，不乏一些金句。另外，《第一财经》 9 月刊的封面故事同样有关科技、数据和隐私。</p>
+</li>
+<li>
+<p>Netflix 纪录片《走进比尔：解码比尔·盖茨》：介绍了比尔·盖茨在社会创新领域的努力，也介绍了他的成长环境。</p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.006]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-006/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-006/">
+        </link>
+        <updated>2020-08-31T17:24:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>我一周的思考。</p>
+<ul>
+<li><a href="#1">围绕苹果税引发的争论</a></li>
+<li><a href="#2">排队论问题：增加一个柜员会怎样？</a></li>
+<li><a href="#3">CSS 新增属性，解决字高问题</a></li>
+<li><a href="#4">日走一万步的虚假营销</a><br>
+</br></li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>我一周的思考。</p>
+<ul>
+<li><a href="#1">围绕苹果税引发的争论</a></li>
+<li><a href="#2">排队论问题：增加一个柜员会怎样？</a></li>
+<li><a href="#3">CSS 新增属性，解决字高问题</a></li>
+<li><a href="#4">日走一万步的虚假营销</a><br>
+</br></li>
+</ul>
+<!-- more -->
+<h3 id="1">🗞 围绕苹果税引发的争论</h3>
+<p>上周，我在公众号 The Great Filter 上发布了文章<a href="https://theblog.benedictyu.cn/epic-appstore-antitrust/">《Epic、App Store 和垄断问题》</a>，我花了许多时间调查有关苹果抽成的相关资料，以至于没有写一周的思考：P</p>
+<p>你可能已经听说 Epic 和苹果有关 30% 抽成的争执。实际上，这种对峙已经发生多次：Spotify、Basecamp、Wordpress、跟谁学、丁香医生和微信都因为类似问题和苹果有过争执。另外，我在本文中提到即将到来的 iOS14 在隐私保护层面的更新，这阻止了第三方应用跟踪获取用户信息——但值得注意的是苹果将自己投放广告的权力和其他应用区分对待，有关这次更新带来的影响，<a href="https://www.forbes.com/sites/kateoflahertyuk/2020/08/30/ios-14-facebooks-apple-nightmare-keeps-getting-worse/#2902c97b74cf">Facebook 已经多次发声</a>。（这让我想起我在 No.004 中提到的文章 <a href="https://alexdanco.com/2015/07/20/the-colour-wheel-of-tech-why-apple-hates-google-facebook-is-the-new-microsoft-and-more/"><em>The Colour Wheel of Tech</em></a> ）</p>
+<p>值得强调的是，我从来没有认为 App Store 是一个恶贯满盈的平台，我在文章一开始就提到 App Store 解决了很多互联网早期问题，这对开发者和用户都有积极作用，但这不意味着我们应该对发生的事实置若罔闻：为什么是这些企业？它们在业务上有共性吗？为什么苹果税备受诟病？以及，为什么我们要反对这种垄断？</p>
+</br>
+<h3 id="2">🗞 增加一个柜员会怎样？</h3>
+<p>处于早高峰的肯德基的客流量较大，虽然出餐速度很快，但我取外带早餐的那家门店只有一名服务员负责将食物分配给顾客，导致取餐流程非常缓慢。</p>
+<p>在肯德基这个案例中，有很多可以优化的地方，例如没有固定的排队路径、没有按照单号顺序摆放食物等等，但我在这个案例中主要思考的是，<strong>如果增加一个服务员参与分配食物，能够多大程度上改善这个现状？</strong></p>
+<p>这是一个典型的<a href="https://wiki.mbalib.com/wiki/%E6%8E%92%E9%98%9F%E8%AE%BA">排队论</a>问题，我没有统计肯德基内客流的相关数据，所以使用<a href="https://www.johndcook.com/blog/2008/10/21/what-happens-when-you-add-a-new-teller/">另一个案例类比</a>：假设某银行只有 1 个柜员，每个顾客的平均服务时间是 10 分钟，每小时平均有 5.8 个顾客到达，那么预计等待时间是多少？如果增加一个柜员，等待时间是多少呢？（我们假设顾客到达时间和服务时间是随机的）</p>
+<p>这个问题的答案可能有些违反直觉。在只有 1 个柜员的情况下，顾客的平均等待时间约等于 4.8 小时，如果增加至 2 名柜员，平均等待时间并不是减少一半，而是减少到大约 3 分钟左右，二者相差几近 90 倍。</p>
+<p>这是我阅读的<a href="http://www.ahjzu.edu.cn/_upload/article/files/1c/3b/8e5753784398996aad0679e9390e/2e76035a-01a2-4444-8f1f-755a2dda7312.pdf">排队论材料</a>，以下是一些数学说明：</p>
+<p><code>λ</code> 表示单位时间平均到达的顾客数，<code>1/λ</code> 表示顾客相继到达的平均间隔时间，在该案例中，<code>λ = 5.8</code></p>
+<p><code>μ</code> 表示单位时间能被服务完成的顾客数， <code>1/μ</code> 表示一个顾客的平均服务时间，在该案例中，<code>μ = 6（10min=1/6h）</code>。</p>
+<p><code>s</code> 表示系统中有多少个服务台，在该案例中，即有多少名柜员。</p>
+<p>在只有 1 个柜员的情况下，这是单服务台模型 （4.1），每名顾客的平均等待时间是：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>W</mi><mi>q</mi></msub><mo>=</mo><mfrac><mi>λ</mi><mrow><mi>μ</mi><mo>(</mo><mi>μ</mi><mo>−</mo><mi>λ</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>5.8</mn><mrow><mn>6</mn><mo>×</mo><mrow><mo fence="true">(</mo><mn>6</mn><mo>−</mo><mn>5.8</mn><mo fence="true">)</mo></mrow></mrow></mfrac><mo>≈</mo><mn>4.8</mn><mtext>  </mtext><mi>h</mi></mrow><annotation encoding="application/x-tex">W_q=\frac\lambda{\mu(\mu-\lambda)}=\frac{5.8}{6\times\left(6-5.8\right)}\approx4.8\;h
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">q</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.30744em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">μ</span><span class="mopen">(</span><span class="mord mathdefault">μ</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">λ</span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">λ</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.25744em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">5</span><span class="mord">.</span><span class="mord">8</span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span><span class="mord">.</span><span class="mord">8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">.</span><span class="mord">8</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault">h</span></span></span></span></span></p>
+<p>在 2 个柜员的情况下，这是多服务台模型（4.3），则：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>=</mo><mn>2</mn><mi mathvariant="normal">，</mi><mi>ρ</mi><mo>=</mo><mfrac><mi>λ</mi><mi>μ</mi></mfrac><mo>≈</mo><mn>0.97</mn><mi mathvariant="normal">，</mi><msub><mi>ρ</mi><mi>s</mi></msub><mo>=</mo><mfrac><mi>λ</mi><mrow><mi>s</mi><mi>μ</mi></mrow></mfrac><mo>≈</mo><mn>0.48</mn></mrow><annotation encoding="application/x-tex">s=2，\rho=\frac\lambda\mu\approx0.97，\rho_s=\frac\lambda{s\mu}\approx0.48
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">2</span><span class="mord cjk_fallback">，</span><span class="mord mathdefault">ρ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.25188em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">μ</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">λ</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">9</span><span class="mord">7</span><span class="mord cjk_fallback">，</span><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.25188em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="mord mathdefault">μ</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">λ</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">4</span><span class="mord">8</span></span></span></span></span></p>
+<p>空闲概率：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>=</mo><msup><mrow><mo fence="true">[</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>s</mi><mo>−</mo><mn>1</mn></mrow></munderover><mfrac><msup><mi>ρ</mi><mi>n</mi></msup><mrow><mi>n</mi><mo>!</mo></mrow></mfrac><mo>+</mo><mfrac><msup><mi>ρ</mi><mi>s</mi></msup><mrow><mi>s</mi><mo>!</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>ρ</mi><mi>s</mi></msub><mo>)</mo></mrow></mfrac><mo fence="true">]</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>≈</mo><mn>0.35</mn></mrow><annotation encoding="application/x-tex">p_0=\left[\sum_{n=0}^{s-1}\frac{\rho^n}{n!}+\frac{\rho^s}{s!(1-\rho_s)}\right]^{-1}\approx0.35
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:3.272234000000001em;vertical-align:-1.267113em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">[</span></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.8011130000000004em;"><span style="top:-1.882887em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">n</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.050005em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.300005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">s</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.267113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.341392em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="mclose">!</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.341392em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="mclose">!</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size4">]</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.005121000000001em;"><span style="top:-4.2540130000000005em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">3</span><span class="mord">5</span></span></span></span></span></p>
+<p>平均排队长：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>L</mi><mi>q</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>p</mi><mn>0</mn></msub><msup><mi>ρ</mi><mi>s</mi></msup><msub><mi>ρ</mi><mi>s</mi></msub></mrow><mrow><mi>s</mi><mo>!</mo><msup><mrow><mo fence="true">(</mo><mn>1</mn><mo>−</mo><msub><mi>ρ</mi><mi>s</mi></msub><mo fence="true">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>≈</mo><mn>0.29</mn></mrow><annotation encoding="application/x-tex">L_q=\frac{p_0\rho^s\rho_s}{s!\left(1-\rho_s\right)^2}\approx0.29
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">L</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">q</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.4354em;vertical-align:-1.094008em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.341392em;"><span style="top:-2.155992em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="mclose">!</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954008em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">ρ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.094008em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">2</span><span class="mord">9</span></span></span></span></span></p>
+<p>平均等待时间：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>W</mi><mi>q</mi></msub><mo>=</mo><mfrac><msub><mi>L</mi><mi>q</mi></msub><mi>λ</mi></mfrac><mo>≈</mo><mn>0.05</mn><mi>h</mi><mo>≈</mo><mn>3</mn><mi>m</mi><mi>i</mi><mi>n</mi></mrow><annotation encoding="application/x-tex">W_q=\frac{L_q}\lambda\approx0.05h\approx3min
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">q</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.04633em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">λ</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">L</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">q</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span><span class="mord mathdefault">h</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord mathdefault">m</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span></span></span></span></span></p>
+<p>除了上述情况，我们还可以抽象排队过程为一种随机服务系统，这种系统包括：</p>
+<ul>
+<li>
+<p>输入过程：顾客的数量是有限的还是无限的？到达方式是一个个还是成批的？到达是互相独立的还是相关的？到达间隔时间是平稳的还是不平稳的？</p>
+</li>
+<li>
+<p>排队规则：顾客到达后，服务台都被占用时，顾客是立即离开（损失）还是排队等待服务？</p>
+</li>
+<li>
+<p>服务过程：是单服务台还是多服务台？是先到先服务、后到先服务、随机服务，还是优先服务？</p>
+</li>
+</ul>
+<p>知乎上也有人使用排队论解释为什么星巴克是横向排队，麦当劳却是纵向排队，详情见<a href="https://www.zhihu.com/question/38706540/answer/268223486">为什么星巴克点单时要横向排队</a>？</p>
+</br>
+<h3 id="3">🗞 CSS 新增属性，解决字高问题</h3>
+<p>对设计师和前端工程师来说，一个很熟悉的现象是，创建的文本框在实际文本上方和下方存在空隙，这意味着实际间距会比设定的间距值要大。</p>
+<p>这套规则被使用了 24 年，直到现在，<a href="https://medium.com/microsoft-design/leading-trim-the-future-of-digital-typesetting-d082d84b202">万维网联盟（W3C）决定引入新的 CSS 属性</a>：leading-trim，能够将文本的上下空间修建掉，例如下面的例子，text-edge（也是一个新的属性）定义了文本边缘是字母高度和基线，leading-trim 将文本边缘外的空间去除。</p>
+<pre><code class="language-CSS">h1 { 
+ text-edge: cap alphabetic;
+ leading-trim: both;
+}
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598895329807.gif" alt="" loading="lazy"></figure>
+<p>这个话题有趣的地方是<a href="https://www.ituring.com.cn/article/18076">文字上下方留有空间的历史原因</a>，这可以追溯到 140 年前仍在使用的铅活字印刷，在行与行之间会插入细铅条，用来增加字行之间的垂直距离，这种细铅条被称为 leading（这里的 lead 不是指领导，而是铅的意思）。</p>
+<figure data-type="image" tabindex="2"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598895344452.png" alt="" loading="lazy"></figure>
+<p>而到了 1996 年推出的 CSS1，则将 leading 拆分成上下两部分（half-leading），其中一半 leading 属于上一行文字，另一半 leading 属于下一行文字，根据<a href="https://www.darmau.com/getting-to-the-bottom-of-line-height/">《深入探究 Figma 中的行高》</a>里提到的，这种做法的原因是：</p>
+<blockquote>
+<p>在印刷界和早期程序中，文字区块只需要将文字包裹在其中。Web 需要它做得更多。“我知道 half-leading 不是传统的印刷概念”，在 1995–1996 年负责 CSS1 的伯特·博斯（Bert Bos）说道：“但是如果仅仅在下方增加行距会导致使用背景或边框的时候出现问题。”</p>
+<p>如果行距只出现在文字区块底部，会导致底部显得很重并需要额外工作才使效果好一点。Half-leading 提供了解决办法。</p>
+<p>CSS 的另一个改变是什么？100% 的行高（line height）等于 100% 的字号（font size）。在此之前，字体设计师可能会给 16 像素字号的字体一个默认的 20 像素的行高。但是在 web，16-pixel 字号的字体的 100% 行高就是 16 像素，无论字体设计师当初如何定义。</p>
+<p>这个策略的原因很简单：要知道一个字体的默认行高需要先加载这个字体，在早期的互联网会很慢。使行高等于字号则可以很快计算完成。“我们希望在没有加载字体的时候就尽可能多的进行计算”， CSS 联合作者哈科·尼姆·李（Håkon Wium Lie）提到。行高不再取决于内部的字体属性，好在字体不需要适应什么物理边界，所以这不算什么问题。</p>
+</blockquote>
+<p>但这种做法也导致了新的问题，一种字体的不同字号都有一个默认行高（Default line height），且为了容纳一些字母（例如 g 的下半部分），默认行高往往比包含的文字要高，即会增加 half-leading 的大小，这就是我们目前现状的来源。</p>
+<figure data-type="image" tabindex="3"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598895369476.png" alt="" loading="lazy"></figure>
+<p>另一个可以延伸的话题是，编程语言是如何被制定出来的？（进一步的，我们什么时候需要一门新的编程语言？）和自然演变出的自然语言（natural language）不同，编程语言是一种形式语言（formal languages），是人类为了特殊用途而设计出来的。例如，数学家使用的记号（notation）就是形式语言，特别擅长表示数字和符号之间的关系。化学家使用形式语言表示分子的化学结构。 最重要的是：编程语言是被设计用于表达计算的形式语言。</p>
+<p>自然语言和形式语言的区别有：</p>
+<ul>
+<li>歧义性：自然语言充满歧义，人们使用上下文线索以及其它信息处理这些歧义。形式语言被设计成几乎或者完全没有歧义，这意味着不管上下文是什么，任何语句都只有一个意义。</li>
+<li>冗余性：为了弥补歧义性并减少误解，自然语言使用很多冗余。结果，自然语言经常很冗长。形式语言则冗余较少，更简洁。</li>
+<li>字面性：自然语言充满成语和隐喻。如果我说“The penny dropped”，可能根本没有便士、也没什么东西掉下来（这个成语的意思是，经过一段时间的困惑后终于理解某事）。形式语言的含义，与它们字面的意思完全一致。</li>
+</ul>
+<p>由于我们都是说着自然语言长大的，我们有时候很难适应形式语言。形式语言与自然语言之间的不同，类似诗歌与散文之间的差异，而且更加明显：</p>
+<ul>
+<li>诗歌：单词的含义和声音都有作用， 整首诗作为一个整理，会对人产生影响，或是引发情感上的共鸣。 歧义不但常见，而且经常是故意为之。</li>
+<li>散文：单词表面的含义更重要，句子结构背后的寓意更深。 散文比诗歌更适合分析，但仍然经常有歧义。</li>
+<li>程序：计算机程序的含义是无歧义、无引申义的， 通过分析程序的标记和结构，即可完全理解。</li>
+</ul>
+<p>如果你对这一段内容感兴趣，可以阅读<a href="https://codingpy.com/books/thinkpython2/foreword.html">《Think Python》</a>，这也是一本非常好的 Python 入门读物。<br>
+</br></p>
+<h3 id="4">🗞 日走一万步的虚假营销</h3>
+<p>每天走路一万步就和每天要喝八杯水一样，成为健康生活的标准。（例如 <a href="https://wenku.baidu.com/view/36c0fadc974bcf84b9d528ea81c758f5f71f2900.html">2019 年米动运动健康年报</a>，提到“每天坚持 10000 步以上的用户，BMI 控制更有效（更健康）”）</p>
+<p>但问题在于，这是真的吗？</p>
+<p><a href="https://www.theatlantic.com/health/archive/2019/05/10000-steps-rule/590785/">按照 <em>The Atlantic</em> 一篇文章说的</a>，一万步的概念最早可以追溯到 1965 年日本一个名叫“万步仪”的计步器，但之所以取这个名字，只是因为“万”看上去很像一个人在走路而已，而一万步对健康的影响，从来没有人验证过。</p>
+<p>哈佛大学公共卫生学的流行病学教授 I-Min Lee 发表的论文 <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709"><em>Association of Step Volume and Intensity With All-Cause Mortality in Older Women</em></a> 讨论了这一问题，她发现平均每天走大约 4400 步的老妇的死亡率显著低于每天只走 2700 步的人，在接近 7500 步/天后，死亡率趋于平缓。（有趣的是，米动运动统计小米运动用户日均步数是 7554，非常接近这一健康值）</p>
+<p>最初，我以为这种营销手段成功的主要原因在于它将复杂的科学运作逻辑，简化成一句口号式的说辞，这符合一些短媒介的传播 （例如报纸标题和微博热搜大多在几字内），但我没有分辨人们分享和相信信息之间的区别（我以为人们因为相信，所以才会分享）。后来，我通过新闻实验室了解到一篇研究假新闻的论文 <a href="https://journals.sagepub.com/doi/full/10.1177/0956797620939054"><em>Fighting COVID-19 Misinformation on Social Media: Experimental Evidence for a Scalable Accuracy-Nudge Intervention</em></a>：两组被试会随机被问“你认为这则新闻是真实的吗”或“你会在社交媒体上分享这则新闻吗”，第一组被试普遍能分辨新闻是否为真实的，但另一组则显示真假新闻的分享意愿是几近的，这可能表明尽管人们分得清真伪，但在社交媒体进行分享的时候，不太会考虑真实与否（按照该研究说的，外部因素吸引了人们的注意力）。</p>
+<p>另一个实验则在询问被试是否愿意分享前，先询问另一则新闻的真实性如何，这种助推（nudge）让人们在进行分享时更慎重。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Epic、App Store 和垄断问题]]></title>
         <id>https://ben9706.github.io/benedict.github.io/epic-appstore-antitrust/</id>
@@ -19,7 +314,480 @@
         <summary type="html"><![CDATA[<p>上周，Epic 旗下知名游戏《堡垒之夜》先后被 App Store 和 Google Play 下架，起因是 Epic 在移动端购买页中增加了一种支付方式，并通过价格差异，鼓励用户不使用应用内支付（In App Purchase，下文简称 IAP），转而使用自己的支付系统以避免 30% 的抽成。被下架后，Epic 顺势提起反垄断诉讼。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>上周，Epic 旗下知名游戏《堡垒之夜》先后被 App Store 和 Google Play 下架，起因是 Epic 在移动端购买页中增加了一种支付方式，并通过价格差异，鼓励用户不使用应用内支付（In App Purchase，下文简称 IAP），转而使用自己的支付系统以避免 30% 的抽成。被下架后，Epic 顺势提起反垄断诉讼。</p>
+<!-- more -->
+<p>Epic 事件后，博客搭建工具 Wordpress 也因为通过外部网站售卖域名，受到苹果的惩罚（根据最新消息，苹果已经向 Wordpress 道歉）。</p>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598599868633.png" alt="" loading="lazy"></figure>
+<p>过去几年，相似的案例在中国也屡见不鲜：</p>
+<ul>
+<li>2019 年 8 月，跟谁学在 App Store 突遭下架，苹果要求其取消微信和支付宝支付通道，转为使用苹果 IAP，并增付 30% 的服务费。</li>
+<li>2019 年 7 月，丁香医生、春雨医生、微医和好大夫等在线医疗平台被告知，在线问诊支付的费用必须通过苹果 IAP，并增付 30% 的服务费。苹果认为在线问诊不是一项实体服务，因而和购买虚拟商品性质相同。</li>
+<li>2017 年，微信和苹果就赞赏是否属于购买虚拟商品，展开激烈对峙。</li>
+</ul>
+<p>我想借此机会分析 App Store 引起的一系列争议。这不仅有关 30% 的抽成比例是否过高，也有关 2300 万名开发者面临的现状，尤其考虑到苹果<a href="https://www.apple.com.cn/newsroom/2020/06/apples-app-store-ecosystem-facilitated-over-half-a-trillion-dollars-in-commerce-in-2019/">宣称</a> App Store 在 2019 年全球范围内促成 5190 亿美元的商业交易（这一收入包括实体产品），讨论该问题就显得更为迫切。</p>
+<p>客观来看，App Store 促进了移动应用的爆发式增长。在智能手机普及前，用户想要下载软件，首先需要在网络上寻找安装包，在这过程中，既要小心木马病毒，甄别虚假软件，也要注意是否和设备兼容。可以想象，除了富有极客精神的少数人外，大部分用户为了避免麻烦，不会主动安装软件。</p>
+<p>苹果在 2008 年首次推出 App Store 后，解决了上述大部分问题：</p>
+<ul>
+<li>提升 App 安全性。苹果高度集成自己的软件和硬件服务，这使大部分下载在 iPhone 上的 App 都是被苹果审查过安全性的，用户不必担心下载到流氓软件。</li>
+<li>提升分发 App 的效率。用户不需要浪费时间寻找软件安装包，只需要点击「下载」就能安装 App。对开发者来说，能够用更简单的方式让上亿用户使用自己的产品。</li>
+<li>提供无摩擦、安全的支付方式。如果没有 App Store，用户在购买 App 时直接和开发者交易，用户会相信大型企业（例如 Adobe 和 Office 系列），但对于一些独立开发者来说，用户可能会怀疑「他们真的能保管我的个人支付信息吗？」</li>
+</ul>
+<p>今天，App Store 内的应用数量从 500 扩增到了 170 万个，每周有超过 175 个国家 5 亿人访问 App Store，苹果的产品对用户来说仍然意味着优质的体验。</p>
+<p>然而，当苹果拥有制定规则和审查任意 App 的权利时，问题也就暴露了。<br>
+</br></p>
+<h3 id="30-的苹果税">30% 的苹果税</h3>
+<p>首先需要注意 <a href="https://www.apple.com.cn/ios/app-store/principles-practices/">30% 抽成的适用范围</a>，这是引发最多争议的地方。苹果的抽成只针对应用内购买和订阅服务，对以广告盈利，或提供实体商品和服务的 App 是不收取抽成的。也就是说，用户通过滴滴 App 打车，或是在天猫 App 上购买商品，这部分交易所得都不需要和苹果分成。</p>
+<p>这也是为什么苹果强调，5190 亿美元的总额中有超过 85% 完全归于第三方开发者和各规模的企业所有，苹果仅从与数字化商品和服务相关的款项中收取佣金，真正拿到手的不到 15%。</p>
+<p>显然，苹果税对不同类型的业务造成的影响是截然不同的。如果是边际成本低的软件服务，任何一笔交易都是增量，开发者大抵能接受这种抽成形式，一个直观的例子是游戏里的皮肤，只要开发出一套皮肤，销售多少份都不会再增加成本。</p>
+<p>但拥有边际成本的服务，例如音乐、电子书籍、或是影视剧，这些服务每多售出一份，都需要和版权方分成。可以想象，这些服务提供方被迫提高苹果用户的订阅价格，将苹果税转移在用户身上。以 QQ 音乐的黄金 VIP 会员为例，苹果用户的年费是 218 元，而安卓用户则是 178 元。网易云音乐和爱奇艺等流媒体产品也都有类似的定价区别，这种现象在过去几年引发过激烈的讨论，一些人错误地以为是平台对 iPhone 用户进行价格歧视，这种误解可能至今仍然存在。</p>
+<p>在今年 7 月美国国会听证会上，苹果和另外三家公司面临垄断指控，其中一份材料是乔布斯和 Eddy Cue（iTunes、App Store 的负责人）讨论 IAP 的电子邮件，从中可知乔布斯在 2011 年就意识到这对流媒体公司会造成多大的影响：</p>
+<figure data-type="image" tabindex="2"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598599895541.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>@ Eddy：<br>
+乍一看这似乎还不错，但我越想越觉得会很麻烦。如果电子书必须通过 IAP，那 Netflix、WSJ、MLB 和 Pandora 呢？你认为边界在哪里？一些服务负担得起 30%，但另一些做不到。这对我们来说是一个巨大的决定，我们不想失去 iOS 用户，同时我们也不想影响我们拥有的 App 体验（例如不必到处输入支付信息）。</br><br>
+@ 乔布斯：<br>
+我认为这个问题很简单—— iBooks 将成为 iOS 设备上唯一的书店，我们需要更自信一些。人们可以阅读在其他地方购买的书籍，只是不能在未向我们付费的情况下从 iOS 购买/租赁/订阅，当然，我们承认这对很多公司来说是望而却步的。</p>
+</blockquote>
+<p>在乔布斯写这封邮件的时候， iOS 设备的使用量只有 1.5 亿到 1.6 亿台，iPhone 可能只占美国所有手机使用量的 10% ，而今天这一数字是 50%。全球有近 10 亿人在使用 iPhone，80% 的美国青少年都是苹果的用户。对于一些企业来说，iPhone 就是全部市场，例如知名公司 The Omni Group，旗下的 OmniFocus 等生产力产品是苹果设备上最热门的应用，但这家公司在最近宣布将不得不解雇一些员工，这也是 Omni 首次裁员，其中一名员工 <a href="https://inessential.com/2020/07/22/apples_thirty_percent_cut">Brent Simmons 说到</a>：</p>
+<blockquote>
+<p>30% 和 10% 之间的差别可能意味着我的一些朋友仍然在 Omni 工作，而 Omni 将有更多的资源用于开发和测试他们的产品。但是苹果，这个极其富有的公司，却需要 Omni 和其他开发者支付 30% 的薪水？</p>
+</blockquote>
+</br>
+<h3 id="独掌解释权">独掌解释权</h3>
+<p>今年 6 月，Basecamp 新推出的产品 Hey 也因为 IAP 问题和苹果激烈对峙。Hey 是一个付费邮件服务，它在前期依靠自己独特的产品理念获得许多关注，如果用户想要在手机上使用，必须先在官网上注册账号并付费订阅，然后在手机上登录使用。</p>
+<p>在苹果发现 Hey 试图绕过自己的 IAP 后，拒绝通过它提交的任何版本更新，并解释说：</p>
+<blockquote>
+<p>当用户打开 Hey，却发现不登录就无法正常使用 App，这显然伤害了用户体验。</p>
+</blockquote>
+<p>困惑的地方在于，Netflix、Spotify 或 Kindle 也都是这么做的，用户至今无法在 iOS 设备上直接订阅这些流媒体服务，必须先在网页里完成付费，再到 App 里登录账号使用。为了解释这种区别对待，苹果宣称这些服务是「reader apps」，也就是只被用于消费内容。</p>
+<p>但是，阅读邮件和阅读电子书之间的边界在哪里呢？</p>
+<p>苹果在这种边界问题上始终没有好的回答。另一个例子是苹果明确表示<a href="https://www.businessinsider.com/apple-explains-why-xbox-game-pass-is-not-on-iphone-2020-8">微软和 Google 的云游戏服务（Project xCloud 和 Stadia）将无法在苹果设备上运行</a>，因为这些游戏在云端而非本地运行，苹果无法审查这些游戏是否安全。但矛盾的是，苹果也从来不审查 Netflix 上的视频，那么视频和游戏的区别又在哪里呢？是互动性吗？但 Netflix 也推出过互动视频。</p>
+<p>这些例子意味着苹果掌握着规则的解释权，却无法给出清晰且合理的明细。</p>
+<p>对 Basecamp 来说，它用更激进的方式以通过苹果的审查。Hey 没有添加 IAP，而是选择为 iOS 用户提供一个随机邮箱地址作为免费临时的 Hey 账户，这些账户在 14 天后会自动注销，但普通用户至少能在 Hey 上体验一番。Basecamp 的 CEO Jason Fried 写了封<a href="https://hey.com/apple/iap/">公开信</a>回应苹果：</p>
+<blockquote>
+<p>到目前为止，关于 Apple、HEY、IAP、订阅、App Store 和 iOS 开发者社区的讨论大多都是关于收入的。30% 的分成公平吗？15% 怎么样？如果是 5% 呢？</br><br>
+也有人说: 「为什么你们不提供一个比平常价格高 30% 的订阅费呢？你们可以把苹果税转嫁给消费者。」但我想说，这不是问题的核心。</br><br>
+我不否认这件事和收入有关，因为这是决定公司存活的底线。但作为一个企业的所有者，就我个人而言，这不仅仅关乎收入，这个问题的核心是我们没有任何选择的权利，我们无法选择不使用苹果的支付系统，以及苹果在强行分离你的公司和你的用户。</p>
+</blockquote>
+<p>Basecamp 已经有一个集中的计费系统用于管理各个平台的的用户（Web，Mac，Windows，Linux，Android 和 iOS），如果使用苹果的 IAP，不仅意味要维护两套计费系统，更意味着开发者无法帮助用户解决账单问题：可以退款吗？可以延长付款期限吗？可以为教师提供优惠服务吗？如果 iPhone 用户换成 Android 手机怎么办？</p>
+<p>然而苹果的 IAP 却是强制且标准化的付费手段，开发者要么遵守，要么不得不放弃 iPhone 市场，没有中间方案。Jason Fried  强调：「我们效忠的对象是用户，不是平台。我每天醒来是为了服务我们的用户，而不是为了服务苹果。」<br>
+</br></p>
+<h3 id="筛选赢家和输家">筛选赢家和输家</h3>
+<p>听证会上，议员 Val Demings 指出一个核心问题：如果苹果既当裁判也做选手，那么苹果完全有理由将资源倾向自己的 App：</p>
+<blockquote>
+<p>我担心苹果的政策也在 App 里选出赢家和输家，这也意味着苹果的 App 总是赢家。</p>
+</blockquote>
+<p>实际上，这正是 Spotify 面临数年的问题。为了应对苹果税，Spotify 在 2014 年被迫将每月订阅费从 10 美元增加到 13 美元，然而一年后，苹果推出自己的音乐服务 Apple Music，费用是 10 美元。为了避免在价格上陷于不利，Spotify 被迫恢复定价，放弃使用 IAP 至今。如果你访问 Spotify 官网介绍会员服务的页面，你会看到一段带有超链接的脚注，指向文章<a href="https://www.timetoplayfair.com/facts/">《通过 5 个事实认识到苹果有多么不公平》</a>，说明自己为此付出的代价，例如苹果不允许 Spotify 在自己的 App 里直接告诉用户订阅方式，只能由用户自己寻找。</p>
+<figure data-type="image" tabindex="3"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598599939681.png" alt="" loading="lazy"></figure>
+<p>除了 Spotify，另一个例子是 <a href="https://justgetflux.com/">f.lux</a>，这是一款通过自动调节屏幕颜色，减少蓝光以保护用户视力的软件。从 2009 年开始，<a href="https://twitter.com/JustGetFlux/status/1288979404677292032">开发者就一直提交产品给苹果</a>，希望能够上架 App Store，但苹果宣称这项服务「太奇怪了」——直到 2016 年，苹果自己推出了功能一模一样的夜览模式（Night Shift）。</p>
+<p>库克在听证会上回应到：</p>
+<blockquote>
+<p>在 170 多万个 App 中，只有 60 个是苹果自己的，苹果正在努力帮助更多开发者提供优质的服务。</p>
+</blockquote>
+<p>然而就像 Spotify 面临的情况：Apple Music 是预装应用，有更简单的支付方式，Siri 默认音乐应用是 Apple Music，以及苹果有权利阻止其他 App 更新功能，这些事实使库克的说辞显得无力。另外不要忘了，苹果还有 Apple News 和 Apple Arcade，苹果涉足的媒体服务远不止音乐。<br>
+</br></p>
+<h3 id="改变市场规则">改变市场规则</h3>
+<p>另一个潜在的风险是，苹果在开发者和用户之间担任防火墙的角色，这意味着苹果能够轻而易举改变整个市场规则，但它自己却未必需要遵守。</p>
+<p>在 iOS 13 里，苹果要求开发者支持「通过 Apple ID 登录」。当用户第一次登录时，App 和网站只能要求获取用户的姓名和电子邮件地址来创建帐户，同时，用户可以选择隐藏邮件地址，苹果会创建一个随机生成的电子邮件地址交给服务提供方，以保护用户的隐私。</p>
+<p>即将正式发布的 iOS 14 则做了更大的变更。苹果将在每个 App 中让用户选择是否公开自己的 IDFA（Identifier for Advertisers），如果用户选择不公开，那么 App 将无法继续跟踪用户。可以预见，这对广告投放会产生巨大打击，因为企业很难在不同 App 间跟踪 iOS 用户，营销部门将无法确定投放策略是否有助于转化。</p>
+<p>这些举措对保护用户隐私有积极作用，但问题在于苹果推出该功能的动机。<a href="https://twitter.com/eric_seufert/status/1291730115253145600">Eric Seufert 在 Twitter 上指出</a>，苹果正在将自己与其他 App 的广告网络许可权分开：在 iOS 14 的隐私设置中新增了一个「跟踪」，默认情况下，第三方 App 必须询问用户是否共享自己的 IDFA。</p>
+<figure data-type="image" tabindex="4"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598599973935.png" alt="" loading="lazy"></figure>
+<p>但在隐私设置的底部，有一个「苹果广告」功能，默认允许苹果向用户提供个性化广告，这些苹果提供的广告出现在 App Store，Apple News 或者 Stocks 里（需要注意<a href="https://support.apple.com/en-il/HT205223">苹果没有在中国地区投放广告</a>）。</p>
+<figure data-type="image" tabindex="5"><img src="https://ben9706.github.io/benedict.github.io//post-images/1598599991828.png" alt="" loading="lazy"></figure>
+<p>换句话说，苹果允许自己精准投放广告从而提高广告溢价的同时，剥夺了其他开发者同等的机会。这种区别对待展现了苹果的权力之大，它可以轻易影响整个市场生态。</p>
+<p>这种权力在苹果和 Epic 的对峙中也得到体现。Epic 不仅以《堡垒之夜》闻名，它开发的虚幻引擎被许多流行游戏使用，而苹果宣称如果 Epic 不在 8 月 28 日之前解决问题，就将终止其开发者账户，这意味着任何基于虚幻引擎开发的产品都无法在苹果平台上使用（这包含许多完全无辜的产品，例如《绝地求生》）。尽管法院禁止苹果封禁 Epic 的开发者账户，但影响已经产生，所有开发者都不得不考虑某项技术在苹果设备上的稳定性。<br>
+</br></p>
+<h2 id="结语">结语</h2>
+<p>美国民主党议员 Elizabeth Ann Warren 提议应该分拆苹果的硬件、软件和 App Store 业务。她举例说，铁路公司曾经不仅通过交通费盈利，还收购钢铁公司，降低自己公司钢铁材料的运输费用，并提升其他竞争对手的运输费用，得以成长为巨头。</p>
+<p>但对于苹果，恰恰是它高度控制所有业务，才能够为用户带来安全和优质的体验，很难想象通过拆分业务就能解决现在的问题。另一些人则认为，只要苹果允许用户通过其他途径下载 App，就能解决开发者和苹果的矛盾，但这恰恰是安卓为什么无法保证 App 质量的原因。</p>
+<p>一些人希望手机应该尽可能开放，另一些人则希望手机应该尽可能安全易用，苹果选择成为后者。无容置疑的是，目前模糊且固定的抽成方式不利于开发者，不利于创新，从长远看，也不利于苹果。</p>
 ]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.005]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-005/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-005/">
+        </link>
+        <updated>2020-08-16T14:08:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>我一周的思考。</p>
+<ul>
+<li>Notion 正式推出韩语版</li>
+<li>大胃王吃播是独有的文化现象吗？</li>
+<li>分类理论和标签类笔记软件</li>
+<li>汽车替代马匹的技术思考</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>我一周的思考。</p>
+<ul>
+<li>Notion 正式推出韩语版</li>
+<li>大胃王吃播是独有的文化现象吗？</li>
+<li>分类理论和标签类笔记软件</li>
+<li>汽车替代马匹的技术思考</li>
+</ul>
+<!-- more -->
+</br>
+<h3 id="notion-正式推出韩语版">🗞 Notion 正式推出韩语版</h3>
+<p>2 个月前，韩国中央日报<a href="https://news.joins.com/article/23804306">采访</a> Notion CEO Ivan Zhao 时，Ivan 就提到将在今年夏天推出韩语版本的 Notion，<a href="https://www.protocol.com/notion-app-korea">而本周，它正式上线了</a>。这是 Notion 首次推出外语版本，Notion 表示，韩国是除美国外的最大的市场，今年韩国用户数量同比增长了 263%。<a href="https://www.appannie.com/apps/google-play/app/notion.id/intelligence/?chart_app_intelligence_chart">根据 App Annie 的数据</a>，Notion 排在美韩后的几个主要市场，依次是巴西、俄罗斯和英国，而中国在这个排名中处于相对靠后的位置（这可能和一些人想的不同）。</p>
+<p>为什么韩国用户这么喜欢 Notion？坦白说，我不知道原因。我对韩国文化知之甚少，我几乎没有关注过韩国在科技领域的动态，我收看韩剧也是今年才开始的，所以接下来我只基于事实做一些分析：</p>
+<ul>
+<li>大部分用户主要通过电脑使用 Notion，而不是手机。这主要因为 Notion 的移动端体验并不好。如果你关注 Notion 在今年的几次迭代，你会发现大多数都是在优化移动端体验。考虑到中国的移动优先策略，这可能是为什么中国用户数没有那么庞大的一种原因（访问速度是另一个重要原因)。</li>
+<li>韩国支持移动支付、Visa、万事达卡、PayPal 等多种支付方式，这意味着 Notion 不需要重新改造整个支付系统（联系新的服务提供商，并面临监管问题），Ivan 表示自己最大的工作负担主要来自于解决这类问题上。</li>
+<li>法律是另一个地缘问题。<a href="https://www.appannie.com/account/login/?next=/apps/google-play/app/20600009962811/rank-history/%3Fvtype%3Dday%26countries%3DCN%26view%3Drank%26legends%3D222%26date%3D2020-04-26%7E2020-05-25">根据 App Annie 的数据</a>，今年 5 月，在宣布个人账号也能免费使用核心功能后，Notion 在中国安卓应用商店中迅速成为下载量最高的生产力 App（另一个助推剂可能是引发争议的<a href="https://zhuanlan.zhihu.com/p/143130294">寒舟事件</a>）。随后，用户发现无法在中国继续使用 Notion，这大约持续了 24 小时，随后恢复正常。笔记产品一般不会面临这种限制，但 Notion 几乎满足了个人建站的需求（我认为这也是一个非常好的跨领域切入市场的案例，想象一下此前  Webflow 等傻瓜式网页制作工具，或是 Wordpress 等搭建博客工具，Notion 的优势是巨大的）。</li>
+<li>翻译是一项巨大的工程。最初，Notion 估计大概几周能完成，但实际上他们几乎重构了一次代码（这不是指韩国 Notion 和美国 Notion 是不同的 ），一部分原因在于语言会影响 UI 样式，在表述相同意义时，一些语言会比其他语言更长，这意味着不得不改变按钮等组件样式。另外，Notion 也低估了翻译量，他们原本以为大约在几万字，但实际上达到 251,000（回忆一下 Notion 丰富的模版库）。</li>
+</ul>
+<p>基于上述分析，我猜测很长时间里都不会见到中文版的 Notion，但无论如何，Notion 都是我目前最爱的产品，没有之一。<br>
+</br></p>
+<h3 id="大胃王吃播是独有的文化现象吗">🗞 大胃王吃播是独有的文化现象吗？</h3>
+<p>我不打算讨论这件事的道德性，但我的确不太喜欢这种简单直白的家长式立法，因为它没有试图理解这种文化形成的原因。</p>
+<p>大胃王吃播让人想到<a href="https://en.wikipedia.org/wiki/Competitive_eating">竞吃（Competitive eating）</a>，即在限定时间里，比谁吃的更多。这类比赛通常在 10 分钟左右，消耗最多食物的人被宣布为获胜者，这在美国、加拿大和日本最受欢迎。竞吃也被认为是一种运动，不仅是因为它鼓励竞争，还因为参赛者需要经过长期训练才能在比赛中获取名次，例如他们需要学会抑制自己呕吐反射的本能，因为在比赛中不允许呕吐食物。</p>
+<p>这项运动不算小众，最知名的是 <a href="https://www.forbes.com/2009/07/01/joey-chestnut-nathans-business-sports-eating.html#37e91ac755ea">Major League Eating</a>，每年会举办 70 多场类似的活动，<a href="https://www.businessinsider.com/competitive-eating-contest-joey-chestnut-marketing-2020-1">这被认为对品牌和当地城市都有巨大的宣传作用。</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Mukbang">吃播（Mukbang）</a>则从 2010 年起在韩国开始流行，并蔓延至全球，但需要注意的是，Mukbang 更偏于直播性质的吃播，而不是经过后期剪辑的视频（否则造假成本太低），经济学人 2015 年的文章 <a href="https://www.economist.com/asia/2015/06/27/the-food-show-craze"><em>The food-show craze</em></a> 提到，这种饮食节目受欢迎的原因可能和韩国长期经济衰退有关，这导致韩国民众普遍感到焦虑，与其说节目有关烹饪和食物，不如说是一种享受。</p>
+<p>我比较认同这一文化现象和焦虑感有关，根据 <a href="https://apps.who.int/iris/bitstream/handle/10665/254610/WHO-MSD-MER-2017.2-eng.pdf;">WHO 有关全球心理健康的报告</a>，焦虑症最严重的地方依次是东南亚、美洲和亚太地区，占全球比例的 64%，这和我们了解到的情况基本符合，但我猜测还有一些其他的影响因素，例如科技发展水平，以及人们是否有其他途径消解这种焦虑感。<br>
+</br></p>
+<h3 id="分类理论和标签类笔记软件">🗞 分类理论和标签类笔记软件</h3>
+<p>站在演化的角度看，掌握分类能力（<a href="http://psychology.iresearchnet.com/developmental-psychology/cognitive-development/categorization/#:~:text=In%20cognitive%20psychology%2C%20categorization%20focuses,events">Categorization</a>）是必要的，人类可以用最少的时间尽可能获取更多的信息。有关分类的理论可以被分为两类。</p>
+<h4 id="基于相似性">基于相似性</h4>
+<p>基于相似性的理论认为分类的过程是：</p>
+<ul>
+<li>看到一个新东西</li>
+<li>记忆中某个已存在的分类被触发</li>
+<li>人类对相似性做判断得出一个分类结论</li>
+</ul>
+<p>这种分类方法最传统的表现是定义某个类目包含的东西共有的特征，例如任何矩形的 4 个内角都是 90 度，不符合该条件的就不是矩形。这种分类方式暗含所有事物都是二元对立的先决条件，但问题是许多分类并非泾渭分明。</p>
+<p><a href="https://en.wikipedia.org/wiki/Prototype_theory">Prototype theory</a> 认为，因为没有绝对的边界，我们可以认为一个类目下的东西比另个类目更有典型性，一个例子是人们判断知更鸟是鸟类的速度比判断企鹅要快，这是因为知更鸟比企鹅更像鸟类，在该理论看来，存在一种理想鸟，是人对于鸟的理解的平均值（这让我想起柏拉图的理型论）。</p>
+<p><a href="https://en.wikipedia.org/wiki/Exemplar_theory">Exemplar theory</a> 则认为，人们看到新的东西后，是和分类里已经存在的多个东西进行比较，一个容易理解两种理论差异的例子是如何分类只有三条腿的狗，在 Prototype theory 里，人们是无法将三条腿的狗定义为狗的（因为理想狗不是三条腿），但 Exemplar theory 则将三条腿的狗和之前遇到的实际例子对比，因而能够定义这是狗。</p>
+<h4 id="基于解释性">基于解释性</h4>
+<p>这种分类方式对不具有明显共同特征的东西能够比较良好的分类，如区分生命物体和无生命物体。</p>
+<p>上述知识对我理解以标签体系为核心的笔记软件（例如 Bear）有启发性：</p>
+<ul>
+<li>每个人都有基于自己知识储备的分类方法，这导致即使对同样的东西，也存在不同分类方法（蝙蝠、猫头鹰、海豹和企鹅，既可以分类成会飞还是会游泳，也可以分类成哺乳动物还是鸟类），但随着越来越多公开的知识信息，人类需要一套共用的分类方法（想想林奈命名法和杜威分类法）。</li>
+<li>人们可能很难区分一些抽象的东西，科技和互联网之间的区别是什么呢？此外，随着一个人知识储备的增长，对同一事物的区分方式也可能发生变化。这也是目前基于标签分类的笔记产品最大的问题：人们先有记录的东西，再去做分类，这一定会导致随着记录数量的增长，分类方式出现偏颇。</li>
+<li>即刻 App 的圈子也是一种分类方式，它的创新点是基于场景做分类（“一个想法不一定对”和“浴室沉思”很可能会被归结成“灵感”，但实际上二者有差异），然而，考虑一下即刻至今还没有开发创建圈子的入口，我认为这意味着良好分类的能力本身就是需要后天习得的，亦或是花费额外力气运营的，而非天生的。</li>
+</ul>
+<p>这看上去是一个鸡生蛋的矛盾问题，我不否认标签的作用，但如果仅依赖标签，这个笔记系统是不够完善的，因为它注定会越来越臃肿。Roam Research 尝试通过文档间的关系帮助用户联想，这绝对是一次革新，因为它不要求用户在记录信息时就做分类，但这种图谱也被一些人诟病没有成效。</p>
+<p>近期出现许多产品都试图融合 Roam Research 的双向链接和 Notion 的 Block，我认为这不是一个好的做法，并不仅仅因为没有带来新的创新之处，更在于这二者像是天平的两端，Notion 的 Block 是在鼓励用户去搭建自己的知识库，而 Roam Research 则刻意强调用户不需要思考写在哪里，直接写就好了。<br>
+</br></p>
+<h3 id="汽车替代马匹的技术思考">🗞 汽车替代马匹的技术思考</h3>
+<p>汽车第一次获得媒体的广泛关注是在 1888 年，当时，奔驰汽车发明人卡尔·本茨的妻子开车行驶约 100 公里，成功抵达母亲的住所。但如果翻看 1905 年纽约百老汇的照片，这条街上仍然全是马和马车。新技术从发展成熟到被广泛采用需要大量时间，就像比尔·盖茨所说的那样：“我们总是高估未来两年的变化，低估未来 10 年的变革。”当时间指向 1920 年时，在同一个十字路口上挤满了汽车和有轨电车，已经一匹马都看不见了。</p>
+<p>Bill Buxton 也观察到这一现象，并提出 <a href="https://www.billbuxton.com/01%20The%20Long%20Nose%20of%20Innovation%20Revised.pdf">The Long Nose of Innovation</a>。第一次公开演示鼠标是在 1968 年，然而直到 1995 年随着 Windows 95 的发布，鼠标才开始流行。多点触控技术首次作为论文被刊登是在 1985 年，而直到 2007 年 iPhone 的出现才被广泛使用。（也许是巧合，上述案例从被广泛关注到流行都间隔 20～30 年左右。）</p>
+<p>因为时间跨度大，这一过程总是包含着各种尝试和错误，而考虑到任何一次变革都会对就业和经济产生巨大影响，就不得不谨慎对待。（甚至不需要新技术，<a href="https://36kr.com/p/796845283582985">瑞幸咖啡造假带来的低价策略对咖啡市场造成了不可逆的破坏</a>）</p>
+<p>以史为镜，可以知兴替。刚刚提到的汽车替换了马匹，对就业和经济带来了哪些影响呢？当时一个农业统计学家 Z.R.Pettet 发布的论文 <a href="https://www2.census.gov/library/publications/decennial/1930/agriculture-farm-horse/1930sr-farm-horse.pdf"><em>The Farm Horse</em></a> 讨论了汽车替换马匹是如何造成经济大萧条的（1929 - 1933）：</p>
+<ul>
+<li>1870 年，美国的每个家庭都直接或间接依赖马匹。在全国范围内，每五个人就拥有一匹马，因为一匹马一般每天消耗的卡路里是一个人的 10 倍，所以农民对“为马种粮”看得比“为人种粮”还重要。</li>
+<li>1920 年至 1930 年，在汽车、卡车和农用机械三者的合力作用下，全国马匹数量急剧减少，从 1920 年普查时记录的 1980 万匹减少到 10 年后的 1350 万匹，几乎下降了1/3。随着马的数量减少，对马饲料的需求也随之减少，主要是干草、燕麦和玉米。</li>
+<li>农民转向种植人需要的农作物，拿出原来专门用于养马的 1800 万英亩土地，改种棉花、小麦和烟草。这些农作物大量涌入市场，压低价格，农产品价格下跌，农民的收入也随之缩水。农民从这三种农作物中获得的总收入从 1919 年的 49 亿美元下降到 1929 年的 26 亿美元，到 1932 年甚至仅为 8.57 亿美元。（当然还存在其他因素，但马数量减少是间接且残酷的）</li>
+<li>随着收入下降，全国的农村家庭无法抵押贷款，农业银行开始没收人们抵押的财产，但很快发现这无法偿还它们欠大银行的债务，而那些大银行占据整个国家的金融核心地位。</li>
+<li>Pettet 发现城市的许多工作岗位都依赖农业产业，如包装、制造业和农业机械。农业的恶化逐渐传染了整个国家。到 1933 年，不仅马失业了，还有将近 1300 万人也丢掉了工作，占全国劳动力的 1/4。</li>
+</ul>
+<p>从今天来看，汽车替换马匹是不可避免的，但也有人认为<a href="https://www.amazon.com/Horses-Work-Harnessing-Industrial-America/dp/0674031296">“与其说淘汰马匹是技术变革的结果，不如说是美国人对能源消费的文化选择。”</a>因为彼时汽车被认为比马车更有利于社会（想象一下满大街的马粪），人们选择汽车是因为这能够提高城市的效率、卫生和安全。这种解释强调了文化价值观和社会选择对科技变革的影响。</p>
+<p>总的来说，我对人类和技术都保持乐观，这取决于站在怎样的时间跨度看待，乔布斯在 <a href="https://www.youtube.com/watch?v=6kalMB8jDnY">1990 年的视频演讲</a>里谈到：</p>
+<blockquote>
+<p>我认为将我们和高等灵长类动物区分开的核心是，我们是工具的制造者。我读过一项研究，它测量了地球上不同物种的运动效率，秃鹰能够最少的能量移动一公里，在这项研究里，人类的表现平淡无奇，大约排在名单三分之一的位置。看上去很不妙，是吧？但《科学美国人》测试了一个骑自行车的人的运动效率，在运动效率上完胜秃鹫的表现。</p>
+</blockquote>
+<p>如果你对这一话题感兴趣，可以阅读<a href="https://book.douban.com/subject/34940580/">《工具，还是武器？》</a>第十三章。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.004]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-004/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-004/">
+        </link>
+        <updated>2020-08-09T17:08:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>香水市场和社交媒体</li>
+<li>美团袋鼠耳朵背后的设计思考</li>
+<li>为什么 Apple 和 Google 是竞争关系？</li>
+<li>创造的源动力</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>香水市场和社交媒体</li>
+<li>美团袋鼠耳朵背后的设计思考</li>
+<li>为什么 Apple 和 Google 是竞争关系？</li>
+<li>创造的源动力</li>
+</ul>
+<!-- more -->
+</br>
+<h3 id="香水市场和社交媒体">香水市场和社交媒体</h3>
+<p><a href="https://www.bloomberg.com/opinion/articles/2018-12-18/tired-mass-perfume-market-needs-luxury-lesson-to-regain-growth">彭博社这篇 2018 年的文章</a>提到一个观点，Instagram 等图片社区的出现对彩妆和护肤品有积极影响，但与之相对的，人们无法隔着屏幕闻到香水的味道，这被用来解释为什么香水市场表现不如其他化妆品。</p>
+<p>尽管从逻辑上看这很合乎情理，但仍然造成些困惑：难道我们能认为美颜相机的普及会损害化妆品的销量吗？如果延伸上述的话题，这可以抽象成一个新问题：<strong>一个新兴事物会如何影响原本世界？</strong></p>
+<p>1898 年，<a href="https://earlyradiohistory.us/1898pls.htm">作家 Arthur 预测电话的普及能够带来哪些影响</a>，这篇一百年前的文章非常有趣，阅读时会产生一种对历史的惊讶感：</p>
+<ul>
+<li>电话将歌剧这种富人社会的奢侈品大众化，人们在家通过电话就能听到另一头专业的歌剧演出；</li>
+<li>每个人都有一张电话时刻表，上面列出播放相应新闻专题的时间，新闻会在指定时间打来；</li>
+<li>报纸业最初将电话作为自己的替代品看，但很快发现电话会刺激人们购买报纸的欲望，因为人们想要了解更多新闻细节；</li>
+<li>有的人担心，人们会一整天抱着电话，担心错过任何一条新闻；</li>
+<li>最后，作者提到如果电话有一天能够传递视觉信息（即现如今的视频），那么人们会丧失旅行的源动力，因为当远处的一切都是已知的事实时，人们不会再有好奇心去探索。</li>
+</ul>
+<p>作者提到电话促进新闻业的发展，却认为视频对旅行业会有消极影响，理由非常有趣。</p>
+<p>另一个例子是盗版音乐。在 Napster 最火热的时候，音乐行业普遍认为 Napster 损害自己的盈利空间。当时有两位经济学家发表论文 <em><a href="https://www.journals.uchicago.edu/doi/full/10.1086/511995">The Effect of File Sharing on Record Sales: An Empirical Analysis</a></em>，他们在对比大量下载样本和专辑的销售情况后，认为非法下载对音乐销售几乎没有任何影响：那些非法下载音乐的人并不是会为 CD 支付 15 美元的人。</p>
+<p>与之相似观点是，在 Napster 中，用户通常会先浏览其他文件，并在文件服务器聊天室中讨论音乐，这种浏览的过程会促进新的 CD 销售。2000 年 7月，英国摇滚乐队 Radiohead 的专辑《Kid A》中的歌曲在专辑发布前三个月便流通进入了 Napster，随后这张专辑在 Billboard 200（一个显示美国最受欢迎的 200 张音乐专辑的排行榜）上占据榜首，而此前 Radiohead 在美国从未进入过前 20 名，这张专辑的成功似乎说明，Napster 是一个很好的音乐推广工具。</p>
+</br>
+<h3 id="美团袋鼠耳朵背后的设计思考">美团袋鼠耳朵背后的设计思考</h3>
+<p>起初我没有深入思考这次品牌营销，直到我在未来预想图的<a href="https://mp.weixin.qq.com/s/46S6Kl1xCzMmvVgFLmhuDg">采访文章</a>中看到这样一段内容：</p>
+<blockquote>
+<p>其实，早在 2016 年，美团外卖就设计了袋鼠耳朵头盔，其灵感来源于美团外卖的 logo——一只奔跑的黄色袋鼠。美团外卖配送营销中心项目负责人铁镭告诉未来预想图，这个想法缘起于 2016 年，美团发现，“用户和骑手接触中没有眼神交流，用户关注餐有没有送错，骑手关心用户接好了没别洒了。”</br>“需要一个创意触发眼神的互动，还需要一个亮点能推动二度传播和内容共创。”铁镭补充说。这个创意经过 4 年优化，最终形成如今的“袋鼠耳朵”。</p>
+</blockquote>
+<p>至少我很喜欢这个理由，这让我想到 EICO 的 Albert Cheng 在为丁香诊所做空间设计时，发现医生和到访用户初次见面常常陷入无话可聊的尴尬情景，于是想到通过握手解决破冰问题。但在中国文化中，握手并不是自然发生的礼仪动作，Cheng 想到可以将候诊室的座椅换成无印良品懒人沙发，这样的椅子既舒适，同时又让人近乎躺下，这样当第一次见面时，医生就能很自然地伸手拉起用户，顺势完成握手动作。</p>
+<p>尽管随着数字产品的普及，许多人将用户体验设计等同于界面设计，但回忆下这个词的创造者唐 · 诺曼（Donald A. Norman）最初的想法，他认为人机界面和可用性的定义太狭隘了，应该拥有一个词语能够涵盖人们体验的所有方面，无论是工业设计图形，界面，物理交互还是使用手册。用户体验应该包括人们体验产品的方方面面，而不仅仅是数字领域的专有名词。</p>
+<p>还可以继续追溯，早在公元前 5 世纪，希腊人就提出人类工程学（ergonomics），试图建立一套原则使人类工作更方便和高效。一个例子是西方医学之父<a href="http://ergou.simor.ntua.gr/research/ancientGreece/AncientGreece.htm">希波克拉底（hippocrates）</a>，他详细描述了应该如何建造外科医生的工作场所：灯光、摆放工具的位置或是医生的姿势都是应该被考虑的因素，这和现如今用户体验设计的概念已经有非常类似的内核。<br>
+</br></p>
+<h3 id="为什么-apple-和-google-是竞争关系">为什么 Apple 和 Google 是竞争关系？</h3>
+<p>这是一篇 <a href="https://alexdanco.com/2015/07/20/the-colour-wheel-of-tech-why-apple-hates-google-facebook-is-the-new-microsoft-and-more/">2015 年文章</a>，作者试图分析美国 7 家科技公司的敌友关系（Amazon、Apple、Facebook、Google、Microsoft、Twitter 和 Uber）。我对作者列举的案例存有一些疑问，但作者分类科技公司的方式值得记录一笔：</p>
+<p>第一种分类方式：Information About X  &amp; Premium Enablers</p>
+<ul>
+<li>Information About X：a set of <strong>information</strong> to be organized and understood.</li>
+<li>Premium Enablers：a set of <strong>objectives and tasks</strong> to be accomplished.</li>
+</ul>
+<p>第二种分类方式：Identity &amp; Interface With the World</p>
+<ul>
+<li>Identity：The user’s <strong>perspective</strong> on the world</li>
+<li>Interface With the World：The world’s <strong>utility</strong> for the user</li>
+</ul>
+<p>第三种分类法方式：Productivity Platforms &amp; Organize the World’s X</p>
+<ul>
+<li>Productivity Platforms： the principle problem to be solved is one of <strong>scarcity</strong></li>
+<li>Organize the World’s X：the principle problem to be solved is one of <strong>abundance</strong></li>
+</ul>
+<p>作者试图通过这种分类方法解释这些问题：</p>
+<ul>
+<li>为什么 Google 无法做出和微软一样优秀的办公产品？</li>
+<li>为什么微软的 Bing 无法像 Google 一样成功？</li>
+<li>为什么亚马逊做手机失败了？</li>
+</ul>
+</br>
+<h3 id="创造的源动力">创造的源动力</h3>
+<p>在 <a href="http://paulgraham.com/genius.html"><em>The Bus Ticket Theory Of Genius</em></a> 中，作者认为天才的秘诀是对重要的事情拥有无私的痴迷。恰是因为这种痴迷，让人能够忘却过程的痛苦，恰是因为不带有目的性的，让人不关注短期收益。那什么是重要的事情？作者提到创造事物显然比消费一个存在的事物更重要。</p>
+<p>但这就是我想说的，在我的观点里，创造事物的源动力不仅仅是痴迷一个事物，还需要另一个重要的因素——<strong>对现状的不满</strong>。一个痴迷于音乐的人可能听过上万首歌曲，但一个对现状不满的人才会思考为什么下载和管理音乐这么复杂，并想办法解决该问题（我指的是乔布斯和 iTunes）。</p>
+<p>对现状的极度不满，并永远相信自己能够做的更好，我认为这才是创造的源动力。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.003]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-003/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-003/">
+        </link>
+        <updated>2020-08-03T09:25:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>TikTok 和国会听证会</li>
+<li>网抑云 meme</li>
+<li>不用触控的触摸屏</li>
+<li>远程办公会降低效率吗？</li>
+<li>GPT-3 和 AI 产品</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>TikTok 和国会听证会</li>
+<li>网抑云 meme</li>
+<li>不用触控的触摸屏</li>
+<li>远程办公会降低效率吗？</li>
+<li>GPT-3 和 AI 产品</li>
+</ul>
+<!-- more -->
+<h3 id="字节跳动同意完全剥离-tiktok-在美国业务"><a href="https://www.nytimes.com/reuters/2020/08/01/business/01reuters-usa-tiktok-bytedance-exclusive.html">字节跳动同意完全剥离 TikTok 在美国业务</a></h3>
+<p>有关 TikTok 未来的走向变化太多尚无定论，但无容置疑，这会是被历史深深铭记的一次事件。另一方面看，这起事件和<a href="https://www.theinformation.com/articles/tech-ceos-face-congress?utm_campaign=%5Bcovid19%5D+Tech+Impac&amp;utm_content=564518&amp;utm_medium=email&amp;utm_source=cio&amp;utm_term=196839">本周四大科技巨头在美国国会的听证会</a>有非常类似的核心问题：</p>
+<ul>
+<li>Google 被质疑是否滥用第三方安卓 App 的数据，以提升自己旗下产品的竞争地位（Google 既拥有 Youtube，也拥有安卓，既是买方也是卖方）。</li>
+<li>Facebook 被指控对平台内虚假内容的放纵。</li>
+<li>Amazon 被质疑是否滥用第三方卖家的数据（和 Google 类似）。</li>
+<li>Apple 则被质疑对开发者存在垄断行为，一些 App（例如 Amazon 的产品）可以绕过 Apple 的支付条款，避免被收取 30% 的苹果税，而对于大部分开发者来说则根本不可能（回忆一下 2017 年微信和 Apple 有关公众号打赏的纠纷事件）。</li>
+</ul>
+<p>这背后都涉及到同一个主题：<strong>数据</strong>。</p>
+<p>七月 Twitter 上多个名人账号被盗同样如此，科技企业的产品和服务渗透到日常生活的方方面面，每一次购买、支付亦或是对话都被记录下来，科技企业对用户的了解远远超过其他传统企业，但同时，数据收集仍然不够透明，数据存储不够令人信服，内容分发算法仍是一个黑盒。</p>
+<p>任何人都会恐惧这种巨大的力量有一天会失控。而与此同时，这一切发展得都太快了，<a href="https://www.ben-evans.com/benedictevans/2020/7/23/regulating-technology?utm_source=Benedict%27s+Newsletter&amp;utm_campaign=784a6d6e7b-Benedict%27s+newsletter+issue+346&amp;utm_medium=email&amp;utm_term=0_4999ca107f-784a6d6e7b-71068105">现有的法律法规似乎没有做好该如何应对这种风险</a>（1994 年地球上只有大约 1 亿台个人电脑，而现在 40 亿人拥有智能手机）。此前，美国国会的注意力在银行、烟草和航空公司，而现在转到了科技企业身上，但问题在于，<a href="https://stratechery.com/2020/the-antitrust-hearing-the-role-of-congress-ceo-questions/">反托拉斯法能够适用于天然有垄断倾向的科技企业吗？</a>（用户选择使用 Google 未必是其垄断地位导致的，即使市面上有多个搜索引擎，用户很可能最终仍然会只使用 Google，没有任何改变）</p>
+<p>有关此事件，我需要更多的时间思考。</p>
+</br>
+<h3 id="网抑云meme">「网抑云」meme</h3>
+<p>可能有很多理论能够解释这一现象，我想分享我的观点。</p>
+<p>一个前提条件是，每个社区都有回报率更高的特定内容。没有人会在追星的社区中分享自己的学习心得，在网易云音乐中，带有丧情绪的评论非常容易获得高点赞量和评论数（甚至是被印刷在地铁中），这使得用户为了获取更多的社交资本，不自觉追求这类特定内容。（Yourseeker 编译的《<a href="https://www.huxiu.com/article/287243.html">禅与社交网络维修艺术</a>》有对这一话题进行延伸。）</p>
+<p>另一个合理的推测是，网易云音乐被越来越多低龄的年轻用户使用，多数社区产品积极拥抱年轻用户实现用户数增长，这当然可以简单归因于「年轻人更愿意拥抱新事物」，但更深层的原因是大部分年轻人没有过多的社交资本积累，更容易无负担迁移到另一个新平台上。然而，这种无负担是一把双刃剑，因为这也意味着许多年轻人没有足够丰富的经历能够分享，在这种矛盾下，一些用户会夸大自己的经历（我没有用编造这一词语），而这些内容因为迎合了社区的激励性，获得大量正反馈，这更促进了虚假内容的泛滥。</p>
+<p>在我的观点中，知乎同样遇到了该问题，但抖音则没有，这是因为在抖音上，内容主要以模仿和创意为主，不依赖于一个人的过往经历丰富程度。另外，视频造假的成本显然比文字要高很多，一个人可以用文字说自己拳打猛虎，但视频则能过滤掉夸夸而谈的那群人，这使得抖音在产品类型上并未鼓励虚假内容的增长。</p>
+</br>
+<h3 id="不用触控的触摸屏">不用触控的触摸屏</h3>
+<p><a href="https://www.slashgear.com/cambridge-researchers-create-a-touchscreen-you-dont-have-to-touch-24630475/">研究人员发明了一种不用触摸的触摸屏（no-touch touchscreen）</a>，这原本是为汽车内的触控屏而开发的，因为汽车时常颠簸，用户无法有效点击到目标区域。研究人员认为这也有助于应对疫情，因为不必触摸到实体屏幕，就避免了病毒传播。</p>
+<p>这让我联想到 MIT 媒体实验室创始人尼葛洛庞蒂在 1996 年出版的<a href="https://book.douban.com/subject/26954267/">《数字化生存》</a>中的言论。那时实体按键仍是主流，触控技术虽然被应用在 ATM 机上，但也仅此而已。许多人认为手指不可能胜任输入的工作，首先是手指太粗了，当用手指指向屏幕时，手指势必会遮挡住内容，无法进行精确操作，其次，手指会把屏幕弄脏（这并非玩笑话），屏幕在相当长的时间里一直被认为是脆弱的，而直接用手指进行操作会磨损屏幕。</p>
+<p>尼葛洛庞蒂在那本书中表达了自己对触控技术在未来应用的乐观，但他认为这项技术没有普及的原因是因为还没出现能够感应手指范围的技术（即这次研究人员的发明）。以目前的眼光看，尼葛洛庞蒂显然大大低估了手指触控的潜力，但从另一个角度看，这次的新技术如果只被使用在汽车上，也被低估了应用的可能性。</p>
+<p>如果再延伸该话题，人们对触控屏的改观主要来自于初代 iPhone 的虚拟键盘。在<a href="https://book.douban.com/subject/34899655/">《创意选择》</a>中介绍了这段开发故事，那时最大的挑战是如何在小屏幕设备上保证输入仍然准确，最初的设想方案是按键必须要足够大，这种方案类似于九宫格（如下图，我将书中第一个键盘方案用 ProtoPie 制作了一个可交互原型，你可以点击<a href="https://cloud.protopie.io/p/19a6b91c64">该链接</a>体验 ），但这种键盘的劣势也非常明显：不够直观。经过许多方案的尝试，最终结合词库，将按键区域动态调节，但在前端显示是不变的，这相当于将系统的复杂性封装在黑盒里。这个解决方案非常优雅，你可以阅读该专利 <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=8,074,172.PN.&amp;OS=PN/8,074,172&amp;RS=PN/8,074,172"><em>Method, system, and graphical user interface for providing word recommendations</em></a> 了解更多，如果想要了解更多苹果的专利，可以阅读 <a href="https://www.patentlyapple.com/">Patently Apple</a>。<br>
+</br><br>
+<img src="https://ben9706.github.io/benedict.github.io//post-images/1596446850968.gif" alt="" loading="lazy"><br>
+</br></p>
+<h3 id="远程办公会降低效率吗">远程办公会降低效率吗？</h3>
+<p>这个问题很难回答，比较容易想到的影响因素有职位和地域，但还有一些难以想到的其他因素。</p>
+<p><a href="https://www.wsj.com/articles/google-to-keep-employees-home-until-summer-2021-amid-coronavirus-pandemic-11595854201">据《华尔街日报》报道</a>，Google 计划至少在 2021 年 7 月前留住 20 万名全职员工，并雇佣他们远程工作，其他科技公司已经宣布了长期计划，要求员工在家工作，但是 Google 是第一家将远程工作延长到明年年中的公司。</p>
+<p>近一半的人表示，远程办公没有影响自己的工作效率，甚至更高了，但对有孩子的员工来说，这意味着不得不一边照顾孩子，一边完成工作。<a href="https://www.theinformation.com/articles/googles-plan-to-resume-reviews-rankles-employees-with-children#comment-8586">在一项调查中发现，有孩子的 Google 员工表示自己压力非常大，</a>这些人认为自己的工作效率降低了，他们也担心远程办公会扩大职场性别薪酬差距，因为女性通常需要比男性承担更多的育儿责任。</p>
+<p>这显然不是一个积极信号，但没有人有应对这种状况的经验。我认为这是一个值得长期关注的课题。<br>
+</br></p>
+<h3 id="ai-产品">AI 产品</h3>
+<p>上周提到 GPT-3，可以猜测，未来一段时间内会涌现出更多使用该接口的实验性产品，你可以在 <a href="https://gptcrush.com/resources/?ref=producthunt">GPT Crush</a>  上查看其他人分享的使用 GPT-3 的脑洞想法。</p>
+<p>如果对该类产品感兴趣，还可以关注 <a href="https://www.producthunt.com/topics/artificial-intelligence?utm_campaign=5869_2020-07-26&amp;utm_medium=email&amp;utm_source=Product+Hunt&amp;utm_term=editorial">ProductHunt 的 AI 主题</a>，以下是一些非常有趣的产品：</p>
+<ul>
+<li><a href="https://podbot.ai/">Podbot</a>：输入关键词，就能输出推荐的播客清单。</li>
+<li><a href="https://fluently.so/">Fluently</a>：允许用户使用母语写作，可以直接输出成另一种语言的文档。这和翻译不同，这更聚焦写作的过程。</li>
+<li><a href="https://www.provenskincare.com/?ref=producthunt&amp;promo=HUNTED">Proven</a>：为用户个性化推荐护肤品，在不同的气候下，也会推荐不同的内容。<br>
+</br></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.002]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-002/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-002/">
+        </link>
+        <updated>2020-07-26T16:48:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>GPT-3：第一个通用人工智能？</li>
+<li>纽约时报更换 CEO</li>
+<li>《新媒介与创新思维》</li>
+<li>语言和思维</li>
+<li>为什么人们喜欢负面角色？</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>GPT-3：第一个通用人工智能？</li>
+<li>纽约时报更换 CEO</li>
+<li>《新媒介与创新思维》</li>
+<li>语言和思维</li>
+<li>为什么人们喜欢负面角色？</li>
+</ul>
+<!-- more -->
+<h2 id="新闻">📰 新闻</h2>
+<p><strong>GPT-3：第一个通用人工智能？</strong></p>
+<p><a href="https://beta.openai.com/?app=productivity">GPT-3</a> 引起人工智能领域的巨大轰动。GPT-3 是 OpenAI 开发的自然语言处理模型，并在本月通过 API 方式进行内测。OpenAI 是由多位硅谷大亨联合建立的人工智能非营利组织（包括埃隆·马斯克、PayPal 创始人彼得·蒂尔，以及 Y Combinator 总裁阿尔特曼），该组织希望能够预防人工智能带来灾难性影响，推动人工智能发挥积极作用。</p>
+<p>GPT-3 的出现在人工智能领域可能有巨大的里程碑意义，人们一直希望能够研制像人一样思考的、从事多种用途的机器，但主流的 AI 逐渐走向某一个领域的智能化（如机器视觉或语音输入），为了加以区分，后者被称为 AI，前者则被称为 AGI（Artificial general intelligence）。</p>
+<p>GPT-3 的作用是用户输入任何英文文本，都会返回理解文本后的回答，例如输入「生成十个关于美国早期历史的问题」，就会真的返回出十个相关的问题，如果将问题重新输入，则能得到这些问题的答案。一个直指要害的应用案例是<strong>语义搜索（Semantic Search）</strong>，GPT-3 允许查询用户输入的自然语言，而不是在文档中对关键词进行检索。例如目前在使用 Notion 时，只能对输入的关键词进行全局检索，但一个词汇可能有多种表述方式，如果记错了表述，就可能无法找到信息，而 GPT-3 则能大大提升键准率。试想，Roam research 引以为傲的双向链接，实际上也在通过另一种方式提升联想能力，但如果搜索就能进行准确联想，那又何须可视化内容间的关联性呢？</p>
+<p>如果回忆一下命令行到用户界面的发展，技术的进步总是在不断接近人类最原始的体验，让越来越多人可以使用数字设备，第一台电脑只能由少数计算机专家使用，但今天，一岁大的孩子就可以轻松地使用智能手机。</p>
+<p>显然，这远非终点，当用户可以使用英语（或其他语言）替代代码告诉电脑自己需要做什么时，为什么还需要用户花时间浏览用户界面，一步步进行操作呢？（这和去年 <a href="https://thenextweb.com/podium/2019/06/29/google-duplex-gui-ai-design/">Google 的 Duplex</a>有些相似）</p>
+<p>GPT-3 仍有很多问题，例如偏见，以及无法理解一些没有人会问的愚蠢问题（例如太阳有几条腿），但仍然留给我们巨大的想象空间。</p>
+</br>
+<p><strong>纽约时报更换 CEO</strong></p>
+<p>纽约时报宣布，<a href="https://www.nytimes.com/2020/07/22/business/media/new-york-times-ceo-meredith-kopit-levien.html">原首席运营官 Meredith Kopit Levien 将成为下一任 CEO</a>，Levien 也是纽约时报史上最年轻的 CEO。</p>
+<p>Levien 在 2013 年加入纽约时报，并被认为是公司数字化转型的重要功臣，在过去 8 年间，《纽约时报》的数字读者人数从 64 万跃升至 500 多万，数字业务收入现在已经超过每年 8 亿美元。此外，纽约时报并不重度依赖广告收入，而以「订阅优先」为主要策略，这使得纽约时报在面对这次疫情时有了更强的抵抗能力。</p>
+<p>另一个值得思考的问题是，媒体公司和科技公司间的边界变得越来越模糊。在纽约时报内部，工程师的数量仅次于记者数量，公司非常重视数字业务的发展（并不仅仅是文字，播客同样也是布局的一部分），并得到了回报。而同时，科技公司也通过各个媒介渠道讲述自己的产品故事，但大部分科技公司可能并不擅长讲故事（例如钉钉几次引发争议的营销），而传统媒体公司则不知道如何借助科技赋能自己。</p>
+<p>一些企业的切入点可能即填补这两者之间的间隙，例如轻芒帮助许多媒体搭建自己的品牌小程序（图文或播客）。</p>
+<h2 id="阅读">📚 阅读</h2>
+<p><strong><a href="https://book.douban.com/subject/1222254/">《新媒介与创新思维》</a></strong></p>
+<p>这本书收录了 1945 年至 1998 年在新媒介领域第一次提出相关创新思想的代表论文或论著节选，作者大多都是科学界、传播界的大家，亦或是开创了某个学科的宗师，例如图灵谈人工智能、麦克卢汉的媒介即信息，亦或是道金斯谈 meme（《自私的基因》至今仍然是一本畅销书，因而很多人会忽视它首次出版于 1976 年）。</p>
+<p>第一台电子计算机诞生于 1946 年，距今过去仅仅 74 年。最初互联网的目的是进行远程计算，然而实际上，使用互联网的大多数人把它用于交流。阅读这本预测未来的书，其中一部分成为事实，但仍有诸多问题尚未解决，一个例子是电子设备正在不断追求更强大的计算能力，而非更人性化，如果进行类比，现如今的电子设备更像爱因斯坦，但对于大部分人来说，需要的是一个管家。</p>
+<p>如果要我选取一篇最喜欢的，我想一定是第一篇《As we may think》，Bush 发布这篇文章时是在二战末期，第一台计算机要次年才出现。Bush 担心科学的终点是毁灭而非促进人类互相理解（讽刺的是同年，长崎和广岛落下两枚原子弹，而 Bush 是曼哈顿计划的主导者），Bush 试图为战后科学家们寻找一个新的努力方向，他定义的课题是「提升人类智力」：问题是永远无法被解决完的，但如果能够在根本上提升人类的智力水平，就能促使更多人有能力解决问题。</p>
+<p>Bush 本身并未提出正确的解决方案，但却提出了正确的问题，此后诸多科学家基于他的思考深耕。道格拉斯·恩格尔巴特服兵役期间，在一座菲律宾小岛的图书馆上阅读到 Bush 的这篇文章，深受启发和鼓舞，如今，恩格尔巴特更为人熟知的身份是——鼠标之父。</p>
+<p>这何尝不是一种增强人类智力。</p>
+</br>
+<h2 id="观点">🚀 观点</h2>
+<p><strong>语言和思维</strong></p>
+<p>上周我在即刻上发起一个提问，是否有一个词汇（未必是中文）可以概括「一个事物的应用背离了最初的设想」这种现象，并收获到很多意想不到的回答。在生活中，我观察到一些可以总结为此的现象：</p>
+<ul>
+<li>Kindle 原本是阅读设备，被用于盖泡面。</li>
+<li>书本被用于垫桌脚。</li>
+<li>杯子原本用于盛放液体，也有人用于笔筒，Seesaw 则用一次性杯子装咖啡粉免费派发给顾客。</li>
+<li>我是谜 App 原本是一个游戏产品，但我和伙伴却用它当作音频会议工具。</li>
+</ul>
+<p>这种化用的例子实在太多，这又可以延伸到另一个有趣的话题上，即语言是否能描述所有事物？萨丕尔－沃尔夫假设阐明了语言结构和人的行为思维习惯间的关联性，这个假说认为我们的思维和看待世界的方式都是由我们所使用的语言的语法结构来塑造的。试着回忆一下，logic（逻辑）、romance（浪漫）等词语及含义都非来自汉语，在这些词语出现前，我们能够理解它们的含义吗？</p>
+<p>姜峯楠的科幻小说《你一生的故事》基于语言和思维的关系做了讨论，并被改编成了电影《降临》。</p>
+</br>
+<p><strong>为什么人们喜欢负面角色？</strong></p>
+<p>过去很长时间里，我观察到一些有趣的现象，在一些影视作品中，带有毒舌、腹黑等负面属性的角色备受欢迎，一个我记忆尤深的例子是 2018 年 Twitter 上疯传的库巴姬（游戏研究社的<a href="https://mp.weixin.qq.com/s/XVwcIzoVrTpszS7HfwTUyg">这篇文章</a>介绍了这个文化的起因）。</p>
+<p>为什么人们会喜欢负面角色？<a href="https://mp.weixin.qq.com/s/L-Ykvdxzj5Y7sECgJnNV4Q">这篇文章</a>介绍了今年 4 月在 <em>Psychological Science</em> 发布的<a href="https://journals.sagepub.com/doi/10.1177/0956797620909742">《Can Bad Be Good? The Attraction of a Darker Self》</a>，该研究的结论是，人们倾向于从积极的一面看待自己，在现实世界中如果人们发现自己和一些不道德的人在某些方面有相似之处，会让自己非常不舒服，但在虚构作品中，人们则不必担心自我形象受损，可以放心认同一些引发共鸣的反派。</p>
+<p>这种差异来自于自己是否受到外部威胁，当威胁程度高时，与电影中反派越相似的人对电影的喜爱程度越低，当外部威胁消失时，那些与电影中反派越相似的人对电影的喜爱程度则越高。换句话说，在现实世界中人们需要管理自我形象，而在虚构作品中，人们则不受束缚。</p>
+<p>这也许还可以延伸到网络巨魔泛滥的现象，此外，我在<a href="https://theblog.benedictyu.cn/internet-trolls/">《为什么普通人会在网络上成为混蛋？》</a>中也聊到过这一话题。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.001]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-001/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-001/">
+        </link>
+        <updated>2020-07-20T02:05:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>有关 Quibi 的思考</li>
+<li>自制工具：Markdown 转微信公众号排版样式</li>
+<li>美国考虑封禁 TikTok</li>
+<li>谷歌前高管试图推出订阅制搜索服务</li>
+<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
+<li>《创意选择：苹果黄金时代的产品思维》</li>
+<li>爬取斗鱼关注人数</li>
+<li>交通工具面料选择</li>
+<li>无障碍访问性</li>
+<li>盗号灰产和数字遗产</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
+<ul>
+<li>有关 Quibi 的思考</li>
+<li>自制工具：Markdown 转微信公众号排版样式</li>
+<li>美国考虑封禁 TikTok</li>
+<li>谷歌前高管试图推出订阅制搜索服务</li>
+<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
+<li>《创意选择：苹果黄金时代的产品思维》</li>
+<li>爬取斗鱼关注人数</li>
+<li>交通工具面料选择</li>
+<li>无障碍访问性</li>
+<li>盗号灰产和数字遗产</li>
+</ul>
+<!-- more -->
+<h2 id="️-有关于我">✏️ 有关于我</h2>
+<p><a href="https://mp.weixin.qq.com/s/mdw2EiEvno8b2m3gtK2hEQ"><strong>打造移动端的好莱坞，Quibi 忽视了什么？</strong></a></p>
+<p>这是我参与的一篇文章。今年 4 月，卡森伯格的新创业项目 Quibi 正式上线（此前卡森伯格和斯皮尔伯格合办梦工厂）。作为一手打造了迪士尼动画部门的传奇人物，卡森伯格一直是好莱坞的风云人物，Quibi 也被寄予厚望。Quibi 试图做一个高质量的短视频产品，但目前从市场表现看非常糟糕。本文梳理了卡森伯格在今年 1 月 CES 上的演讲，介绍他为什么认为 Quibi 的模式能够成立，且基于逻辑分析他的思考里可能缺漏了什么。</p>
+</br>
+<p><a href="https://ben9706.github.io/wechat-format-TGF/"><strong>Markdown 转微信公众号排版样式</strong></a></p>
+<p>我非常讨厌微信公众号的排版后台，想知道它有多难用，只要看秀米、135编辑器等多么热门就知道了（考虑到今年微信公开课 Always Beta 上，张小龙宣称公众号原本的定位并不是长图文，这种难用突然变得能够理解了）。为了避免排版带来的繁琐工作，我使用并修改了开源程序 <a href="https://github.com/lyricat/wechat-format">wechat-format</a>，以符合自己的排版习惯，实现 Markdown 转公众号富文本的功能，并通过 Github Page 供其他朋友一起使用。如果你也有类似的需求，可以尝试该方法。</p>
+</br>
+<h2 id="新闻">📰 新闻</h2>
+<p><a href="http://weekly.caixin.com/2020-07-17/101581171.html?originReferrer=gh_caixinwang"><strong>美国考虑封禁 TikTok</strong></a></p>
+<p>2018 年 Q3，TikTok 在印度尼西亚因为内容违规被封禁一周，此后，围绕 TikTok 的纷争越来越多，继印度下架中国 59 款 App 后，美国也考虑以安全隐私为由封禁 TikTok。<strong>表面上看</strong>，核心的冲突点是「数据」，美国认为 TikTok 的母公司字节跳动<strong>可能</strong>将美国用户数据传回中国（目前尚无证据证明，所有的说辞都添加上<strong>未来可能</strong>这一说法）。这非常奇怪，因为这种冲突理论上完全可以从技术角度去规避，尤其考虑到字节跳动在 2019 年初就开始将中国与海外进行访问权限的分割，已经做了非常多全球化努力。</p>
+<p><a href="https://www.washingtonpost.com/technology/2020/07/13/tiktok-privacy/">华盛顿邮报的这篇文章</a>从技术的角度认为，首先 TikTok 没有比 Facebook 获取更多的个人信息，其次，Tiktok 宣称所有美国用户的数据都存储在 AWS 上，那么完全可以管控数据流出方向（同样也合理），最后，所有当下从技术层面的分析都没有发现数据有被 TikTok 滥用的情况。</p>
+<p>在<a href="https://interconnected.blog/can-bytedance-build-trust/#chinese-version-below">字节跳动能在海外建立诚信吗？</a>中，作者认为建立信任的最佳方式是开源。“Talk is cheap. Show me the code.”此外，Ben Thompson 在 <a href="https://stratechery.com/2020/the-tiktok-war/?utm_source=Memberful&amp;utm_campaign=82ce71cb8c-daily_update_2020_07_16&amp;utm_medium=email&amp;utm_term=0_d4c7fece27-82ce71cb8c-111383104">The TikTok War</a> 中也谈及很多地缘政治话题。</p>
+</br>
+<p><a href="https://www.nytimes.com/2020/06/19/technology/google-neeva-executive.html"><strong>谷歌前高管试图推出订阅制搜索服务</strong></a></p>
+<p>Google 前广告部门高管 Sridhar Ramaswamy 对于过度依赖广告的商业模式感到厌恶，他认为在这一过程中，用户牺牲了太多的隐私和体验，原本就已经信息过载了，用户还不得不被迫接受无止尽的广告。因此，他开办了 Neeva，希望在用户搜索高效的同时，保护用户的隐私。</p>
+<p>Neeva 并不是一个全新的搜索引擎，更像一个整合工具：搜索排名由微软必应提供，天气信息来自天气网站，股票数据来自 Intrinio，地图则来自苹果。当用户登录 Google、微软或是 Dropbox 账户后，Neeva 也可以在个人文件中进行搜索。Ramaswamy 打算采用订阅制的方式推出该服务，暂计划用户可以免费使用到今年年底，然后每月收取 10 美元不到的订阅费。</p>
+<p>搜索引擎适合订阅制吗？这个问题没有具体答案，我想举两个例子。</p>
+<ul>
+<li><strong>电视节目</strong>。在 HBO 以前，电视一直依赖广告盈利，而 HBO 带来订阅电视的成功案例。</li>
+<li><strong>天气预报</strong>。天气预报是一个长期更新的，且一定程度上刚需的服务，但天气预报并未发展成订阅制服务（想一下墨迹天气上市失败的案例）。</li>
+</ul>
+<p>出于长期对搜索结果的不满，我对这个产品很感兴趣。目前 Neeva 仍未披露更多信息，你可以阅读 <a href="https://neeva.co/blog">Neeva 的博客</a>，了解他们做该服务的愿景。</p>
+</br>
+<p><a href="https://www.nytimes.com/2020/07/17/technology/twitter-hackers-interview.html"><strong>亲历者讲述 Twitter 遭遇黑客攻击事件</strong></a></p>
+<p>几名参与 Twitter 黑客攻击事件的亲历者讲述这段逐渐失控的故事。发动此次攻击的并不是某个经验丰富的黑客组织，相反，它是由一群年轻人完成。最初，这群年轻人只是想出售一些特殊的 Twitter 号，例如一个 @y 的 Twitter 名被人以 1500 美元的价格拍卖下，很多人觉得这种名字特别酷，但随后这件事开始变得失控。</p>
+<p>还有 100 多天就要进行美国总统选举，如果黑客以拜登的账号发布信息，宣布退出美国总统竞争，亦或是在选举开始之后，这名黑客发起攻击。这些都可能造成更严重的政治问题，而这些原本都有可能发生。</p>
+<p>和这些比较起来，以名人的口吻发布一些非常容易甄别的信息，就像是一场恶作剧。</p>
+</br>
+<h2 id="阅读">📚 阅读</h2>
+<p><a href="https://book.douban.com/subject/34899655/"><strong>《创意选择：苹果黄金时代的产品思维》</strong> </a></p>
+<p>单看书名以为是类似于「不可不知的苹果设计 7 个原则」这种无聊内容，但实际内容是参与了 Safari 和初代 iPhone 虚拟键盘从 0 到 1 开发的工程师亲述这段经历，尤其介绍了早期探索阶段对不同方案的尝试，非常有趣。另外，书中不断提及 Newton 这个失败产品对于苹果的重要意义，有关该产品，有另一篇<a href="https://uxdesign.cc/what-the-apple-newton-taught-us-about-ux-27-years-ago-427c6be66a59">文章</a>介绍了这段历史。</p>
+</br>
+<p><a href="https://cjting.me/2020/07/01/douyu-crawler-and-font-anti-crawling/"><strong>爬取斗鱼关注人数</strong></a></p>
+<p>斗鱼网站通过字体反爬，即显示数字和 html 中的数字并不对应，作者破解的过程很有意思。</p>
+</br>
+<p><a href="http://www.bbc.com/autos/story/20160804-why-are-trains-seats-so-hideous"><strong>交通工具面料选择</strong></a></p>
+<p>这篇文章提到如何设计交通工具上座椅的面料材质，这种材质需要满足几个特点：</p>
+<ul>
+<li>耐用。每天有很多人使用，它必须能够使用很多年。</li>
+<li>耐脏。它需要易于清洁，而且看上去不太脏。</li>
+<li>安全。交通工具可能位于一些极端环境，必须考虑到是否易燃等。</li>
+</ul>
+<p>生活中这类细节实在太多了。上周我前往一个新营业的咖啡厅，它在杯面上的贴纸是遇到水后会变色的类型，而夏天很多人会选择点冰咖啡，这使得当天在社交媒体上传播的照片贴纸大多都一块深一块浅的，显得廉价。</p>
+</br>
+<h2 id="观点">🚀 观点</h2>
+<p><strong>无障碍访问性</strong></p>
+<p>一份《信息技术 互联网内容无障碍可访问性 技术要求与测试方法》的国家标准在今年 3 月起实施，这份文件旨在提升残障人群使用数字产品的体验。尽管这份文件是 GB/T，即推荐性而非强制性国标，但对于无障碍立法仍有巨大意义。</p>
+<p>回顾无障碍的历史，早期解决无障碍的方式是特殊问题特殊处理，例如发明盲文和手语。但由于这种处理方式有较高的学习成本，沟通形式异于大众，一定程度上加剧了残障人士脱节于普通大众。（但需要说明，盲文最早可追溯到 1786 年的法国，并在 1821 年由一名盲人路易·布莱叶完善，而第一台计算机出现于 1946 年，盲文和手语的出现有历史必然性）</p>
+<p>那么数字产品是如何改进这一问题的？在手机上，正常用户和残障人士使用的是同一种 UI 界面，仅在交互方式上有不同，在信息的获取和交流上没有差异。（想要了解更多有关无障碍的话题，可以阅读这本书<a href="https://book.douban.com/subject/30226220/">《信息无障碍：提升用户体验的另一种视角》</a>。）</p>
+<p>我认为这背后传递的观点是，<strong>不要有意识地去孤立群体，而应该给予更平等的环境。</strong></p>
+<p>此外这让我想到<a href="https://techcrunch.com/2020/06/04/kids-now-spend-nearly-as-much-time-watching-tiktok-as-youtube-in-u-s-u-k-and-spain/">另一组数据</a>，美国有 69% 的儿童使用 Youtube（Youtube 同样也是儿童使用最多的应用），但只有 7% 的儿童使用 Youtube 儿童版。</p>
+<p>另一方面，对儿童（或其他群体）的保护又是切实需要的，如何找到这种平衡点？思考至此，这个话题又延伸至<a href="https://en.wikipedia.org/wiki/Paternalism">家长式立法（Paternalism）</a>的辩论上。</p>
+</br>
+<p><a href="https://mp.weixin.qq.com/s/dy7BFKJkBry5vFc2GQgiXQ"><strong>盗号灰产和数字遗产</strong></a></p>
+<p>这个例子里，我认为核心不是阻止盗号灰产，而是面对更多数字时代下的死亡，我们如何处理数字遗产。现实社会里，通过空间分隔出墓地和生活空间，而网络上的亡者和生者却共处在同一个社交媒体上，这种特性使得李医生的微博成为一面哭墙，也使得平凡人的悼念变得唾手可及。</p>
+<p><a href="https://www.facebook.com/help/103897939701143">Facebook 的做法</a>是，在自己过世以前，可以指定一位联系人管理自己去世后的悼念帐户，或者也可以选择从 Facebook 永久删除帐户。悼念帐户的作用即提供一个场所供亲朋好友缅怀追思，而且在用户过世后，该账号不会再作为「可能认识的人」被推荐给其他用户。</p>
+<p>如果想了解更多科技公司的应对措施，可以阅读<a href="https://thewalrus.ca/death-what-happens-to-your-social-media-accounts-after-you-die/#:~:text=An%20immediate%20family%20member%20or,or%20after%20a%20person's%20death">这篇文章</a>。</p>
+</br>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[为什么普通人会在网络上成为混蛋？]]></title>
@@ -30,62 +798,28 @@
         <summary type="html"><![CDATA[<p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在视觉主导的世界里找寻播客的价值]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/finding-the-value-of-podcasts-in-a-visually-dominant-world/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/finding-the-value-of-podcasts-in-a-visually-dominant-world/">
-        </link>
-        <updated>2019-09-30T08:03:14.000Z</updated>
-        <summary type="html"><![CDATA[<p>美国风投公司 A16Z 在今年上半年发布了<a href="https://a16z.com/2019/05/23/podcast-ecosystem-investing-2019">一篇长文</a>，说明了他们为什么对播客领域感兴趣，以及推测在该领域还存在什么机会点。在过去的 10 年里，播客稳步发展，从一个通过互联网分发文件的小众音频博客社区，到现在三分之一的美国人每月收听的巨大市场，这背后的原因绝对值得仔细思考。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>美国风投公司 A16Z 在今年上半年发布了<a href="https://a16z.com/2019/05/23/podcast-ecosystem-investing-2019">一篇长文</a>，说明了他们为什么对播客领域感兴趣，以及推测在该领域还存在什么机会点。在过去的 10 年里，播客稳步发展，从一个通过互联网分发文件的小众音频博客社区，到现在三分之一的美国人每月收听的巨大市场，这背后的原因绝对值得仔细思考。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行为，动机与习惯]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/behaviour-motivation-and-habits/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/behaviour-motivation-and-habits/">
-        </link>
-        <updated>2019-05-20T09:43:30.000Z</updated>
-        <summary type="html"><![CDATA[<p>在我日常的思考里，我最常想的问题就是为什么人们会在某种情况下做某种事。比如：为什么星巴克的猫爪咖啡，人们会争相去购买？为什么人们会数字成瘾？人们热衷于自拍是因为什么？</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>在我日常的思考里，我最常想的问题就是为什么人们会在某种情况下做某种事。比如：为什么星巴克的猫爪咖啡，人们会争相去购买？为什么人们会数字成瘾？人们热衷于自拍是因为什么？</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[东西方思维差异]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/east-west-differences-in-thinking/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/east-west-differences-in-thinking/">
-        </link>
-        <updated>2019-02-15T09:14:20.000Z</updated>
-        <summary type="html"><![CDATA[<p>当我注意到饭桌上中国人习惯合食而西方社会习惯分食时，我便对这一现象产生好奇：崇尚集体主义的东方，和主张个人主义的西方，在哪些行为习惯上有着显著的差异呢？而导致这一差异的原因又是什么？</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>当我注意到饭桌上中国人习惯合食而西方社会习惯分食时，我便对这一现象产生好奇：崇尚集体主义的东方，和主张个人主义的西方，在哪些行为习惯上有着显著的差异呢？而导致这一差异的原因又是什么？</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[时间，钟表与人类]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/time-clocks-and-people/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/time-clocks-and-people/">
-        </link>
-        <updated>2019-01-20T07:36:47.000Z</updated>
-        <summary type="html"><![CDATA[<p>这篇文章是我对于人与时间关系的本质的思考，我希望更深刻地理解人类日常生活中一些行为习惯的意义，以及该如何去帮助人类塑造更良好的习惯。<br>
-我对以下问题一直很感兴趣：</p>
-<ul>
-<li>Apple 的屏幕使用时间报告真的有减少人们使用手机的时间吗？</li>
-<li>没有秒针的钟表会不会增加人们浪费时间的倾向？</li>
-<li>我们怎么重新设计一种时间表征方式，让人们养成更良好的习惯？</li>
-</ul>
-]]></summary>
-        <content type="html"><![CDATA[<p>这篇文章是我对于人与时间关系的本质的思考，我希望更深刻地理解人类日常生活中一些行为习惯的意义，以及该如何去帮助人类塑造更良好的习惯。<br>
-我对以下问题一直很感兴趣：</p>
-<ul>
-<li>Apple 的屏幕使用时间报告真的有减少人们使用手机的时间吗？</li>
-<li>没有秒针的钟表会不会增加人们浪费时间的倾向？</li>
-<li>我们怎么重新设计一种时间表征方式，让人们养成更良好的习惯？</li>
-</ul>
+<!-- more -->
+<p>盲目指责网络暴力本身亦是一种暴力，如果你也思考过这个问题，那希望这篇文章能给你一些启迪。<br>
+</br></p>
+<hr>
+</br>
+<p>我的奶奶曾经告诉我，她决定不再做黄瓜沙拉了，每当她切黄瓜时，她的胳膊就会疼，她认为黄瓜是引起她疼痛的罪魁祸首。</p>
+<p>从逻辑上看，这是合理的联想：当她在切黄瓜时她的胳膊就会疼，并且在不切时，就会感觉会好一些。同时这也是荒谬的，她的胳膊疼是因为她患有关节炎，但我父亲的任何说辞都无法改变她的想法。</p>
+<p>在意第绪语中，这种情况被称作「 bubbe maisse」，字面意思是母亲的故事，但这种事不仅仅只会在母亲们的身上，在我们每个人身上都可能发生类似的事情。</p>
+<p>我们的大脑不断获取大量信息，并把这些信息转换为叙事性故事来帮助我们认识这个世界。你可以将此想象成你的大脑坐在电影院里看着闪烁间断的屏幕，大脑会吸收那些独立的图像并围绕着它们创建成一个故事，就像你把一些独立的词组成句子一样。</p>
+<p>这与我们在互联网上 online 的情况是相似的，因为在网络上我们获取到的信息远远少于现实社交场合提供的信息：邮件、博客评论、即时消息等，都没有提供我们社交时大脑习惯的相关社交数据。在没有上下文的情况下，我们的大脑会填充其余部分，而我们填充的那一部分恰恰是我们自身不安全感的副产品。</p>
+<p>在 2008 年 10 月《Science》期刊上，一位叫 Jennifer Whitson 的研究者发表了一篇论文<a href="https://science.sciencemag.org/content/322/5898/115.abstract">《缺乏控制是否会导致虚幻的模式识别》</a>。Whitson 说：「当你还是孩子的时候，你抬头仰望天空，你可能会说那片云的形状像一只狗，像一顶帽子。」</p>
+<p><a href="https://en.wikipedia.org/wiki/Pattern_recognition_(psychology)">模式识别（Pattern Perception）</a>描述了一种认知过程，这种认知过程将来自刺激的信息与来自记忆的信息相匹配。举例来说，当我们反复被教育记忆字母表的时候，当我们听到 a、b，下一个我们自然而然会联想到 c。</p>
+<p>在实验中，Whitson 招募了多名志愿者，并试图让其中一半人产生无力感。实验中的一个装置用于智力测试，这个测试的条件是让该小组成员感到缺乏控制感，不管这一组成员多么努力，一半的人被告知他们是正确的，一半的人被告知他们是不正确的，这与他们是否正确没有关系。在另一种方法中，Whitson 要求被试者重温他们感到无能为力的时候，例如让他们想象或回忆那些不因自己而起，却发生在自己身上的车祸。</p>
+<p>另一组被试者则得到了相反的体验：一种完全的控制感。然后 Whitson 对他们进行测试，看看那些处于缺乏控制的精神状态的人是否更有可能看到那些不存在的东西，结论是，那些缺乏控制感的被试者能够看到更多图像信息。</p>
+<p>实验表明，缺乏控制会激发模式感知能力：经历控制缺失会导致参与者渴望更多的细节构建并感知虚幻的模式，对控制的需求和感觉是如此强烈，以至于个人将产生一种噪音模式，从而使世界回到可预测的状态。</p>
+<p>当个人无法客观地获得控制感时，他们将尝试在感知上获得控制感，即识别一组刺激之间连贯且有意义的相互关系。通过模式识别，个人可以了解事件并制定对未来的预测。这意味着理性行为的主要决定因素是个人是否缺乏控制。研究人员已经确定渴望控制是归因过程背后的动力。</p>
+<p>仪式和信仰就是这样产生的，就像有些运动员坚信某个数字能够给自己带来好运。另一个例子是，对于在深海捕鱼的特罗布里安德群岛部落，比起在浅海捕鱼的部落来说，受到突然的风暴影响会更大，因此前者与捕鱼相关的仪式要比后者多得多。</p>
+<p>这个实验可以解释一个老生常谈的问题：为什么一个普通人在网络上会变成一个混蛋？缺乏控制会导致归因偏见，以恢复控制感，缺乏控制会引起观察和寻求模式，因为模式识别是一种旨在恢复控制感的补偿性机制。当人们认为自己没有被注视的情况下，他们更有可能表现出自我。但为什么会这样呢？也许是因为他们的大脑正在努力运转，积极地在网络混乱中创造意义，而他们承受压力的大脑所看到的意义却是他们有理由抨击的东西，就像每个孩子打架的第一个借口就是坚持是别的孩子先动手的。</p>
+<p>以上谈及的都只是从生物学方面去理解， 你不能告诉一个人他所看到或感受到的不是真实的，并期望他们相信你。那么该怎么办呢？美国国家公共电台关于这项研究的报道最后写到：</p>
+<blockquote>
+<p>在另一个试验中，Whitson 要求那些感觉自己缺乏控制能力的志愿者说出一个他们认为重要的个人价值。当这些人看到模糊而无意义的图像时，他们看不到想象中的物体。也许这对现实生活也有所帮助，Whitson 说，当你感到无能为力的时候，也许你应该停下来想想你真正在乎的是什么，为自己带来一些控制感。</p>
+</blockquote>
 ]]></content>
     </entry>
 </feed>
