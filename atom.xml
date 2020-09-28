@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-09-20T17:43:40.213Z</updated>
+    <updated>2020-09-28T10:40:11.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,96 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.009]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-009/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-009/">
+        </link>
+        <updated>2020-09-28T10:28:11.000Z</updated>
+        <content type="html"><![CDATA[<p>我一周的思考。</p>
+<h3 id="epic-和-spotify-成立应用公平联盟">🗞 Epic 和 Spotify 成立“应用公平联盟”</h3>
+<p>Epic Games、Spotify 和其他一些公司成立了名为 &quot;应用公平联盟 &quot;的组织（Coalition For App Fairness），旨在反对苹果 App Store 的垄断。我在<a href="https://theblog.benedictyu.cn/epic-appstore-antitrust/">《Epic、App Store 和垄断问题》</a>中已经非常详细地介绍了 App Store 的垄断问题，后来一些伙伴和我反馈，他们认为 Epic 等公司误将苹果当作了公共基础设施，但苹果是一家商业公司，而商业的价值就根植于垄断性。</p>
+<p>我想到一个例子来解释这个想法存在什么问题：</p>
+<blockquote>
+<p>一些人将苹果当作百货商店（当然也包括苹果自己），每一个开发者的 App 就像商店里的店铺，百货商店对店铺收取租金是理所当然的，是不是？但问题在于，App Store 是排他的，在 iPhone 上，不能存在其他应用商店，想要让用户下载 App，就必须入驻 App Store，这相当于苹果这家百货商店在强迫所有商家只能入驻自己商店，没有其他任何选择，你可以想象芮欧百货不允许商家入驻万达广场吗？</p>
+</blockquote>
+<p>更何况，苹果百货商店还不允许开发者和用户直接产生联系。另一个严重的问题是，苹果自己都不知道何时应该收费，何时不应该收费。Facebook 宣称，为了帮助小型企业渡过疫情难关，允许它们在 Facebook 上举办线上活动，并承诺在明年之前不会收费，所有的活动所得都归组织者所有，然而苹果却说活动收入的 30% 需要上交，这引发 Facebook 和用户们的强烈不满。迫于压力，<a href="https://thetechportal.com/2020/09/25/apple-app-store-facebook-live-events-fees-waive-off/">苹果承诺在今年年底之前将不收费</a>（少见地妥协了），当然，这一承诺仍然没有让 Facebook 满意。</p>
+<p>让我们再来看看<a href="https://appfairness.org/our-vision/">“应用公平联盟”呼吁的十项原则</a>，我对一些内容做了标注：</p>
+<blockquote>
+<ol>
+<li>
+<p>不应要求开发者只使用应用商店，或者使用应用商店所有者的辅助服务，包括支付系统，或者为了进入应用商店而接受其他附加义务。</p>
+</li>
+<li>
+<p>任何开发者都不应该因为开发者的商业模式、提供内容和服务的方式，或者是否以任何方式与应用程序商店所有者竞争而被屏蔽或者受到歧视。<strong>（指向 Spotify）</strong></p>
+</li>
+<li>
+<p>每个开发者都应该能够及时地访问应用商店所有者向自己的开发者提供的相同的互操作性接口和技术信息。<strong>（例如 Siri）</strong></p>
+</li>
+<li>
+<p>每个开发者都应该有权使用应用程序商店，只要它的应用程序在安全、隐私、质量、内容和数字安全方面符合公平、客观和非歧视性的标准。<strong>（例如《堡垒之夜》被勒令下架）</strong></p>
+</li>
+<li>
+<p>开发者的数据不应该用来与开发者竞争。</p>
+</li>
+<li>
+<p>每个开发者都应该有权利通过他们的 App 直接与他们的用户进行合法的商业交流。<strong>（指向 Hey）</strong></p>
+</li>
+<li>
+<p>任何应用程序商店所有者或其平台都不应该自我优先使用自己的应用程序或服务，或干扰用户的选择偏好或默认值。<strong>（我比较反对这一条，难道要苹果在未来不默认装机备忘录、地图等 App 吗？）</strong></p>
+</li>
+<li>
+<p>任何开发者都不应该被要求支付不公平、不合理或歧视性的费用或收入分成，也不应该被要求在其应用程序中出售任何它不想出售的东西，作为获得进入应用程序商店的条件。</p>
+</li>
+<li>
+<p>任何应用程序商店的所有者都不应该禁止第三方在应用程序商店所有者的平台上提供相互竞争的应用程序商店，或者阻止开发者或消费者使用它们。</p>
+</li>
+<li>
+<p>所有的应用程序商店都将透明地公布他们的规则和政策，以及推广和营销的机会，始终如一地客观地应用这些规则和政策，提供变化的通知，并提供一个快速、简单和公平的程序来解决纠纷。<strong>（指向 Amazon Prime Video）</strong></p>
+</li>
+</ol>
+</blockquote>
+<p>我认为大部分呼吁都合理，但对第七条有些异议。诚然，默认装机应用一定会影响到第三方应用的受众，例如 iMessage 和 WhatsApp，而且这种<a href="https://book.douban.com/subject/4022709/">助推（nudge）</a>在许多时候都展现出强大的引导作用。但这种呼吁也在增添用户使用产品的麻烦，毕竟大多数用户的初衷是满足自己的需求，而不是找指定的工具，想象一个极端案例：苹果的剪贴板允许用户在手机上复制，在电脑上粘贴，这个流程非常自然流畅，如果按照这条原则所呼吁的，需要让消费者额外选择其他满足相同需求，但体验无法做到那么好的产品吗？（例如 pin）</p>
+</br>
+<h3 id="可持续发展和人类文明">🗞 可持续发展和人类文明</h3>
+<p>9 月 22 日，中国宣称将采取更强有力的手段实现气候目标，并在 2060 年之前实现碳中和目标。考虑到中国目前是温室气体排放量最大的国家，无论中国采取何种措施抑制排放，对于减缓全球变暖都有至关重要的影响。</p>
+<p>在这一时刻宣布，显然是有政治意义的（考虑一下特朗普在 2017 年宣布退出《巴黎气候协定》，而拜登宣称将重新加入该协定，并投入资金削减排放），但我想着重聊一聊碳中和（乃至可持续发展）对人类的意义。</p>
+<p>在阿西莫夫的小说《神们自己》中，他假想地球可以和平行宇宙进行物质交换，从而拥有源源不绝的能源，然而，当科学家拉蒙特指出这种美好现状背后蕴藏宇宙毁灭的危险，提出立即停止使用这项技术时，技术环境委员会的负责人说：</p>
+<blockquote>
+<p>有人认为，公众希望环境得以保护，人类的存续得以实现，还认为那些为了这类崇高目标而奋斗的理想主义者会得到公众的爱戴，这种想法都是错的。实际上，公众所期望的只有一件事：他们自己过上安逸舒适的生活。通过二十世纪的环境危机，我们早就看明白了。当人们知道吸烟会导致患癌症几率上升而最有效的解决办法就是禁烟时，他们却希望能够发明一种不致癌的香烟。当人们知道内燃机会对大气造成污染而最好的办法就是不再使用这类引擎时，他们却希望能够发明不污染空气的引擎。</p>
+<p>所以现在，年轻人，别和我提什么停止电子通道。全球的经济发展和全人类的舒适生活都要依靠它。你现在最好想一想，怎样做才能让电子通道不会导致太阳的爆炸。</p>
+</blockquote>
+<p>这段对话非常真实。在我看来，人类文明和企业的发展也有相似性，克里斯坦森在《创新者的解答》谈到，一些企业之所以缺乏创新力，是因为组织结构决定了中型管理者们关注短期利益，而不去做那些长期有价值的事（想象一个国家领导人只做有利于自己任期内的事情）。另外，市场在要求企业不断增长，获得更高的收益，而人类也在期盼科技不断发展，提供更好的生活质量。</p>
+<p>然而，技术的进步和市场的要求不可能永远处于同步状态，想一想塑料制品，人们在尝到塑料袋和塑料瓶带来的便利后，就难以再离开它——而在过去的几十年里，塑料制品的产量已经达到了数十亿吨，<a href="https://www.nationalgeographic.com/news/2017/07/plastic-produced-recycling-waste-ocean-trash-debris-environment/">其中高达 91% 的塑料是不可回收的</a>。我们无法寄望于依赖个体的道德来解决这个问题，但同时，我们也没有通过技术手段找到更好的解决方案。这种情况下，政府的干预似乎是最有效的手段，例如中国在今年 1 月推出一系列更严格的<a href="http://www.mee.gov.cn/xxgk2018/xxgk/xxgk10/202001/t20200120_760495.html">限塑令</a>：</p>
+<blockquote>
+<p>到2020年底，直辖市、省会城市、计划单列市城市建成区的商场、超市、药店、书店等场所以及餐饮打包外卖服务和各类展会活动，禁止使用不可降解塑料袋，集贸市场规范和限制使用不可降解塑料袋。</p>
+</blockquote>
+<p>另外，根据普华永道的一份<a href="https://www.pwc.com/gx/en/services/sustainability/assets/pwc-the-state-of-climate-tech-2020.pdf">报告</a>，随着越来越多的企业开始关注气候问题，该领域的创业公司获得的投资也在水涨船高，这能够给未来带来些什么，还有待观察。</p>
+</br>
+<h3 id="加拉帕戈斯群岛">🗞 加拉帕戈斯群岛</h3>
+<p>位于太平洋东部的加拉帕戈斯群岛由于其地理位置，岛上的物种多样性较之大陆有非常显著的不同，据称就是这座岛屿启发了达尔文“自然选择”的力量，并在一定程度上推动《物种起源》的发表。</p>
+<p>但我想说的不是生物。科技在过去数十年里，在各个国家间并未以相同速度发展（想想中国的在线支付普及率），这种差异就像加拉帕戈斯群岛一样，使我们得以观察特定条件下的自然选择。</p>
+<p>第一个例子：孟加拉国已经普及了社交产品 Facebook，但没有出现成规模的电商企业（例如亚马逊），在这种情况下，成千上万的定制 Facebook 群组建立起来，以满足顾客对饰品、服装、化妆品、手机配件乃至宠物的需求。大多数卖家没有执照，家即是仓库，并与第三方物流公司合作进行最后一英里的配送。这种模式还有一个特定的称谓：F-commerce。（<a href="https://restofworld.org/2020/bangladesh-economy-runs-on-facebook/?utm_source=Rest+of+World+Newsletter&amp;utm_campaign=fa9f1393a1-EMAIL_CAMPAIGN_2020_09_21_08_08&amp;utm_medium=email&amp;utm_term=0_b91e039431-fa9f1393a1-409917159">&lt;Want to buy a parrot? Please login via Facebook.&gt;</a>）</p>
+<p>第二个例子：不同国家应对疫情的措施。例如法国面对疫情推出的跟踪 App 彻底失败了。从理论上来说，装有该 App 的用户如果和感染了冠状病毒的人有接触，就会收到短信通知。但实际上上，在 App 发布最初的 8 天里，这个App 只有 100 万的下载量。相比之下，德国在 3 天内达到 1000 万的下载量（法国和德国人口：6699万/8302万）。</p>
+<p>大多数开发了追踪 App 的国家都采用了苹果和谷歌的 API，但是法国认为这没有给到他们足够的控制权，于是选择推进他们自己的解决方案。这个技术上的错误被认为是跟踪 App 失败最大的原因。（&lt;<a href="https://venturebeat.com/2020/09/18/france-tries-to-salvage-failed-stopcovid-tracing-app-as-cases-surge/?utm_source=Premium+list&amp;utm_campaign=cbb5161cfb-Benedict%27s+newsletter+Premium_COPY_01&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-cbb5161cfb-71175497&amp;mc_cid=cbb5161cfb&amp;mc_eid=6268a77188">France tries to salvage failed StopCovid tracing app as cases surge&gt;</a>&gt;）</p>
+<p>这种用实验视角看待人类问题的方式，也是贾雷德·戴蒙德惯用的思维，他最初研究的是鸟类生态与演化行为，后来将研究生物的视角带入到研究人类问题上（因为生命科学领域是可以做对照组实验的，但不可能将人类文明做对照实验），因此，在贾雷德的书里，他最常讨论国家和国家间经济和政治等差异是如何形成的，如果你对这个话题感兴趣，除了《枪炮、病菌与钢铁》外，他在《剧变 : 人类社会与国家危机的转折点》、《为什么有的国家富裕，有的国家贫穷》中都有非常精彩的论述。</p>
+</br>
+<h3 id="zoom-for-x">🗞 Zoom for X</h3>
+<p>如同几年前流行的“Uber for X”一样，随着 Zoom 的火热，以及越来越多的活动转移到线上，涌现出一批聚焦在线视频，但服务于特定场景的创业公司，有些专注在特定人群，有些适用于十多人使用，而有些则希望能够容纳几万人同时在线。在这场新的浪潮中，最知名的是 Evernote 的创始人 Phil Libin 的新产品 <a href="https://www.mmhmm.app/">Mmhmm</a>，最大的特点是虚拟和现实的混合，以更好地演示幻灯片。此外例如：</p>
+<ul>
+<li>
+<p><a href="https://sidekick.video/#">Sidekick</a>：提供远程视频服务，特点是一整天都远程视频在线，有些类似于飞书的线上办公室，但区别是还提供一个专门的硬件。</p>
+</li>
+<li>
+<p><a href="https://www.togethervideoapp.com/">Together</a>：专为爷爷奶奶和孙子孙女远程互动设计的产品，特点是同时提供一些游戏和教育活动。</p>
+</li>
+<li>
+<p><a href="https://rumevideo.com/">Rume</a>：提供非工作的远程视频服务，特点是允许在群聊的同时，和指定某个人视频聊天，但同时也能看到所有人。（这是个很有趣的角度，“远程视频”在疫情期间几乎等同于“远程办公”，但实际上还存在非工作的需求。）</p>
+</li>
+</ul>
+<p>这些创业公司希望成为下一个 Zoom，而 <a href="https://www.cnbc.com/2020/05/29/zoom-next-big-platform-for-startups-to-build-billion-dollar-businesses.html">Zoom 也在试图成为这些创业公司的底层平台</a>，Zoom 提供了一系列 API，以供创业公司在 Zoom 上搭建项目。为此，Zoom 还举办了公开比赛，最终获得胜利的 App 叫 <a href="https://www.dockethq.com/zoom/">Docket</a>，方便用户在使用 Zoom 的同时做笔记。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ 竹本一周：No.008]]></title>
         <id>https://ben9706.github.io/benedict.github.io/benweek-008/</id>
@@ -77,14 +167,6 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-007/">
         </link>
         <updated>2020-09-13T16:57:26.000Z</updated>
-        <summary type="html"><![CDATA[<p>早上好！上周我食物中毒了一次，但这没有阻挡我思考的步伐：）</p>
-<ul>
-<li><a href="#1">美国大选前，科技公司们调整产品策略</a></li>
-<li><a href="#2">围绕外卖骑手引发的讨论</a></li>
-<li><a href="#3">Roam Research 新估值和它的创始人</a></li>
-<li><a href="#4">为什么乐高没有做出《我的世界》？</a></li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>早上好！上周我食物中毒了一次，但这没有阻挡我思考的步伐：）</p>
 <ul>
 <li><a href="#1">美国大选前，科技公司们调整产品策略</a></li>
@@ -92,7 +174,6 @@
 <li><a href="#3">Roam Research 新估值和它的创始人</a></li>
 <li><a href="#4">为什么乐高没有做出《我的世界》？</a></li>
 </ul>
-<!-- more -->
 </br>
 <hr>
 <h3 id="1">🗞 美国大选前，科技公司们调整产品策略</h3>
@@ -200,15 +281,6 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-006/">
         </link>
         <updated>2020-08-31T17:24:40.000Z</updated>
-        <summary type="html"><![CDATA[<p>我一周的思考。</p>
-<ul>
-<li><a href="#1">围绕苹果税引发的争论</a></li>
-<li><a href="#2">排队论问题：增加一个柜员会怎样？</a></li>
-<li><a href="#3">CSS 新增属性，解决字高问题</a></li>
-<li><a href="#4">日走一万步的虚假营销</a><br>
-</br></li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>我一周的思考。</p>
 <ul>
 <li><a href="#1">围绕苹果税引发的争论</a></li>
@@ -217,7 +289,7 @@
 <li><a href="#4">日走一万步的虚假营销</a><br>
 </br></li>
 </ul>
-<!-- more -->
+<hr>
 <h3 id="1">🗞 围绕苹果税引发的争论</h3>
 <p>上周，我在公众号 The Great Filter 上发布了文章<a href="https://theblog.benedictyu.cn/epic-appstore-antitrust/">《Epic、App Store 和垄断问题》</a>，我花了许多时间调查有关苹果抽成的相关资料，以至于没有写一周的思考：P</p>
 <p>你可能已经听说 Epic 和苹果有关 30% 抽成的争执。实际上，这种对峙已经发生多次：Spotify、Basecamp、Wordpress、跟谁学、丁香医生和微信都因为类似问题和苹果有过争执。另外，我在本文中提到即将到来的 iOS14 在隐私保护层面的更新，这阻止了第三方应用跟踪获取用户信息——但值得注意的是苹果将自己投放广告的权力和其他应用区分对待，有关这次更新带来的影响，<a href="https://www.forbes.com/sites/kateoflahertyuk/2020/08/30/ios-14-facebooks-apple-nightmare-keeps-getting-worse/#2902c97b74cf">Facebook 已经多次发声</a>。（这让我想起我在 No.004 中提到的文章 <a href="https://alexdanco.com/2015/07/20/the-colour-wheel-of-tech-why-apple-hates-google-facebook-is-the-new-microsoft-and-more/"><em>The Colour Wheel of Tech</em></a> ）</p>
@@ -408,14 +480,6 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-005/">
         </link>
         <updated>2020-08-16T14:08:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>我一周的思考。</p>
-<ul>
-<li>Notion 正式推出韩语版</li>
-<li>大胃王吃播是独有的文化现象吗？</li>
-<li>分类理论和标签类笔记软件</li>
-<li>汽车替代马匹的技术思考</li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>我一周的思考。</p>
 <ul>
 <li>Notion 正式推出韩语版</li>
@@ -423,7 +487,6 @@
 <li>分类理论和标签类笔记软件</li>
 <li>汽车替代马匹的技术思考</li>
 </ul>
-<!-- more -->
 </br>
 <h3 id="notion-正式推出韩语版">🗞 Notion 正式推出韩语版</h3>
 <p>2 个月前，韩国中央日报<a href="https://news.joins.com/article/23804306">采访</a> Notion CEO Ivan Zhao 时，Ivan 就提到将在今年夏天推出韩语版本的 Notion，<a href="https://www.protocol.com/notion-app-korea">而本周，它正式上线了</a>。这是 Notion 首次推出外语版本，Notion 表示，韩国是除美国外的最大的市场，今年韩国用户数量同比增长了 263%。<a href="https://www.appannie.com/apps/google-play/app/notion.id/intelligence/?chart_app_intelligence_chart">根据 App Annie 的数据</a>，Notion 排在美韩后的几个主要市场，依次是巴西、俄罗斯和英国，而中国在这个排名中处于相对靠后的位置（这可能和一些人想的不同）。</p>
@@ -492,14 +555,6 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-004/">
         </link>
         <updated>2020-08-09T17:08:42.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>香水市场和社交媒体</li>
-<li>美团袋鼠耳朵背后的设计思考</li>
-<li>为什么 Apple 和 Google 是竞争关系？</li>
-<li>创造的源动力</li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
 <ul>
 <li>香水市场和社交媒体</li>
@@ -507,7 +562,6 @@
 <li>为什么 Apple 和 Google 是竞争关系？</li>
 <li>创造的源动力</li>
 </ul>
-<!-- more -->
 </br>
 <h3 id="香水市场和社交媒体">香水市场和社交媒体</h3>
 <p><a href="https://www.bloomberg.com/opinion/articles/2018-12-18/tired-mass-perfume-market-needs-luxury-lesson-to-regain-growth">彭博社这篇 2018 年的文章</a>提到一个观点，Instagram 等图片社区的出现对彩妆和护肤品有积极影响，但与之相对的，人们无法隔着屏幕闻到香水的味道，这被用来解释为什么香水市场表现不如其他化妆品。</p>
@@ -569,15 +623,6 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-003/">
         </link>
         <updated>2020-08-03T09:25:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>TikTok 和国会听证会</li>
-<li>网抑云 meme</li>
-<li>不用触控的触摸屏</li>
-<li>远程办公会降低效率吗？</li>
-<li>GPT-3 和 AI 产品</li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
 <ul>
 <li>TikTok 和国会听证会</li>
@@ -586,7 +631,6 @@
 <li>远程办公会降低效率吗？</li>
 <li>GPT-3 和 AI 产品</li>
 </ul>
-<!-- more -->
 <h3 id="字节跳动同意完全剥离-tiktok-在美国业务"><a href="https://www.nytimes.com/reuters/2020/08/01/business/01reuters-usa-tiktok-bytedance-exclusive.html">字节跳动同意完全剥离 TikTok 在美国业务</a></h3>
 <p>有关 TikTok 未来的走向变化太多尚无定论，但无容置疑，这会是被历史深深铭记的一次事件。另一方面看，这起事件和<a href="https://www.theinformation.com/articles/tech-ceos-face-congress?utm_campaign=%5Bcovid19%5D+Tech+Impac&amp;utm_content=564518&amp;utm_medium=email&amp;utm_source=cio&amp;utm_term=196839">本周四大科技巨头在美国国会的听证会</a>有非常类似的核心问题：</p>
 <ul>
@@ -637,15 +681,6 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-002/">
         </link>
         <updated>2020-07-26T16:48:06.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>GPT-3：第一个通用人工智能？</li>
-<li>纽约时报更换 CEO</li>
-<li>《新媒介与创新思维》</li>
-<li>语言和思维</li>
-<li>为什么人们喜欢负面角色？</li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
 <ul>
 <li>GPT-3：第一个通用人工智能？</li>
@@ -654,7 +689,6 @@
 <li>语言和思维</li>
 <li>为什么人们喜欢负面角色？</li>
 </ul>
-<!-- more -->
 <h2 id="新闻">📰 新闻</h2>
 <p><strong>GPT-3：第一个通用人工智能？</strong></p>
 <p><a href="https://beta.openai.com/?app=productivity">GPT-3</a> 引起人工智能领域的巨大轰动。GPT-3 是 OpenAI 开发的自然语言处理模型，并在本月通过 API 方式进行内测。OpenAI 是由多位硅谷大亨联合建立的人工智能非营利组织（包括埃隆·马斯克、PayPal 创始人彼得·蒂尔，以及 Y Combinator 总裁阿尔特曼），该组织希望能够预防人工智能带来灾难性影响，推动人工智能发挥积极作用。</p>
@@ -702,34 +736,7 @@
         <link href="https://ben9706.github.io/benedict.github.io/benweek-001/">
         </link>
         <updated>2020-07-20T02:05:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>有关 Quibi 的思考</li>
-<li>自制工具：Markdown 转微信公众号排版样式</li>
-<li>美国考虑封禁 TikTok</li>
-<li>谷歌前高管试图推出订阅制搜索服务</li>
-<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
-<li>《创意选择：苹果黄金时代的产品思维》</li>
-<li>爬取斗鱼关注人数</li>
-<li>交通工具面料选择</li>
-<li>无障碍访问性</li>
-<li>盗号灰产和数字遗产</li>
-</ul>
-]]></summary>
         <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>有关 Quibi 的思考</li>
-<li>自制工具：Markdown 转微信公众号排版样式</li>
-<li>美国考虑封禁 TikTok</li>
-<li>谷歌前高管试图推出订阅制搜索服务</li>
-<li>亲历者讲述 Twitter 遭遇黑客攻击事件</li>
-<li>《创意选择：苹果黄金时代的产品思维》</li>
-<li>爬取斗鱼关注人数</li>
-<li>交通工具面料选择</li>
-<li>无障碍访问性</li>
-<li>盗号灰产和数字遗产</li>
-</ul>
-<!-- more -->
 <h2 id="️-有关于我">✏️ 有关于我</h2>
 <p><a href="https://mp.weixin.qq.com/s/mdw2EiEvno8b2m3gtK2hEQ"><strong>打造移动端的好莱坞，Quibi 忽视了什么？</strong></a></p>
 <p>这是我参与的一篇文章。今年 4 月，卡森伯格的新创业项目 Quibi 正式上线（此前卡森伯格和斯皮尔伯格合办梦工厂）。作为一手打造了迪士尼动画部门的传奇人物，卡森伯格一直是好莱坞的风云人物，Quibi 也被寄予厚望。Quibi 试图做一个高质量的短视频产品，但目前从市场表现看非常糟糕。本文梳理了卡森伯格在今年 1 月 CES 上的演讲，介绍他为什么认为 Quibi 的模式能够成立，且基于逻辑分析他的思考里可能缺漏了什么。</p>
@@ -788,38 +795,5 @@
 <p><a href="https://www.facebook.com/help/103897939701143">Facebook 的做法</a>是，在自己过世以前，可以指定一位联系人管理自己去世后的悼念帐户，或者也可以选择从 Facebook 永久删除帐户。悼念帐户的作用即提供一个场所供亲朋好友缅怀追思，而且在用户过世后，该账号不会再作为「可能认识的人」被推荐给其他用户。</p>
 <p>如果想了解更多科技公司的应对措施，可以阅读<a href="https://thewalrus.ca/death-what-happens-to-your-social-media-accounts-after-you-die/#:~:text=An%20immediate%20family%20member%20or,or%20after%20a%20person's%20death">这篇文章</a>。</p>
 </br>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么普通人会在网络上成为混蛋？]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/internet-trolls/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/internet-trolls/">
-        </link>
-        <updated>2019-10-15T13:22:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>这一篇文章编译自 Derek Powazek 2008 年写的<a href="http://powazek.com/posts/1263">《Meaning-Making Machines》</a>，以及 Jennifer Whitson 发表在 <em>Science</em> 上的一篇论文。人脑就像一个意义制造机，总是在不断在寻找事情间的联系，而恰恰是这个特点，在互联网上被扩大化，成为网络暴力。作者在文中试图去思考：为什么一个普通人在网络上会成为混蛋？</p>
-<!-- more -->
-<p>盲目指责网络暴力本身亦是一种暴力，如果你也思考过这个问题，那希望这篇文章能给你一些启迪。<br>
-</br></p>
-<hr>
-</br>
-<p>我的奶奶曾经告诉我，她决定不再做黄瓜沙拉了，每当她切黄瓜时，她的胳膊就会疼，她认为黄瓜是引起她疼痛的罪魁祸首。</p>
-<p>从逻辑上看，这是合理的联想：当她在切黄瓜时她的胳膊就会疼，并且在不切时，就会感觉会好一些。同时这也是荒谬的，她的胳膊疼是因为她患有关节炎，但我父亲的任何说辞都无法改变她的想法。</p>
-<p>在意第绪语中，这种情况被称作「 bubbe maisse」，字面意思是母亲的故事，但这种事不仅仅只会在母亲们的身上，在我们每个人身上都可能发生类似的事情。</p>
-<p>我们的大脑不断获取大量信息，并把这些信息转换为叙事性故事来帮助我们认识这个世界。你可以将此想象成你的大脑坐在电影院里看着闪烁间断的屏幕，大脑会吸收那些独立的图像并围绕着它们创建成一个故事，就像你把一些独立的词组成句子一样。</p>
-<p>这与我们在互联网上 online 的情况是相似的，因为在网络上我们获取到的信息远远少于现实社交场合提供的信息：邮件、博客评论、即时消息等，都没有提供我们社交时大脑习惯的相关社交数据。在没有上下文的情况下，我们的大脑会填充其余部分，而我们填充的那一部分恰恰是我们自身不安全感的副产品。</p>
-<p>在 2008 年 10 月《Science》期刊上，一位叫 Jennifer Whitson 的研究者发表了一篇论文<a href="https://science.sciencemag.org/content/322/5898/115.abstract">《缺乏控制是否会导致虚幻的模式识别》</a>。Whitson 说：「当你还是孩子的时候，你抬头仰望天空，你可能会说那片云的形状像一只狗，像一顶帽子。」</p>
-<p><a href="https://en.wikipedia.org/wiki/Pattern_recognition_(psychology)">模式识别（Pattern Perception）</a>描述了一种认知过程，这种认知过程将来自刺激的信息与来自记忆的信息相匹配。举例来说，当我们反复被教育记忆字母表的时候，当我们听到 a、b，下一个我们自然而然会联想到 c。</p>
-<p>在实验中，Whitson 招募了多名志愿者，并试图让其中一半人产生无力感。实验中的一个装置用于智力测试，这个测试的条件是让该小组成员感到缺乏控制感，不管这一组成员多么努力，一半的人被告知他们是正确的，一半的人被告知他们是不正确的，这与他们是否正确没有关系。在另一种方法中，Whitson 要求被试者重温他们感到无能为力的时候，例如让他们想象或回忆那些不因自己而起，却发生在自己身上的车祸。</p>
-<p>另一组被试者则得到了相反的体验：一种完全的控制感。然后 Whitson 对他们进行测试，看看那些处于缺乏控制的精神状态的人是否更有可能看到那些不存在的东西，结论是，那些缺乏控制感的被试者能够看到更多图像信息。</p>
-<p>实验表明，缺乏控制会激发模式感知能力：经历控制缺失会导致参与者渴望更多的细节构建并感知虚幻的模式，对控制的需求和感觉是如此强烈，以至于个人将产生一种噪音模式，从而使世界回到可预测的状态。</p>
-<p>当个人无法客观地获得控制感时，他们将尝试在感知上获得控制感，即识别一组刺激之间连贯且有意义的相互关系。通过模式识别，个人可以了解事件并制定对未来的预测。这意味着理性行为的主要决定因素是个人是否缺乏控制。研究人员已经确定渴望控制是归因过程背后的动力。</p>
-<p>仪式和信仰就是这样产生的，就像有些运动员坚信某个数字能够给自己带来好运。另一个例子是，对于在深海捕鱼的特罗布里安德群岛部落，比起在浅海捕鱼的部落来说，受到突然的风暴影响会更大，因此前者与捕鱼相关的仪式要比后者多得多。</p>
-<p>这个实验可以解释一个老生常谈的问题：为什么一个普通人在网络上会变成一个混蛋？缺乏控制会导致归因偏见，以恢复控制感，缺乏控制会引起观察和寻求模式，因为模式识别是一种旨在恢复控制感的补偿性机制。当人们认为自己没有被注视的情况下，他们更有可能表现出自我。但为什么会这样呢？也许是因为他们的大脑正在努力运转，积极地在网络混乱中创造意义，而他们承受压力的大脑所看到的意义却是他们有理由抨击的东西，就像每个孩子打架的第一个借口就是坚持是别的孩子先动手的。</p>
-<p>以上谈及的都只是从生物学方面去理解， 你不能告诉一个人他所看到或感受到的不是真实的，并期望他们相信你。那么该怎么办呢？美国国家公共电台关于这项研究的报道最后写到：</p>
-<blockquote>
-<p>在另一个试验中，Whitson 要求那些感觉自己缺乏控制能力的志愿者说出一个他们认为重要的个人价值。当这些人看到模糊而无意义的图像时，他们看不到想象中的物体。也许这对现实生活也有所帮助，Whitson 说，当你感到无能为力的时候，也许你应该停下来想想你真正在乎的是什么，为自己带来一些控制感。</p>
-</blockquote>
-]]></content>
     </entry>
 </feed>
