@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-09-28T10:40:11.168Z</updated>
+    <updated>2020-10-04T17:28:41.519Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,38 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.010]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-010/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-010/">
+        </link>
+        <updated>2020-10-04T17:21:44.000Z</updated>
+        <content type="html"><![CDATA[<p>👏国庆节快乐！这是一个难得的长假，希望大家都能好好享受：）</p>
+<p>在生活中，我注意到一些高度类似的现象，但我没有在自己的知识体系中找到能够描述这种现象的名词。因此，我决定在遇到更合适的描述前，先自己定义两个词汇便于思考。这个过程和编程中自建函数很像，都是在封装复杂性，一些共识性词汇被人们反复调用，以至于不需要思考这个词汇的意义（例如谢谢，对不起等，你能非常清晰地表述谢谢的反义词吗？），还有一些词汇则成为一个群体内的共识。而接下来的两个现象，显然还未达到共识的地步。</p>
+</br>
+<h3 id="qwerty-现象">QWERTY 现象</h3>
+<p>标准打字机的最上面一行有六个字母键：QWERTY。这些按键排成这个顺序，只有一个历史原因，最早的打字机刚刚面世的时候容易卡键，因此不得不降低键入速度，将频繁使用的字母分隔开，以减少卡键的概率。仅仅在几年后，技术就得到了改善，完全杜绝了卡键带来的干扰，但这种键盘却成为习俗固定下来——一旦成千上万打字机和打字员采用，就会成为一种标准， 变革的社会成本急剧增加。</p>
+<p>QWERTY 键盘象征着：<strong>技术有时候不仅没有成为进步的动力，反而是一种阻碍。</strong> 想象一下在平行宇宙中，打字机在刚推出时就已经解决了卡键的技术问题，是否那个宇宙里人类的键入速度远远高于我们？苹果在最初设计 iPhone 的虚拟键盘时，也曾试图改变这种键位，但最终放弃了，这不失为一种遗憾。（这完全合理，仅仅是一种遗憾，有关这段历史详情见《创意选择》）</p>
+<p>这种现象非常普遍，往往包含一个非常原始的东西，却始终在系统里长存。例如，西摩·佩珀特（Seymour·Parert）在《因计算机而强大》中提到 Basic 语言为什么是美国儿童编程教育的首选。早期计算机的价格昂贵，学校等经费有限的机构只能购买性能没有那么强大的计算机，而 Basic 的特点就是对计算机性能要求低。但随着计算机价格的降低，以及越来越多易学易用的编程语言的成熟，学习 Basic 却被延续下来。（我在 2015 年上大学时，学习的仍然是 Visual Basic 这种几乎无人问津的编程语言，直到 2018 年，全国计算机考试才新增 Python 科目，这着实是严重的滞后）</p>
+<p>30% 的苹果税同样可能是一种 QWERTY 现象。最初，乔布斯不允许外部开发者的 App，但在第一代 iPhone 上线后（2007 年 6 月），开发者们通过越狱让部分有技术能力的用户使用上 App。随着这种地下经济蓬勃发展，乔布斯决定重新考虑，并最终同意通过 App Store 发布 App。</p>
+<p>然而，乔布斯远远低估了 App 带来的经济回报，乔布斯认为  App Store 的作用是帮助苹果卖出更多的 iPhone，而不是从开发者身上赚到钱，他预计 30% 的抽成能够勉强维系 App Store 的运营，在 2008 年 7 月的采访中，乔布斯说：“我认为它会很像 iTunes，我认为这将带来大量收入，但利润不会太高。”但实际上，在最新的一个季度中，App Store 创造了 88.4 亿美元的毛利润，利润率是 67%。这种定价也可能是一种巨大的惯性，被沿袭至今。</p>
+<blockquote>
+<p>PS：国庆期间，我在重拾宝可梦游戏的时候，发现它的游戏机制和我小时候玩的几乎一模一样（那时还叫口袋妖怪），尽管可以认为是玩法上的继承，但我也不禁思考 6 只宝可梦的上限会否也是一种 QWERTY 现象，但这一点我尚未求证过。</p>
+</blockquote>
+</br>
+<h3 id="jugaad-现象">Jugaad 现象</h3>
+<p>jugaad 一词在印地语、孟加拉语、旁遮普语等语言中使用，它的意思包括：</p>
+<ul>
+<li>一个创新且简单的解决方案。</li>
+<li><strong>一个不遵守固有规则的，非传统的解决方案。</strong></li>
+<li>使用少量的资源创造新的东西。</li>
+</ul>
+<p>例如，我和伙伴使用一个游戏 App 用于每周的音频会议、椅子被用来摆挂衣物、杯子被当作笔筒等等，又例如，我在一家咖啡厅看到店家将衣架用作书架，同时也承载了书签的作用。</p>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1601832160489.png" alt="" loading="lazy"></figure>
+<p>在维基百科中，这个词在中文环境下被认为和“土法”相近，有些意外，但还算贴近。这个现象的重点在于它的非传统，却行之有效。我在上周提到的孟加拉国的居民使用 Facebook 解决购物需求，我认为也算是一种 Jugaad 现象。另外，像 Freitag 回收卡车车篷，并制作成环保袋售卖的做法，同样也是一种非传统的解决方案。</p>
+<figure data-type="image" tabindex="2"><img src="https://ben9706.github.io/benedict.github.io//post-images/1601832169998.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[竹本一周：No.009]]></title>
         <id>https://ben9706.github.io/benedict.github.io/benweek-009/</id>
@@ -729,71 +761,5 @@
 <p>这种差异来自于自己是否受到外部威胁，当威胁程度高时，与电影中反派越相似的人对电影的喜爱程度越低，当外部威胁消失时，那些与电影中反派越相似的人对电影的喜爱程度则越高。换句话说，在现实世界中人们需要管理自我形象，而在虚构作品中，人们则不受束缚。</p>
 <p>这也许还可以延伸到网络巨魔泛滥的现象，此外，我在<a href="https://theblog.benedictyu.cn/internet-trolls/">《为什么普通人会在网络上成为混蛋？》</a>中也聊到过这一话题。</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.001]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-001/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-001/">
-        </link>
-        <updated>2020-07-20T02:05:53.000Z</updated>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<h2 id="️-有关于我">✏️ 有关于我</h2>
-<p><a href="https://mp.weixin.qq.com/s/mdw2EiEvno8b2m3gtK2hEQ"><strong>打造移动端的好莱坞，Quibi 忽视了什么？</strong></a></p>
-<p>这是我参与的一篇文章。今年 4 月，卡森伯格的新创业项目 Quibi 正式上线（此前卡森伯格和斯皮尔伯格合办梦工厂）。作为一手打造了迪士尼动画部门的传奇人物，卡森伯格一直是好莱坞的风云人物，Quibi 也被寄予厚望。Quibi 试图做一个高质量的短视频产品，但目前从市场表现看非常糟糕。本文梳理了卡森伯格在今年 1 月 CES 上的演讲，介绍他为什么认为 Quibi 的模式能够成立，且基于逻辑分析他的思考里可能缺漏了什么。</p>
-</br>
-<p><a href="https://ben9706.github.io/wechat-format-TGF/"><strong>Markdown 转微信公众号排版样式</strong></a></p>
-<p>我非常讨厌微信公众号的排版后台，想知道它有多难用，只要看秀米、135编辑器等多么热门就知道了（考虑到今年微信公开课 Always Beta 上，张小龙宣称公众号原本的定位并不是长图文，这种难用突然变得能够理解了）。为了避免排版带来的繁琐工作，我使用并修改了开源程序 <a href="https://github.com/lyricat/wechat-format">wechat-format</a>，以符合自己的排版习惯，实现 Markdown 转公众号富文本的功能，并通过 Github Page 供其他朋友一起使用。如果你也有类似的需求，可以尝试该方法。</p>
-</br>
-<h2 id="新闻">📰 新闻</h2>
-<p><a href="http://weekly.caixin.com/2020-07-17/101581171.html?originReferrer=gh_caixinwang"><strong>美国考虑封禁 TikTok</strong></a></p>
-<p>2018 年 Q3，TikTok 在印度尼西亚因为内容违规被封禁一周，此后，围绕 TikTok 的纷争越来越多，继印度下架中国 59 款 App 后，美国也考虑以安全隐私为由封禁 TikTok。<strong>表面上看</strong>，核心的冲突点是「数据」，美国认为 TikTok 的母公司字节跳动<strong>可能</strong>将美国用户数据传回中国（目前尚无证据证明，所有的说辞都添加上<strong>未来可能</strong>这一说法）。这非常奇怪，因为这种冲突理论上完全可以从技术角度去规避，尤其考虑到字节跳动在 2019 年初就开始将中国与海外进行访问权限的分割，已经做了非常多全球化努力。</p>
-<p><a href="https://www.washingtonpost.com/technology/2020/07/13/tiktok-privacy/">华盛顿邮报的这篇文章</a>从技术的角度认为，首先 TikTok 没有比 Facebook 获取更多的个人信息，其次，Tiktok 宣称所有美国用户的数据都存储在 AWS 上，那么完全可以管控数据流出方向（同样也合理），最后，所有当下从技术层面的分析都没有发现数据有被 TikTok 滥用的情况。</p>
-<p>在<a href="https://interconnected.blog/can-bytedance-build-trust/#chinese-version-below">字节跳动能在海外建立诚信吗？</a>中，作者认为建立信任的最佳方式是开源。“Talk is cheap. Show me the code.”此外，Ben Thompson 在 <a href="https://stratechery.com/2020/the-tiktok-war/?utm_source=Memberful&amp;utm_campaign=82ce71cb8c-daily_update_2020_07_16&amp;utm_medium=email&amp;utm_term=0_d4c7fece27-82ce71cb8c-111383104">The TikTok War</a> 中也谈及很多地缘政治话题。</p>
-</br>
-<p><a href="https://www.nytimes.com/2020/06/19/technology/google-neeva-executive.html"><strong>谷歌前高管试图推出订阅制搜索服务</strong></a></p>
-<p>Google 前广告部门高管 Sridhar Ramaswamy 对于过度依赖广告的商业模式感到厌恶，他认为在这一过程中，用户牺牲了太多的隐私和体验，原本就已经信息过载了，用户还不得不被迫接受无止尽的广告。因此，他开办了 Neeva，希望在用户搜索高效的同时，保护用户的隐私。</p>
-<p>Neeva 并不是一个全新的搜索引擎，更像一个整合工具：搜索排名由微软必应提供，天气信息来自天气网站，股票数据来自 Intrinio，地图则来自苹果。当用户登录 Google、微软或是 Dropbox 账户后，Neeva 也可以在个人文件中进行搜索。Ramaswamy 打算采用订阅制的方式推出该服务，暂计划用户可以免费使用到今年年底，然后每月收取 10 美元不到的订阅费。</p>
-<p>搜索引擎适合订阅制吗？这个问题没有具体答案，我想举两个例子。</p>
-<ul>
-<li><strong>电视节目</strong>。在 HBO 以前，电视一直依赖广告盈利，而 HBO 带来订阅电视的成功案例。</li>
-<li><strong>天气预报</strong>。天气预报是一个长期更新的，且一定程度上刚需的服务，但天气预报并未发展成订阅制服务（想一下墨迹天气上市失败的案例）。</li>
-</ul>
-<p>出于长期对搜索结果的不满，我对这个产品很感兴趣。目前 Neeva 仍未披露更多信息，你可以阅读 <a href="https://neeva.co/blog">Neeva 的博客</a>，了解他们做该服务的愿景。</p>
-</br>
-<p><a href="https://www.nytimes.com/2020/07/17/technology/twitter-hackers-interview.html"><strong>亲历者讲述 Twitter 遭遇黑客攻击事件</strong></a></p>
-<p>几名参与 Twitter 黑客攻击事件的亲历者讲述这段逐渐失控的故事。发动此次攻击的并不是某个经验丰富的黑客组织，相反，它是由一群年轻人完成。最初，这群年轻人只是想出售一些特殊的 Twitter 号，例如一个 @y 的 Twitter 名被人以 1500 美元的价格拍卖下，很多人觉得这种名字特别酷，但随后这件事开始变得失控。</p>
-<p>还有 100 多天就要进行美国总统选举，如果黑客以拜登的账号发布信息，宣布退出美国总统竞争，亦或是在选举开始之后，这名黑客发起攻击。这些都可能造成更严重的政治问题，而这些原本都有可能发生。</p>
-<p>和这些比较起来，以名人的口吻发布一些非常容易甄别的信息，就像是一场恶作剧。</p>
-</br>
-<h2 id="阅读">📚 阅读</h2>
-<p><a href="https://book.douban.com/subject/34899655/"><strong>《创意选择：苹果黄金时代的产品思维》</strong> </a></p>
-<p>单看书名以为是类似于「不可不知的苹果设计 7 个原则」这种无聊内容，但实际内容是参与了 Safari 和初代 iPhone 虚拟键盘从 0 到 1 开发的工程师亲述这段经历，尤其介绍了早期探索阶段对不同方案的尝试，非常有趣。另外，书中不断提及 Newton 这个失败产品对于苹果的重要意义，有关该产品，有另一篇<a href="https://uxdesign.cc/what-the-apple-newton-taught-us-about-ux-27-years-ago-427c6be66a59">文章</a>介绍了这段历史。</p>
-</br>
-<p><a href="https://cjting.me/2020/07/01/douyu-crawler-and-font-anti-crawling/"><strong>爬取斗鱼关注人数</strong></a></p>
-<p>斗鱼网站通过字体反爬，即显示数字和 html 中的数字并不对应，作者破解的过程很有意思。</p>
-</br>
-<p><a href="http://www.bbc.com/autos/story/20160804-why-are-trains-seats-so-hideous"><strong>交通工具面料选择</strong></a></p>
-<p>这篇文章提到如何设计交通工具上座椅的面料材质，这种材质需要满足几个特点：</p>
-<ul>
-<li>耐用。每天有很多人使用，它必须能够使用很多年。</li>
-<li>耐脏。它需要易于清洁，而且看上去不太脏。</li>
-<li>安全。交通工具可能位于一些极端环境，必须考虑到是否易燃等。</li>
-</ul>
-<p>生活中这类细节实在太多了。上周我前往一个新营业的咖啡厅，它在杯面上的贴纸是遇到水后会变色的类型，而夏天很多人会选择点冰咖啡，这使得当天在社交媒体上传播的照片贴纸大多都一块深一块浅的，显得廉价。</p>
-</br>
-<h2 id="观点">🚀 观点</h2>
-<p><strong>无障碍访问性</strong></p>
-<p>一份《信息技术 互联网内容无障碍可访问性 技术要求与测试方法》的国家标准在今年 3 月起实施，这份文件旨在提升残障人群使用数字产品的体验。尽管这份文件是 GB/T，即推荐性而非强制性国标，但对于无障碍立法仍有巨大意义。</p>
-<p>回顾无障碍的历史，早期解决无障碍的方式是特殊问题特殊处理，例如发明盲文和手语。但由于这种处理方式有较高的学习成本，沟通形式异于大众，一定程度上加剧了残障人士脱节于普通大众。（但需要说明，盲文最早可追溯到 1786 年的法国，并在 1821 年由一名盲人路易·布莱叶完善，而第一台计算机出现于 1946 年，盲文和手语的出现有历史必然性）</p>
-<p>那么数字产品是如何改进这一问题的？在手机上，正常用户和残障人士使用的是同一种 UI 界面，仅在交互方式上有不同，在信息的获取和交流上没有差异。（想要了解更多有关无障碍的话题，可以阅读这本书<a href="https://book.douban.com/subject/30226220/">《信息无障碍：提升用户体验的另一种视角》</a>。）</p>
-<p>我认为这背后传递的观点是，<strong>不要有意识地去孤立群体，而应该给予更平等的环境。</strong></p>
-<p>此外这让我想到<a href="https://techcrunch.com/2020/06/04/kids-now-spend-nearly-as-much-time-watching-tiktok-as-youtube-in-u-s-u-k-and-spain/">另一组数据</a>，美国有 69% 的儿童使用 Youtube（Youtube 同样也是儿童使用最多的应用），但只有 7% 的儿童使用 Youtube 儿童版。</p>
-<p>另一方面，对儿童（或其他群体）的保护又是切实需要的，如何找到这种平衡点？思考至此，这个话题又延伸至<a href="https://en.wikipedia.org/wiki/Paternalism">家长式立法（Paternalism）</a>的辩论上。</p>
-</br>
-<p><a href="https://mp.weixin.qq.com/s/dy7BFKJkBry5vFc2GQgiXQ"><strong>盗号灰产和数字遗产</strong></a></p>
-<p>这个例子里，我认为核心不是阻止盗号灰产，而是面对更多数字时代下的死亡，我们如何处理数字遗产。现实社会里，通过空间分隔出墓地和生活空间，而网络上的亡者和生者却共处在同一个社交媒体上，这种特性使得李医生的微博成为一面哭墙，也使得平凡人的悼念变得唾手可及。</p>
-<p><a href="https://www.facebook.com/help/103897939701143">Facebook 的做法</a>是，在自己过世以前，可以指定一位联系人管理自己去世后的悼念帐户，或者也可以选择从 Facebook 永久删除帐户。悼念帐户的作用即提供一个场所供亲朋好友缅怀追思，而且在用户过世后，该账号不会再作为「可能认识的人」被推荐给其他用户。</p>
-<p>如果想了解更多科技公司的应对措施，可以阅读<a href="https://thewalrus.ca/death-what-happens-to-your-social-media-accounts-after-you-die/#:~:text=An%20immediate%20family%20member%20or,or%20after%20a%20person's%20death">这篇文章</a>。</p>
-</br>]]></content>
     </entry>
 </feed>
