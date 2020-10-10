@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>#4 Interaction Design ：输入与输出 | 竹本一世</title>
+<title>Newsletter | 竹本一世</title>
 
 <link rel="shortcut icon" href="https://ben9706.github.io/benedict.github.io//favicon.ico?v=1602292710025">
 
@@ -96,47 +96,86 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    #4 Interaction Design ：输入与输出
+                    Newsletter
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2019-02-16 ·
+                        · 2020-10-07 ·
                     </time>
                     
                 </div>
                 <div class="post-content">
-                    <p>本文为 <strong>Input &amp; Output</strong> 中的部分课堂笔记。</p>
-<!-- more -->
-<p>因为想要系统学习交互设计，于是我在 Coursera 上学习了美国加州大学圣地亚哥分校的 Interaction Design，课程是 Scott Klemmer 在 Stanford 任教的一些总结和延伸。课程很有意思，会从非常多最本质的角度去讲为什么要这样设计，比如通过讲鼠标的历史和原理，也是设计未知东西的一种借鉴。课程除了对于设计的系统外，还涉及到一部分统计学的知识，在第 7 课中讲了如何使用统计软件 R 来帮助设计师分析数据，做出决策。</p>
+                    <p>每周我会写一份有关我的思考的 Newsletter，内容包括一周发生的科技领域热点时事、我的阅读收获，以及其他的想法。我的兴趣非常广泛，但总的来说包括：XaaS，Gamification，NoCode，Micro-Marketplaces，Paid Communities，Urbanisation 等等。我尤其关注如何激励创作者，以及如何促进人机关系。与之相对的，我不太关注的领域例如：娱乐产业、电子商务、快消品等等。</p>
+<p>这份 Newsletter 是免费的：）此外，你同样可以在<a href="https://www.zhihu.com/column/c_1268895579675082752">知乎</a>和微信公众号（竹本一世）上阅读。</p>
+<p><a href="https://theblog.benedictyu.cn/tag/newsletter/">👉 Newsletter 合集</a></p>
+</br>
+</br>
 <hr>
-<h3 id="费茨定律">费茨定律</h3>
-<p>菲茨定律（Fitts's law）是一个用于预测人体运动的模型，主要被用于人机交互和人体工程学，这条定律指出达到目标所需的时间取决于两点：</p>
-<ul>
-<li>目标的大小（目标越小，时间越长）</li>
-<li>到目标的距离（距目标越远，时间越长）</li>
-</ul>
-<p>图片来自于 Nielsen Norman Group，下同。<br>
-https://www.nngroup.com/articles/expandable-menus</p>
-<p>如图，达到目标 A 的时间要短于达到任何其他目标的时间。虽然目标 A 和 B 具有相同的大小，但是 d1 距离比 d2 距离短，因此移动到 A 会更快。</p>
-<p>目标 C 与光标放在距离目标 A 相同的距离（d1），但是它更小，因此到达 C 比到达 A 慢。</p>
-<p>费兹定律主要用于人机交互中的人类运动的预测模型：快速移动到目标区所需的时间是目标距离与目标宽度之比的函数。虽然费兹最初是根据物理世界中的运动而做的研究，但在人机交互中，费兹定律通常应用于使用光标或其他类型的指针通过图形用户界面的移动。</p>
-<ul>
-<li>MT 是完成运动的平均时间。</li>
-<li>a 和 b 是取决于输入设备选择的常数，通常通过回归分析凭经验确定。</li>
-<li>ID 是难度指数。</li>
-<li>D 是从起点到目标中心的距离。</li>
-<li>W 是沿运动轴测量的目标宽度。</li>
-</ul>
-<p>在使用的时候，我们会把公式简化成：t = a + b · log2(d/w)</p>
-<p>举例说明，a = 0.8 s，touchpad 的 b = 0.345 s/b(即 1/2.9)。光标的起始（x,y）坐标为（823,41）目标的中心为（675,312），7-12按钮的宽度为 30 像素。单击 7-12 按钮的预计运动时间是多少？你可以尝试计算一下。</p>
-<p>通过勾股定律我们可以计算得出两个坐标的直线距离，代入公式中，答案是 1.96。</p>
-<h3 id="菜单设计">菜单设计</h3>
-<p>下面这张图是线性菜单（Pull-Down Menus）。要了解在菜单中达到目标所需的时间，让我们首先关注这种下拉菜单中基于鼠标的交互。在点击「File」后，我们点击不同内容的距离是不同的，到达菜单中第一个元素所需的时间比到达菜单中任何其他元素所需的时间要短 ，同样的，菜单中的最后一个元素需要最长的时间才能到达，因为距离光标最远。所以这样的菜单不易过长，否则用户需要花非常长的时间才能选择到项目。</p>
-<p>那如果菜单中所有元素的到达时间相同会怎么样？这就是饼图菜单（pie menu）。图中是一个笔记软件的饼图菜单：手柄位于圆圈的中间，所有菜单选项都显示在它周围。与任何选项的距离是相同的。饼图菜单比起线性菜单有很多优势，它可以快速点击不同项目，而且使用时间久了，你对于饼图菜单会产生肌肉记忆，不需要眼睛看着，你就可以点击到你想要的那个按钮了，这在线性菜单里难以做到。</p>
-<p>然而饼图菜单并没有被使用者广泛接受。虽然人机交互研究员非常喜欢，但事实证明用户并不熟悉它们。2010 年的一项研究表明，在实践中，它们比更标准的线性和矩形菜单更难学习，因此由于缺乏对该界面的熟悉而导致运动时间增益丢失。然而，随着用户对饼图菜单越来越熟悉，这些菜单开始显示出研究人员预测的优势。</p>
-<h3 id="手势交互">手势交互</h3>
-<p>我们在 iPhone 上双手捏和照片来放大缩小，这是一种手势交互，我们从底部向上轻扫唤出菜单，这也是一种手势交互，但前者较后者更自然，凭借直觉就可以完成，然而后者需要被“教育”后才能知道怎么操作。</p>
-<p>除此外，我们不同的惯用手在日常生活里也负责着不同的功能。优势手负责那些精细的工作，非优势手则执行粗糙一些的工作。对于手势交互的研究已经有非常多，你可以阅读下方这些来入门。</p>
+</br>
+</br>
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+        background:#fff; 
+        clear:left; 
+        font:14px Helvetica,Arial,sans-serif;  
+        width:400px;
+        margin:auto;
+        }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    #mc_embed_signup .button {
+        clear: both;
+        background-color: #5978FA;
+        border: 0 none;
+        border-radius: 4px;
+        transition: all 0.23s ease-in-out 0s;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: normal;
+        height: 32px;
+        line-height: 32px;
+        margin: 0 5px 10px 0;
+        padding: 0 22px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: top;
+        white-space: nowrap;
+        width: auto;
+    }
+</style>
+<div id="mc_embed_signup">
+<form action="https://163.us2.list-manage.com/subscribe/post?u=54d05d32aa82a855aae9c58f7&amp;id=71549dfd63" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <div style="text-align:center">
+	<h2 >竹本一周</h2>
+    </div>
+<div class="mc-field-group">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="输入你的邮箱" required>
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_54d05d32aa82a855aae9c58f7_71549dfd63" tabindex="-1" value=""></div>
+    <div class="clear" style="text-align:center";"><input type="submit" value="订阅" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; }(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+</br>
+</br>
+<hr>
+</br>
+</br>
+<p>如果你在订阅过程中遇到什么问题，亦或是有想要和我分享的内容，都可以发送邮件到 <a href="mailto:benedict.yu@hotmail.com">benedict.yu@hotmail.com</a> 和我联系。<br>
+</br><br>
+</br><br>
+</br></p>
 
                 </div>
             </article>
