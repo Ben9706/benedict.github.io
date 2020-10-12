@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-10-10T01:30:12.390Z</updated>
+    <updated>2020-10-12T15:54:21.329Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,86 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.011]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-011/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-011/">
+        </link>
+        <updated>2020-10-12T15:38:01.000Z</updated>
+        <content type="html"><![CDATA[<style>
+img{
+    width: 30%;
+}
+</style>
+<p>早上好，首先我要说，这份 Newsletter 支持邮件订阅了！如果你的阅读习惯是在邮箱里阅读的话，那么你可以点击下方的链接前往订阅。当然，这不会影响在公众号和知乎上的发布，完全取决于你的阅读习惯。</p>
+<p>👉<a href="https://theblog.benedictyu.cn/newsletter/">订阅入口</a></p>
+<hr>
+</br>
+<p>上周五，我听了一个在线演讲<a href="https://www.bilibili.com/video/bv1ka411w7PB">《去中心化互联网的理论与实践》</a>，意外发现这和我想要解决的问题高度一致。我在过去的思考中发现：</p>
+<ul>
+<li>如果承认好的内容需要付费，而免费的内容一定会被更多人消费的先决条件，那么这天然在促进内容的劣币驱逐良币。（但这并不是必然的）</li>
+<li>中心化产品服务大多数人的需求，但每个人在特定场景下都可能是小众人群。</li>
+<li>今天的互联网并没有促进产品间的协同能力（甚至是闭塞，回忆一下微信屏蔽了多少产品的分享链接）。</li>
+</ul>
+<p>这也是我尤其关注开源、利基、维基百科的原因。近期 Scriptable 的流行是一个很好的例子，这个 App 允许用户调用接口，编写程序，并通过 iOS 14 的小组件呈现个性化内容：</p>
+<ul>
+<li>每个人都有特定的需求，这些需求可能是非常小众的（例如，有人在小组件上显示 GitHub Contributions、显示当天所剩小时数、显示微博热搜等等）。</li>
+<li>代码是可复用的，一个人编写的代码可以被无数人使用，其他人只需要修改个性化参数即可。</li>
+<li>实际上，它增强了软件间的协同能力，现在用户已经可以在一个屏幕里看到多个自己真正需要的信息。（让人想到 the api economy）</li>
+</ul>
+<p>这一变化是巨大的，此前，用户只能被动使用已经存在的工具，而现在则能创造自己真正需要的。但这个过程仍然存在一些问题——代码的门槛还是过高了。尽管 Javascript 已经是一门相对易学的语言了（它的作者 Brendan Eich 只花了 10 天时间就编写出这门语言），但过去的经验告诉我们，这个世界并没有朝着“人人都是开发者”的方向发展，而是一部分开发者创造出 NoCode/LowCode 工具，让其他人低成本使用。</p>
+<p>实际上，这也正是 Notion 的内核，和印象笔记等工具产品不同，Notion 不要求用户顺从产品开发者设定的规则，允许用户通过可视化的方式（NoCode），实现自己的独特需求，被创建的页面同样可以作为模板被分享给别人（在国外，有人创建垂类市场的模版，并以此盈利）。</p>
+<p>最后，如果你对此话题感兴趣，还可以阅读：</p>
+<ul>
+<li>
+<p>演讲者苏汉的论文：<a href="https://dspace.mit.edu/handle/1721.1/127582">Theory and practice towards a decentralized internet</a></p>
+</li>
+<li>
+<p><a href="https://mistyminds.github.io/mistyminds/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%B6%8B%E5%8A%BF%E5%92%8CWebassembly%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%8F%98%E5%8C%96/">跨平台应用开发趋势和 Webassembly 带来的变化</a></p>
+</li>
+</ul>
+</br>
+<h3 id="马力欧卡丁车家庭巡回赛">🗞 马力欧卡丁车：家庭巡回赛</h3>
+<p>今年 9 月，任天堂推出新的 Switch 游戏《马力欧卡丁车：家庭巡回赛》（Mario Kart Live: Home Circuit）以庆祝马力欧兄弟 35 周年。这款游戏最吸引人的地方是结合了 AR 元素，允许玩家在真实的物理世界里操控遥控卡丁车，以躲避虚拟的赛车手和障碍物。如果你还不知道这款游戏，一定要看看这个宣传视频链接👉<a href="https://www.bilibili.com/video/BV1MK411N7QN/?p=3">Link</a></p>
+<p>在我的幻想中，它会类似于《头号玩家》，赛道不仅仅是个性化的，也是和环境高度互动的：家里的宠物猫横穿赛道，就像电影里金刚和霸王龙追逐赛车的场景！</p>
+<p>这款游戏由任天堂和纽约游戏工作室  Velan Studios 合作开发。几天前，Velan 发布<a href="https://www.velanstudios.com/blog/"> 2 篇博客</a>，介绍了更多的设计细节：</p>
+<ul>
+<li>本次马车延续了此前马车系列的大部分操作和玩法——甚至是漂移。可以想象，在物理世界里操控玩具车，要比在游戏里操控难多了，要在真实世界中模拟漂移绝非易事。</li>
+<li>和原本电子游戏版本的马车相比，本次的马车在 race 前，还有 drive 和 build 的步骤。</li>
+<li>在早期测试阶段，玩家很容易迷路，毕竟在虚拟游戏里能够通过空气墙限定玩家的前行路径，但物理世界中，游戏空间几乎是无限大的。Velan 花了很多精力解决这个问题。</li>
+<li>Velan 建议游戏空间至少 12' x 10'（大约是 3.6 米 x 3 米)，这的确对场地有一定的要求。</li>
+<li>遥控车本身可以直接连接 Switch，不需要经过路由器。二者在 5 米内时，很少有延迟，玩家能获得最好的游戏体验。</li>
+</ul>
+<p>但和其他实体游戏不同，我猜测这款游戏可能不太适合围观，因为在观众的视角里，赛车只是突然加速，突然停止，却没有任何因果，这些故事性情节仍然需要在屏幕里看。这款游戏将在 10 月 16 日正式推出，我们很快就能知道玩家们对这一次虚拟现实游戏的尝试是否满意了。</p>
+</br>
+<h3 id="游戏结束任天堂全球征服史">🗞 游戏结束：任天堂全球征服史</h3>
+<p>在国庆节期间，我读完了《游戏结束：任天堂全球征服史》。值得强调的是，尽管这本书的中文版于今年出版，但原版在 1993 年就出版了，因此这本书没有讲到近 30 年任天堂的发展，在阅读的时候还请调整预期。</p>
+<p>如果让我挑选印象最深的片段，我一定会选择“游戏结束”。这一章节讲述的是任天堂和雅达利的纠纷，在日美贸易战的时代背景下，任天堂作为电子游戏产业的绝对霸主，引发美国竞争公司们的恐慌和敌意。实际上，阅读这一段历史让我不断联想到本次的 TikTok 事件。</p>
+<p>另一篇我想聊聊的文章是 Alexander Eule 在 2015 年写的文章 <a href="https://www.barrons.com/articles/nintendo-bets-smartphones-can-revive-its-fortunes-1434768245">Nintendo Bets Smartphones Can Revive Its Fortunes</a>，他认为任天堂下一个增长点应该是移动游戏。彼时 Alexander 做出这样判断的原因主要是，2008 年苹果推出 App Store 将休闲娱乐游戏市场转移到移动端上，回忆一下愤怒的小鸟（2009年）、水果忍者（2010年）、Flappy Bird（2014年）……而休闲娱乐游戏正是任天堂擅长的游戏类型。</p>
+<p>对这个判断我想补充些说明，这些游戏和任天堂的游戏都有一个巨大的共性：玩法优先。在关于游戏制作的科普视频节目<a href="https://www.youtube.com/watch?v=2u6HTG8LuXQ&amp;index=36&amp;list=PLc38fcMFcV_s7Lf6xbeRfWYRt7-Vmi_X9">《任天堂-玩法优先 | 游戏制作工具箱》</a>中提到：</p>
+<blockquote>
+<p>有些开发者从想讲的故事开始，或者想要探讨的设定开始，有些从想要的感觉开始……当然，很多开发者从现有的游戏开始，再增加一些额外的特性。</p>
+<p>但任天堂，不出所料，非常与众不同……任天堂总是从同一个目标开始：找到一种新玩法。</p>
+</blockquote>
+<p>例如，马力欧的核心玩法是“跳跃”，消灭敌人最有效的方式，就是跳起来踩在敌人的脑袋上；在奥德赛中，核心玩法是“丢帽子”；在路易吉洋馆中，核心玩法是“吸尘器”。在任天堂的游戏里，玩家可以做的动作很少，但是可以交互的东西很多，这是为什么任天堂的游戏容易上手，同时又足够有趣的原因。</p>
+<p>在一段时间里，这个结论可能看上去是正确的。2016 年 Pokemon Go 的火爆，以及同年苹果发布会上<a href="https://www.youtube.com/watch?v=-lonLDiDVp8">宫本茂的现身</a>，他隆重介绍了《超级马里奥跑酷》（Super Mario Run）。这是任天堂的第一款手机游戏，始终没有出现在中国的 App Store 上，根据版本记录，这款游戏在一个月前还有更新。</p>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1602517193074.PNG" alt="" loading="lazy"></figure>
+<p>但无论是 Pokemon Go，还是 Super Mario Run，都无法说明任天堂在移动端的成功。Pokemon Go 的实际开发商是 Niantic 而不是任天堂（但在游戏发布后，任天堂的股价的确有明显的增长），而 Super Mario Run，它也没有达到让人满意的营收，<a href="https://blog.applovin.com/super-mario-runs-failure-free-to-play/">它糟糕的付费机制一度被当作反面教材</a>。</p>
+<p>随后到了 2017 年，Switch 横空出世。Switch 有多成功我无需赘述，它的成功也让任天堂减少了尝试手机游戏的动力，有关此，彭博社今年 6 月的文章 <a href="https://www.bloomberg.com/news/articles/2020-06-21/nintendo-chills-mobile-ambitions-after-animal-crossing-success">Nintendo Chills Mobile Ambitions After Animal Crossing Success</a> 已经讲得非常清楚了。</p>
+<p>最后，我很喜欢阅读有关失败的案例，思考这些能帮助我避免幸存者偏差。如果你对任天堂这个话题感兴趣，你也可以关注我和伙伴的另一个公众号 The Great Filter，我们正在分享有关任天堂的一系列文章！</p>
+<figure data-type="image" tabindex="2"><img src="https://ben9706.github.io/benedict.github.io//post-images/1602517184308.png" alt="" loading="lazy"></figure>
+</br>
+<h2 id="encore">🎉 Encore</h2>
+<ul>
+<li>微软发布自己的应用商店原则，这几乎完全对照此前我提到的“<a href="https://appfairness.org/our-vision/">应用公平联盟</a>”呼吁的原则。<a href="https://blogs.microsoft.com/on-the-issues/2020/10/08/app-store-fairness-caf-interoperability-principles/?utm_source=Premium+list&amp;utm_campaign=4d8cfa6680-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-4d8cfa6680-71175497&amp;mc_cid=4d8cfa6680&amp;mc_eid=6268a77188">Link</a></li>
+<li>英国漏报将近 16000 个新冠病例，原因是 Excel 超出最大值未更新，这意味着超过 5 万具有潜在传染性的人没有被告知要自我隔离。另外，在知乎上人们列举了许多 Excel 的问题，甚至是<a href="https://www.zhihu.com/question/424337534/answer/1510840949">迫使修改修改基因名称</a>。<a href="https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england?utm_source=Premium+list&amp;utm_campaign=4d8cfa6680-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-4d8cfa6680-71175497&amp;mc_cid=4d8cfa6680&amp;mc_eid=6268a77188">Link</a></li>
+<li>传 B 站委任四家银行安排香港上市，寻求募资 8 亿至 15 亿美元，目标明年完成二次上市。<a href="https://36kr.com/p/917018392966402">Link</a></li>
+<li>G Suite 改名为 Google Workspace。上个月，Google 推出对标 Airtable 的产品 <a href="https://tables.area120.google.com/about#/">Tables</a>，但仍然在内测阶段，因此暂时没有包括在办公套件里。<a href="https://workspace.google.com/">Link</a></li>
+<li>我体验了内测产品 mmhmm，这是 Evernote 的创始人 Phil Libin 的最新产品。整个产品体验非常流畅，我相信在一定的场景下它的确能发挥巨大的价值。<a href="https://www.mmhmm.app/">Link</a></li>
+</ul>
+<p>本周末我可能会和好友一起野营，因此下一次见面会在 10 月 26 日左右。我可能会在这段时间里关注互联网隐私问题，下次见！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[竹本一周：No.010]]></title>
         <id>https://ben9706.github.io/benedict.github.io/benweek-010/</id>
@@ -705,61 +785,6 @@
 <li><a href="https://www.provenskincare.com/?ref=producthunt&amp;promo=HUNTED">Proven</a>：为用户个性化推荐护肤品，在不同的气候下，也会推荐不同的内容。<br>
 </br></li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.002]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-002/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-002/">
-        </link>
-        <updated>2020-07-26T16:48:06.000Z</updated>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>GPT-3：第一个通用人工智能？</li>
-<li>纽约时报更换 CEO</li>
-<li>《新媒介与创新思维》</li>
-<li>语言和思维</li>
-<li>为什么人们喜欢负面角色？</li>
-</ul>
-<h2 id="新闻">📰 新闻</h2>
-<p><strong>GPT-3：第一个通用人工智能？</strong></p>
-<p><a href="https://beta.openai.com/?app=productivity">GPT-3</a> 引起人工智能领域的巨大轰动。GPT-3 是 OpenAI 开发的自然语言处理模型，并在本月通过 API 方式进行内测。OpenAI 是由多位硅谷大亨联合建立的人工智能非营利组织（包括埃隆·马斯克、PayPal 创始人彼得·蒂尔，以及 Y Combinator 总裁阿尔特曼），该组织希望能够预防人工智能带来灾难性影响，推动人工智能发挥积极作用。</p>
-<p>GPT-3 的出现在人工智能领域可能有巨大的里程碑意义，人们一直希望能够研制像人一样思考的、从事多种用途的机器，但主流的 AI 逐渐走向某一个领域的智能化（如机器视觉或语音输入），为了加以区分，后者被称为 AI，前者则被称为 AGI（Artificial general intelligence）。</p>
-<p>GPT-3 的作用是用户输入任何英文文本，都会返回理解文本后的回答，例如输入「生成十个关于美国早期历史的问题」，就会真的返回出十个相关的问题，如果将问题重新输入，则能得到这些问题的答案。一个直指要害的应用案例是<strong>语义搜索（Semantic Search）</strong>，GPT-3 允许查询用户输入的自然语言，而不是在文档中对关键词进行检索。例如目前在使用 Notion 时，只能对输入的关键词进行全局检索，但一个词汇可能有多种表述方式，如果记错了表述，就可能无法找到信息，而 GPT-3 则能大大提升键准率。试想，Roam research 引以为傲的双向链接，实际上也在通过另一种方式提升联想能力，但如果搜索就能进行准确联想，那又何须可视化内容间的关联性呢？</p>
-<p>如果回忆一下命令行到用户界面的发展，技术的进步总是在不断接近人类最原始的体验，让越来越多人可以使用数字设备，第一台电脑只能由少数计算机专家使用，但今天，一岁大的孩子就可以轻松地使用智能手机。</p>
-<p>显然，这远非终点，当用户可以使用英语（或其他语言）替代代码告诉电脑自己需要做什么时，为什么还需要用户花时间浏览用户界面，一步步进行操作呢？（这和去年 <a href="https://thenextweb.com/podium/2019/06/29/google-duplex-gui-ai-design/">Google 的 Duplex</a>有些相似）</p>
-<p>GPT-3 仍有很多问题，例如偏见，以及无法理解一些没有人会问的愚蠢问题（例如太阳有几条腿），但仍然留给我们巨大的想象空间。</p>
-</br>
-<p><strong>纽约时报更换 CEO</strong></p>
-<p>纽约时报宣布，<a href="https://www.nytimes.com/2020/07/22/business/media/new-york-times-ceo-meredith-kopit-levien.html">原首席运营官 Meredith Kopit Levien 将成为下一任 CEO</a>，Levien 也是纽约时报史上最年轻的 CEO。</p>
-<p>Levien 在 2013 年加入纽约时报，并被认为是公司数字化转型的重要功臣，在过去 8 年间，《纽约时报》的数字读者人数从 64 万跃升至 500 多万，数字业务收入现在已经超过每年 8 亿美元。此外，纽约时报并不重度依赖广告收入，而以「订阅优先」为主要策略，这使得纽约时报在面对这次疫情时有了更强的抵抗能力。</p>
-<p>另一个值得思考的问题是，媒体公司和科技公司间的边界变得越来越模糊。在纽约时报内部，工程师的数量仅次于记者数量，公司非常重视数字业务的发展（并不仅仅是文字，播客同样也是布局的一部分），并得到了回报。而同时，科技公司也通过各个媒介渠道讲述自己的产品故事，但大部分科技公司可能并不擅长讲故事（例如钉钉几次引发争议的营销），而传统媒体公司则不知道如何借助科技赋能自己。</p>
-<p>一些企业的切入点可能即填补这两者之间的间隙，例如轻芒帮助许多媒体搭建自己的品牌小程序（图文或播客）。</p>
-<h2 id="阅读">📚 阅读</h2>
-<p><strong><a href="https://book.douban.com/subject/1222254/">《新媒介与创新思维》</a></strong></p>
-<p>这本书收录了 1945 年至 1998 年在新媒介领域第一次提出相关创新思想的代表论文或论著节选，作者大多都是科学界、传播界的大家，亦或是开创了某个学科的宗师，例如图灵谈人工智能、麦克卢汉的媒介即信息，亦或是道金斯谈 meme（《自私的基因》至今仍然是一本畅销书，因而很多人会忽视它首次出版于 1976 年）。</p>
-<p>第一台电子计算机诞生于 1946 年，距今过去仅仅 74 年。最初互联网的目的是进行远程计算，然而实际上，使用互联网的大多数人把它用于交流。阅读这本预测未来的书，其中一部分成为事实，但仍有诸多问题尚未解决，一个例子是电子设备正在不断追求更强大的计算能力，而非更人性化，如果进行类比，现如今的电子设备更像爱因斯坦，但对于大部分人来说，需要的是一个管家。</p>
-<p>如果要我选取一篇最喜欢的，我想一定是第一篇《As we may think》，Bush 发布这篇文章时是在二战末期，第一台计算机要次年才出现。Bush 担心科学的终点是毁灭而非促进人类互相理解（讽刺的是同年，长崎和广岛落下两枚原子弹，而 Bush 是曼哈顿计划的主导者），Bush 试图为战后科学家们寻找一个新的努力方向，他定义的课题是「提升人类智力」：问题是永远无法被解决完的，但如果能够在根本上提升人类的智力水平，就能促使更多人有能力解决问题。</p>
-<p>Bush 本身并未提出正确的解决方案，但却提出了正确的问题，此后诸多科学家基于他的思考深耕。道格拉斯·恩格尔巴特服兵役期间，在一座菲律宾小岛的图书馆上阅读到 Bush 的这篇文章，深受启发和鼓舞，如今，恩格尔巴特更为人熟知的身份是——鼠标之父。</p>
-<p>这何尝不是一种增强人类智力。</p>
-</br>
-<h2 id="观点">🚀 观点</h2>
-<p><strong>语言和思维</strong></p>
-<p>上周我在即刻上发起一个提问，是否有一个词汇（未必是中文）可以概括「一个事物的应用背离了最初的设想」这种现象，并收获到很多意想不到的回答。在生活中，我观察到一些可以总结为此的现象：</p>
-<ul>
-<li>Kindle 原本是阅读设备，被用于盖泡面。</li>
-<li>书本被用于垫桌脚。</li>
-<li>杯子原本用于盛放液体，也有人用于笔筒，Seesaw 则用一次性杯子装咖啡粉免费派发给顾客。</li>
-<li>我是谜 App 原本是一个游戏产品，但我和伙伴却用它当作音频会议工具。</li>
-</ul>
-<p>这种化用的例子实在太多，这又可以延伸到另一个有趣的话题上，即语言是否能描述所有事物？萨丕尔－沃尔夫假设阐明了语言结构和人的行为思维习惯间的关联性，这个假说认为我们的思维和看待世界的方式都是由我们所使用的语言的语法结构来塑造的。试着回忆一下，logic（逻辑）、romance（浪漫）等词语及含义都非来自汉语，在这些词语出现前，我们能够理解它们的含义吗？</p>
-<p>姜峯楠的科幻小说《你一生的故事》基于语言和思维的关系做了讨论，并被改编成了电影《降临》。</p>
-</br>
-<p><strong>为什么人们喜欢负面角色？</strong></p>
-<p>过去很长时间里，我观察到一些有趣的现象，在一些影视作品中，带有毒舌、腹黑等负面属性的角色备受欢迎，一个我记忆尤深的例子是 2018 年 Twitter 上疯传的库巴姬（游戏研究社的<a href="https://mp.weixin.qq.com/s/XVwcIzoVrTpszS7HfwTUyg">这篇文章</a>介绍了这个文化的起因）。</p>
-<p>为什么人们会喜欢负面角色？<a href="https://mp.weixin.qq.com/s/L-Ykvdxzj5Y7sECgJnNV4Q">这篇文章</a>介绍了今年 4 月在 <em>Psychological Science</em> 发布的<a href="https://journals.sagepub.com/doi/10.1177/0956797620909742">《Can Bad Be Good? The Attraction of a Darker Self》</a>，该研究的结论是，人们倾向于从积极的一面看待自己，在现实世界中如果人们发现自己和一些不道德的人在某些方面有相似之处，会让自己非常不舒服，但在虚构作品中，人们则不必担心自我形象受损，可以放心认同一些引发共鸣的反派。</p>
-<p>这种差异来自于自己是否受到外部威胁，当威胁程度高时，与电影中反派越相似的人对电影的喜爱程度越低，当外部威胁消失时，那些与电影中反派越相似的人对电影的喜爱程度则越高。换句话说，在现实世界中人们需要管理自我形象，而在虚构作品中，人们则不受束缚。</p>
-<p>这也许还可以延伸到网络巨魔泛滥的现象，此外，我在<a href="https://theblog.benedictyu.cn/internet-trolls/">《为什么普通人会在网络上成为混蛋？》</a>中也聊到过这一话题。</p>
 ]]></content>
     </entry>
 </feed>
