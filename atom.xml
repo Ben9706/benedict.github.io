@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-10-12T16:29:17.724Z</updated>
+    <updated>2020-10-13T01:24:43.855Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -82,7 +82,7 @@ img{
 <h2 id="encore">🎉 Encore</h2>
 <ul>
 <li>微软发布自己的应用商店原则，这几乎完全对照此前我提到的“<a href="https://appfairness.org/our-vision/">应用公平联盟</a>”呼吁的原则。<a href="https://blogs.microsoft.com/on-the-issues/2020/10/08/app-store-fairness-caf-interoperability-principles/?utm_source=Premium+list&amp;utm_campaign=4d8cfa6680-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-4d8cfa6680-71175497&amp;mc_cid=4d8cfa6680&amp;mc_eid=6268a77188">Link</a></li>
-<li>英国漏报将近 16000 个新冠病例，原因是 Excel 超出最大值未更新，这意味着超过 5 万具有潜在传染性的人没有被告知要自我隔离。另外，在知乎上人们列举了许多 Excel 的问题，甚至是<a href="https://www.zhihu.com/question/424337534/answer/1510840949">迫使修改修改基因名称</a>。<a href="https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england?utm_source=Premium+list&amp;utm_campaign=4d8cfa6680-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-4d8cfa6680-71175497&amp;mc_cid=4d8cfa6680&amp;mc_eid=6268a77188">Link</a></li>
+<li>英国漏报将近 16000 个新冠病例，原因是 Excel 超出最大值未更新，这意味着超过 5 万具有潜在传染性的人没有被告知要自我隔离。另外，在知乎上人们列举了许多 Excel 的问题，甚至是<a href="https://www.zhihu.com/question/424337534/answer/1510840949">迫使修改基因名称</a>。<a href="https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england?utm_source=Premium+list&amp;utm_campaign=4d8cfa6680-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-4d8cfa6680-71175497&amp;mc_cid=4d8cfa6680&amp;mc_eid=6268a77188">Link</a></li>
 <li>传 B 站委任四家银行安排香港上市，寻求募资 8 亿至 15 亿美元，目标明年完成二次上市。<a href="https://36kr.com/p/917018392966402">Link</a></li>
 <li>G Suite 改名为 Google Workspace。上个月，Google 推出对标 Airtable 的产品 <a href="https://tables.area120.google.com/about#/">Tables</a>，但仍然在内测阶段，因此暂时没有包括在办公套件里。<a href="https://workspace.google.com/">Link</a></li>
 <li>我体验了内测产品 mmhmm，这是 Evernote 的创始人 Phil Libin 的最新产品。整个产品体验非常流畅，我相信在一定的场景下它的确能发挥巨大的价值。<a href="https://www.mmhmm.app/">Link</a></li>
