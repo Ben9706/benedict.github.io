@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-10-13T01:24:43.855Z</updated>
+    <updated>2020-10-26T16:11:35.037Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,72 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.012]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-012/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-012/">
+        </link>
+        <updated>2020-10-26T16:02:54.000Z</updated>
+        <content type="html"><![CDATA[<p>早上好。因为露营，我在上周没有更新，所以有很多事情值得和你分享！</p>
+<p>上上周（10.18），我参加了灵感买家俱乐部的线上分享会，一起讨论了 Newsletter 的特点，以及作为内容创作者的灵感与想法，我得到了很多有趣的新鲜观点。你可以订阅傅丰元的“<a href="https://club.q24.io/membership/">灵感买家俱乐部</a>”以了解更多，你也可以添加丰元的微信（bob_fu）咨询相关话题。</p>
+<p>上周六（10.24），我在方可成组织的线上讨论会里，分享了自己做笔记和管理日程的工具方法，似乎很多人对此都很感兴趣，我在这里再记录一下。更详细的内容，方可成录制了视频，你可以订阅他的 Newsletter “<a href="https://newslab.info/">新闻实验室</a>”以了解更多。</p>
+<p>在工具的选择上，我的核心理念是，雇佣多个产品互相协作，而不是寻找一个产品满足所有需求。我使用的软件是：</p>
+<ul>
+<li>NotePlan3：日历+提醒事项+待办清单，实际上这三者也承担了日记的角色，目前在 App Store 中可以下载2，3还在内测阶段。</li>
+<li>Obsidian：类似于 Roam Research 的笔记产品，我用来记录碎片信息。</li>
+<li>Notion：记录结构性数据和长期笔记，例如书籍清单、Newsletter 清单、学习编程的课程笔记等等。</li>
+<li>Cubox：类似于 Pocket 的国内稍后再读的产品，我用于记录那些我未做笔记的，但在未来可能想要找到的文章。</li>
+</ul>
+<p>另一个我常被问及的问题是如何有动力持续记录，对我而言，至少有两个理由：</p>
+<ol>
+<li>我需要对自己的生活有掌控感，失控会让自己的精力额外花费在消解焦虑上。</li>
+<li>我需要满足自己的好奇心，我的许多笔记的标题都是“为什么……”，或许满足好奇心也是为了对知识有掌控感。</li>
+</ol>
+<hr>
+</br>
+<h3 id="quibi-的败北">🗞 Quibi 的败北</h3>
+<p>根据最近的新闻，<a href="https://www.wsj.com/articles/quibi-weighs-shutting-down-as-problems-mount-11603301946">Quibi 已经被确定关闭</a>。3 个月前，我和伙伴写了篇文章<a href="https://mp.weixin.qq.com/s/mdw2EiEvno8b2m3gtK2hEQ">《打造移动端的好莱坞，Quibi 忽视了什么？》</a>介绍这个备受瞩目的短视频项目，我们根据卡森伯格在今年 1 月的 CES 上的发言，聊了聊他为什么认为 Quibi 的模式能够成立，并基于逻辑，考虑有什么地方被遗漏了。</p>
+<p>3 个月过去了，文章中没有什么信息是过时的（这也可能意味着我们写作时还是太保守了），同时这段时间有更多关于这家公司的细节不断被披露，当我看到<a href="https://www.vulture.com/2020/07/is-anyone-watching-quibi.html">卡森伯格和惠特曼的争执时</a>，我想这也许不仅是产品定位的问题，也是管理问题。</p>
+<p>在那篇文章最后，我引用了麦当劳的例子：</p>
+<blockquote>
+<p>Quibi 自诩为下一个 HBO，企图颠覆行业。它能成功吗？没有人知道答案，但人们想到的另一个例子是 1996 年麦当劳推出的 Arch Deluxe 汉堡。这款汉堡来自于麦当劳的一个想法：优质的汉堡能够吸引来高端用户群体，因此这款汉堡比其他汉堡都要贵。麦当劳在广告宣传上花费了 1.5 亿美元——这是那个年代中所有速食产业中最高昂的一次广告投入。可惜事实证明，麦当劳用户喜欢的恰恰是它的便宜，而那些对价格不敏感的用户，则根本不会选择吃快餐。</p>
+<p>四年后，麦当劳宣布 Arch Deluxe 汉堡停产。</p>
+</blockquote>
+<p>我相信很多人在最初就不看好 Quibi， 当 Quibi 失败的新闻传出后，此起彼伏着“我早就知道了”的声音。在这一点上，Disney+ 显然要幸运得多，它在去年年末推出，恰好在疫情爆发前，而 Quibi 则在疫情最激烈的时候推出。如果不是在这个时间点推出呢？如果是其他合伙人呢？如果产品定位上有调整呢？</p>
+<p>现实只是一万种可能性中的一个。在看待 Quibi 上我非常同意 The Information 说的，卡森伯格亲自上阵，将自己的声誉押注在自己相信的新东西上，而不只是在抱怨 Netflix 的崛起。对于这个项目来说，这的确是一次惨痛的失败，但回忆一下，贝佐斯也<a href="https://www.businessinsider.com/jeff-bezos-says-multi-billion-dollar-failures-necessary-for-amazon-growth-success-2019-4?utm_campaign=%5Bcovid19%5D+Tech+Impac&amp;utm_content=565240&amp;utm_medium=email&amp;utm_source=cio&amp;utm_term=197229">说过</a>：“If the size of your failures isn’t growing, you’re not going to be inventing at a size that can actually move the needle.”</p>
+</br>
+<h3 id="音频和技术变革">👂 音频和技术变革</h3>
+<p>这是另一个值得关注的新闻。<a href="https://newsroom.spotify.com/2020-10-14/spotify-launches-new-audio-experience-combining-music-and-talk-content/">Spotify 推出一种“Music+Podcast”的新音频格式</a>，创作者能够通过 Spotify 的播客制作工具 Anchor 制作这种格式的节目。Rokey 录制了一个演示视频，你可以阅读<a href="https://mp.weixin.qq.com/s/pmP8_9DH2k2T0HKwQ_R5TQ">《Spotify 的第三格式》</a>以了解更多。</p>
+<p>它和播客的区别在哪里呢？出于版权的原因，想要在播客中插入音乐有严格的限制（且<a href="https://www.thepodcasthost.com/editing-production/music-copyright-can-i-use-song-podcast/#:~:text=Read%20on%20to%20find%20out%20more%E2%80%A6&amp;text=It's%20one%20of%20the%20most,that%20we%20are%20not%20lawyers.">规则</a>非常复杂）。而现在，使用 Anchor 可以随意插入任何音乐。（有关 Anchor 被收购的历史，我和伙伴在去年写的文章<a href="https://mp.weixin.qq.com/s/7qJMrQraFexNdxyCdW41cQ">《播客入局流媒体——Spotify 战略性「抛锚」》</a>中有详细的介绍，不同的线索似乎被串联在一起了）</p>
+<p>它和电台的区别在哪里呢？除了每个人都能成为创作者外，最明显的体验区别是，Spotify 允许用户在收听的同时直接喜欢、保存或查询更多歌曲的信息，而不需要离开当前正在播放的节目。</p>
+<p>商业模式呢？Spotify 表示这种新格式节目会和正常收听音乐一样，对歌手按照流量分成。Spotify 承担了版权的费用，因此你可以想象到，这个新型的音频格式节目只被允许在 Spotify 上发布，而且只有 Spotify 的会员用户才能收听完整的歌曲，免费用户只能收听 30 秒的音乐预览。</p>
+<p>为什么要关注这个新尝试？考虑一下技术对内容的几次影响：早期的唱片 78 转/分钟，由于转速较快，播放时间也相应很短，通常只有 3-4 分钟。后来，出现了 45 RPM（另一种转速）的唱片，它比前者要便宜，但录制时间要短一些，大概在 3 分钟左右。另一方面，这种成本优势也意味着它是唱片公司向全国数千家广播电台发送单曲的主要方式，如果考虑到音乐产业围绕着这种格式构建起来，很容易推测为什么在技术对时长无限制的情况下，现在的歌曲时长仍然被约定俗成在 3 分钟左右。（这同样让我想到 <a href="https://theblog.benedictyu.cn/benweek-010/#:~:text=QWERTY%20%E7%8E%B0%E8%B1%A1">QWERTY 现象</a>）</p>
+<p>另一方面，经济就是技术的一种表达形式。当 Spotify 等流媒体的出现，将消费者从离散的可归属交易（指定日期购买的指定商品）转向持续的普通交易（持续订阅，永久使用）时，创作者有了更多的动力减少音乐的时长，例如 2019 年的顶级单曲 Old Town Road，它只有 1 分 53 秒，大约是 2019 年平均歌曲长度的一半。（商业模式的变化是如何反过来影响内容的）</p>
+<p>我们可以期待一下这种新的 UGC 电台会如何影响音乐和播客。</p>
+<p>如果你对这一话题感兴趣，你也可以阅读 Matthew Ball 的新文章《 <a href="https://www.matthewball.vc/all/audiotech">Audio’s Opportunity and Who Will Capture It</a>》。另外，Stephen Witt 写的<a href="https://book.douban.com/subject/34650132/">《音乐是怎么变成免费午餐的》</a>更详细地记录了盗版音乐是如何发展的这一话题。</p>
+</br>
+<h3 id="马力欧卡丁车的真实表现">🐱 马力欧卡丁车的真实表现</h3>
+<p>在<a href="https://theblog.benedictyu.cn/benweek-011/">上一次 Newsletter</a> 中，我提到《马力欧卡丁车：家庭巡回赛》这款游戏，并提到“赛道不仅仅是个性化的，也是和环境高度互动的：家里的宠物猫横穿赛道，就像电影里金刚和霸王龙追逐赛车的场景。“</p>
+<p>根据<a href="https://zhuanlan.zhihu.com/p/267055635">游戏研究社的文章</a>，宠物的确和这款游戏产生了奇妙的化学反应，宠物对于这个会移动的小家伙表现出巨大的好奇。至少有两点是值得一提的：</p>
+<ul>
+<li>随机性：有的宠物会追赶遥控车，有的会躲避，有的则直接无视它，这种不确定增加了游戏性。另外，当遥控车被宠物阻拦后，屏幕里的虚拟人物也会表现出相应的动作反馈，这非常有趣。</li>
+<li>非常规视角：得益于遥控车带有的摄像头，画面中的猫是一个庞然大物，这让我联想到了爱丽丝梦游仙境。</li>
+</ul>
+<p>我不确定这种新奇感能够持续多久，毕竟宠物也会渐渐熟悉马车，再加上一定的使用门槛，这使得这款游戏更像是 Labo，而不是健身环。</p>
+<figure data-type="image" tabindex="1"><img src="https://ben9706.github.io/benedict.github.io//post-images/1603728331619.GIF" alt="" loading="lazy"></figure>
+</br>
+<h2 id="encore">🎉 Encore</h2>
+<ul>
+<li>在韩国，超过 50 万 5G 用户回到 4G，占韩国 5G 用户总数的 6.5%，原因被认为是服务价格更高的同时，并未提供高质量的连接和覆盖。<a href="http://www.koreaherald.com/view.php?ud=20201007000999&amp;np=1&amp;mp=1">Link</a></li>
+<li>Adobe <a href="https://fortune.com/2020/10/20/adobe-deepfakes-bbc-nytimes-ai/?utm_campaign=%5BTI-AM%5D+The+Informat&amp;utm_content=1002248&amp;utm_medium=email&amp;utm_source=cio&amp;utm_term=1000293">找到一种方法检查新闻图片是否被伪造</a>，以帮助新闻媒体建立信任。同时在 10 月 20 日，Adobe 宣布<a href="https://blog.adobe.com/en/2020/10/20/photoshop-the-worlds-most-advanced-ai-application-for-creatives.html?utm_source=Premium+list&amp;utm_campaign=43d7c9ed0f-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-43d7c9ed0f-71175497&amp;mc_cid=43d7c9ed0f&amp;mc_eid=6268a77188#gs.j4mm7s">通过人工智能增强 PS 的能力</a>，用户可以非常容易地修改照片中人的神态、姿势等。这是一次技术的两面性的良好体现，历史总是在螺旋中前进。</li>
+<li>尽管无法在国内使用 Google，但 Chrome 在中国仍是最受欢迎的浏览器。<a href="https://www.scmp.com/abacus/tech/article/3103747/google-chrome-remains-chinas-most-popular-web-browser-even-google?utm_source=Rest%20of%20World%20Newsletter&amp;utm_campaign=908a34bfe9-EMAIL_CAMPAIGN_2020_10_19_05_11&amp;utm_medium=email&amp;utm_term=0_b91e039431-908a34bfe9-409917159">Link</a></li>
+<li>Raindrop.io 新版本上线。这是一款书签软件，你可以收藏所有内容在上面。值得一提的是，它支持将文件夹生成 URL，让其他用户在线查看文件夹中的内容，而且在格式上不局限于网址，本地的文本和图片同样可以上传。我不确定这个功能在此前版本是否存在，这相当于承载了许多人用 Notion 的 Table 收集和分享信息的需求。从目前看对非网址的格式支持还不是很好，但想象一下如果它能够很容易地收藏和分享文章、图片、播客、视频……<a href="https://raindrop.io/">Link</a></li>
+<li>KEVIN XU 讨论了 iPhone 供应链从中国转移到印度。<a href="https://interconnected.blog/iphone-made-in-china-india/">Link</a></li>
+<li>作弊与反作弊的较量：分屏器真的安全吗？<a href="https://zhuanlan.zhihu.com/p/155819108">Link</a></li>
+</ul>
+<p>写在最后：我使用的搭建博客工具 Gridea 有了一次大型更新，作者<a href="https://fehey.com/">海岛心hey</a>增加了 Web 版本，这意味着跨设备管理将变得更加方便，这着实值得为他高兴👏。项目地址链接是：https://gridea.dev/。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[竹本一周：No.011]]></title>
         <id>https://ben9706.github.io/benedict.github.io/benweek-011/</id>
@@ -727,64 +793,6 @@ img{
 <p>在 <a href="http://paulgraham.com/genius.html"><em>The Bus Ticket Theory Of Genius</em></a> 中，作者认为天才的秘诀是对重要的事情拥有无私的痴迷。恰是因为这种痴迷，让人能够忘却过程的痛苦，恰是因为不带有目的性的，让人不关注短期收益。那什么是重要的事情？作者提到创造事物显然比消费一个存在的事物更重要。</p>
 <p>但这就是我想说的，在我的观点里，创造事物的源动力不仅仅是痴迷一个事物，还需要另一个重要的因素——<strong>对现状的不满</strong>。一个痴迷于音乐的人可能听过上万首歌曲，但一个对现状不满的人才会思考为什么下载和管理音乐这么复杂，并想办法解决该问题（我指的是乔布斯和 iTunes）。</p>
 <p>对现状的极度不满，并永远相信自己能够做的更好，我认为这才是创造的源动力。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.003]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-003/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-003/">
-        </link>
-        <updated>2020-08-03T09:25:53.000Z</updated>
-        <content type="html"><![CDATA[<p>每周我的所见所闻所思。</p>
-<ul>
-<li>TikTok 和国会听证会</li>
-<li>网抑云 meme</li>
-<li>不用触控的触摸屏</li>
-<li>远程办公会降低效率吗？</li>
-<li>GPT-3 和 AI 产品</li>
-</ul>
-<h3 id="字节跳动同意完全剥离-tiktok-在美国业务"><a href="https://www.nytimes.com/reuters/2020/08/01/business/01reuters-usa-tiktok-bytedance-exclusive.html">字节跳动同意完全剥离 TikTok 在美国业务</a></h3>
-<p>有关 TikTok 未来的走向变化太多尚无定论，但无容置疑，这会是被历史深深铭记的一次事件。另一方面看，这起事件和<a href="https://www.theinformation.com/articles/tech-ceos-face-congress?utm_campaign=%5Bcovid19%5D+Tech+Impac&amp;utm_content=564518&amp;utm_medium=email&amp;utm_source=cio&amp;utm_term=196839">本周四大科技巨头在美国国会的听证会</a>有非常类似的核心问题：</p>
-<ul>
-<li>Google 被质疑是否滥用第三方安卓 App 的数据，以提升自己旗下产品的竞争地位（Google 既拥有 Youtube，也拥有安卓，既是买方也是卖方）。</li>
-<li>Facebook 被指控对平台内虚假内容的放纵。</li>
-<li>Amazon 被质疑是否滥用第三方卖家的数据（和 Google 类似）。</li>
-<li>Apple 则被质疑对开发者存在垄断行为，一些 App（例如 Amazon 的产品）可以绕过 Apple 的支付条款，避免被收取 30% 的苹果税，而对于大部分开发者来说则根本不可能（回忆一下 2017 年微信和 Apple 有关公众号打赏的纠纷事件）。</li>
-</ul>
-<p>这背后都涉及到同一个主题：<strong>数据</strong>。</p>
-<p>七月 Twitter 上多个名人账号被盗同样如此，科技企业的产品和服务渗透到日常生活的方方面面，每一次购买、支付亦或是对话都被记录下来，科技企业对用户的了解远远超过其他传统企业，但同时，数据收集仍然不够透明，数据存储不够令人信服，内容分发算法仍是一个黑盒。</p>
-<p>任何人都会恐惧这种巨大的力量有一天会失控。而与此同时，这一切发展得都太快了，<a href="https://www.ben-evans.com/benedictevans/2020/7/23/regulating-technology?utm_source=Benedict%27s+Newsletter&amp;utm_campaign=784a6d6e7b-Benedict%27s+newsletter+issue+346&amp;utm_medium=email&amp;utm_term=0_4999ca107f-784a6d6e7b-71068105">现有的法律法规似乎没有做好该如何应对这种风险</a>（1994 年地球上只有大约 1 亿台个人电脑，而现在 40 亿人拥有智能手机）。此前，美国国会的注意力在银行、烟草和航空公司，而现在转到了科技企业身上，但问题在于，<a href="https://stratechery.com/2020/the-antitrust-hearing-the-role-of-congress-ceo-questions/">反托拉斯法能够适用于天然有垄断倾向的科技企业吗？</a>（用户选择使用 Google 未必是其垄断地位导致的，即使市面上有多个搜索引擎，用户很可能最终仍然会只使用 Google，没有任何改变）</p>
-<p>有关此事件，我需要更多的时间思考。</p>
-</br>
-<h3 id="网抑云meme">「网抑云」meme</h3>
-<p>可能有很多理论能够解释这一现象，我想分享我的观点。</p>
-<p>一个前提条件是，每个社区都有回报率更高的特定内容。没有人会在追星的社区中分享自己的学习心得，在网易云音乐中，带有丧情绪的评论非常容易获得高点赞量和评论数（甚至是被印刷在地铁中），这使得用户为了获取更多的社交资本，不自觉追求这类特定内容。（Yourseeker 编译的《<a href="https://www.huxiu.com/article/287243.html">禅与社交网络维修艺术</a>》有对这一话题进行延伸。）</p>
-<p>另一个合理的推测是，网易云音乐被越来越多低龄的年轻用户使用，多数社区产品积极拥抱年轻用户实现用户数增长，这当然可以简单归因于「年轻人更愿意拥抱新事物」，但更深层的原因是大部分年轻人没有过多的社交资本积累，更容易无负担迁移到另一个新平台上。然而，这种无负担是一把双刃剑，因为这也意味着许多年轻人没有足够丰富的经历能够分享，在这种矛盾下，一些用户会夸大自己的经历（我没有用编造这一词语），而这些内容因为迎合了社区的激励性，获得大量正反馈，这更促进了虚假内容的泛滥。</p>
-<p>在我的观点中，知乎同样遇到了该问题，但抖音则没有，这是因为在抖音上，内容主要以模仿和创意为主，不依赖于一个人的过往经历丰富程度。另外，视频造假的成本显然比文字要高很多，一个人可以用文字说自己拳打猛虎，但视频则能过滤掉夸夸而谈的那群人，这使得抖音在产品类型上并未鼓励虚假内容的增长。</p>
-</br>
-<h3 id="不用触控的触摸屏">不用触控的触摸屏</h3>
-<p><a href="https://www.slashgear.com/cambridge-researchers-create-a-touchscreen-you-dont-have-to-touch-24630475/">研究人员发明了一种不用触摸的触摸屏（no-touch touchscreen）</a>，这原本是为汽车内的触控屏而开发的，因为汽车时常颠簸，用户无法有效点击到目标区域。研究人员认为这也有助于应对疫情，因为不必触摸到实体屏幕，就避免了病毒传播。</p>
-<p>这让我联想到 MIT 媒体实验室创始人尼葛洛庞蒂在 1996 年出版的<a href="https://book.douban.com/subject/26954267/">《数字化生存》</a>中的言论。那时实体按键仍是主流，触控技术虽然被应用在 ATM 机上，但也仅此而已。许多人认为手指不可能胜任输入的工作，首先是手指太粗了，当用手指指向屏幕时，手指势必会遮挡住内容，无法进行精确操作，其次，手指会把屏幕弄脏（这并非玩笑话），屏幕在相当长的时间里一直被认为是脆弱的，而直接用手指进行操作会磨损屏幕。</p>
-<p>尼葛洛庞蒂在那本书中表达了自己对触控技术在未来应用的乐观，但他认为这项技术没有普及的原因是因为还没出现能够感应手指范围的技术（即这次研究人员的发明）。以目前的眼光看，尼葛洛庞蒂显然大大低估了手指触控的潜力，但从另一个角度看，这次的新技术如果只被使用在汽车上，也被低估了应用的可能性。</p>
-<p>如果再延伸该话题，人们对触控屏的改观主要来自于初代 iPhone 的虚拟键盘。在<a href="https://book.douban.com/subject/34899655/">《创意选择》</a>中介绍了这段开发故事，那时最大的挑战是如何在小屏幕设备上保证输入仍然准确，最初的设想方案是按键必须要足够大，这种方案类似于九宫格（如下图，我将书中第一个键盘方案用 ProtoPie 制作了一个可交互原型，你可以点击<a href="https://cloud.protopie.io/p/19a6b91c64">该链接</a>体验 ），但这种键盘的劣势也非常明显：不够直观。经过许多方案的尝试，最终结合词库，将按键区域动态调节，但在前端显示是不变的，这相当于将系统的复杂性封装在黑盒里。这个解决方案非常优雅，你可以阅读该专利 <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=8,074,172.PN.&amp;OS=PN/8,074,172&amp;RS=PN/8,074,172"><em>Method, system, and graphical user interface for providing word recommendations</em></a> 了解更多，如果想要了解更多苹果的专利，可以阅读 <a href="https://www.patentlyapple.com/">Patently Apple</a>。<br>
-</br><br>
-<img src="https://ben9706.github.io/benedict.github.io//post-images/1596446850968.gif" alt="" loading="lazy"><br>
-</br></p>
-<h3 id="远程办公会降低效率吗">远程办公会降低效率吗？</h3>
-<p>这个问题很难回答，比较容易想到的影响因素有职位和地域，但还有一些难以想到的其他因素。</p>
-<p><a href="https://www.wsj.com/articles/google-to-keep-employees-home-until-summer-2021-amid-coronavirus-pandemic-11595854201">据《华尔街日报》报道</a>，Google 计划至少在 2021 年 7 月前留住 20 万名全职员工，并雇佣他们远程工作，其他科技公司已经宣布了长期计划，要求员工在家工作，但是 Google 是第一家将远程工作延长到明年年中的公司。</p>
-<p>近一半的人表示，远程办公没有影响自己的工作效率，甚至更高了，但对有孩子的员工来说，这意味着不得不一边照顾孩子，一边完成工作。<a href="https://www.theinformation.com/articles/googles-plan-to-resume-reviews-rankles-employees-with-children#comment-8586">在一项调查中发现，有孩子的 Google 员工表示自己压力非常大，</a>这些人认为自己的工作效率降低了，他们也担心远程办公会扩大职场性别薪酬差距，因为女性通常需要比男性承担更多的育儿责任。</p>
-<p>这显然不是一个积极信号，但没有人有应对这种状况的经验。我认为这是一个值得长期关注的课题。<br>
-</br></p>
-<h3 id="ai-产品">AI 产品</h3>
-<p>上周提到 GPT-3，可以猜测，未来一段时间内会涌现出更多使用该接口的实验性产品，你可以在 <a href="https://gptcrush.com/resources/?ref=producthunt">GPT Crush</a>  上查看其他人分享的使用 GPT-3 的脑洞想法。</p>
-<p>如果对该类产品感兴趣，还可以关注 <a href="https://www.producthunt.com/topics/artificial-intelligence?utm_campaign=5869_2020-07-26&amp;utm_medium=email&amp;utm_source=Product+Hunt&amp;utm_term=editorial">ProductHunt 的 AI 主题</a>，以下是一些非常有趣的产品：</p>
-<ul>
-<li><a href="https://podbot.ai/">Podbot</a>：输入关键词，就能输出推荐的播客清单。</li>
-<li><a href="https://fluently.so/">Fluently</a>：允许用户使用母语写作，可以直接输出成另一种语言的文档。这和翻译不同，这更聚焦写作的过程。</li>
-<li><a href="https://www.provenskincare.com/?ref=producthunt&amp;promo=HUNTED">Proven</a>：为用户个性化推荐护肤品，在不同的气候下，也会推荐不同的内容。<br>
-</br></li>
-</ul>
 ]]></content>
     </entry>
 </feed>
