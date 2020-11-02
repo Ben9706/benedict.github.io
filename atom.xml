@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-11-02T16:58:22.670Z</updated>
+    <updated>2020-11-02T17:26:59.056Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -17,7 +17,7 @@
         </link>
         <updated>2020-11-03T00:11:10.000Z</updated>
         <content type="html"><![CDATA[<p>早上好。</p>
-<h3 id="facebook-新闻和算法黑盒">Facebook、新闻和算法黑盒</h3>
+<h3 id="facebook-新闻和算法黑盒">🗞 Facebook、新闻和算法黑盒</h3>
 <p>当人们越来越多地从社交媒体上获得新闻时，平台有权力和义务处理假新闻吗？</p>
 <p>这一话题的复杂性在于，如果我们允许社交媒体对新闻判断其真假，那么其边界在哪里？大多数交流仍然发生在一对一或少数人群组的私人对话里，而非社交媒体的新闻版块，如果对新闻真假做审查，这是否会一步步侵害正常的言论自由？</p>
 <p>在过去，由于 <a href="https://en.wikipedia.org/wiki/Section_230">230 条款</a>的存在，互联网平台被认为不需要为用户发布的内容承担责任，但现在，由于使用算法而非仅依赖于订阅，原先的条款已经无法再适用于当下。</p>
