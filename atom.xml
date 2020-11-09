@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedict.github.io/</id>
     <title>竹本一世</title>
-    <updated>2020-11-03T01:23:05.733Z</updated>
+    <updated>2020-11-09T15:34:23.980Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedict.github.io/"/>
     <link rel="self" href="https://ben9706.github.io/benedict.github.io/atom.xml"/>
@@ -10,6 +10,72 @@
     <logo>https://ben9706.github.io/benedict.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedict.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[竹本一周：No.014]]></title>
+        <id>https://ben9706.github.io/benedict.github.io/benweek-014/</id>
+        <link href="https://ben9706.github.io/benedict.github.io/benweek-014/">
+        </link>
+        <updated>2020-11-09T15:15:01.000Z</updated>
+        <content type="html"><![CDATA[<p>早上好。</p>
+<p>上周，许多人的注意力都在美国总统大选上，坦白说，我对这块知识十分匮乏，我猜想它的结果会以某种方式作用于我身上，乃至影响我未来数年的生活，但可惜的是，我不知道它会如何作用。我正在收听刘瑜在看理想上的《比较政治学》，以缓和“政治性抑郁”。</p>
+<p>另一件非常重要的事是，《中华人民共和国个人信息保护法》（草案）正在征求意见，截止到 11 月 19 日。这次立法让人联想到 2018 年欧盟出台的 GDPR（《通用数据保护条例》）。在海外，个人隐私话题也时常和垄断关联在一起讨论，从任何角度看这都值得长期关注。<a href="http://www.npc.gov.cn/flcaw/userIndex.html?lid=ff80808175265dd401754405c03f154c">法律草案</a></p>
+<p>最后，<a href="http://qingmang.me/app/?utm_source=product&amp;utm_medium=poster&amp;utm_campaign=app">轻芒杂志 App</a> 在双十一期间分享了许多人的订阅清单，我的清单主题有关科技、计算机、互联网的历史与未来：</p>
+<ul>
+<li>Nov：<a href="https://mp.weixin.qq.com/s/LCfh8WoyUd6Z01HDkIeXDQ">《协议，而不是平台：言论自由的技术途径》</a></li>
+<li>耳聽：<a href="https://mp.weixin.qq.com/s/MbWAx_pVa42Y1q8qieRmGA">《Notion 的支撑者》</a></li>
+<li>鲜终：<a href="https://mp.weixin.qq.com/s/rNopwdMZ2EGGJCy_FcKthg">《编程教育60年：先驱、建构主义及新工具》</a></li>
+<li><a href="https://www.theinformation.com/">The Information</a>：write deeply reported articles about the technology industry that you won’t find elsewhere.</li>
+<li><a href="https://interconnected.blog/">Interconnected</a>：从分析创建者（企业家，工程师）、运营者（企业经理）、投资者（资本家）和监管者（政客和政府官员）的角度和“维纳图”，以及他们之间的相互联系，来分析各个行业和思考宏观趋势。</li>
+<li><a href="https://themarkup.org/">The Markup</a>：Big Tech Is Watching You. We’re Watching Big Tech.</li>
+</ul>
+<p>前三者，我用他们发布过的文章作为 bio，你可以感受到他们关注的领域，他们至今仍在持续写优秀的文章：）</p>
+<p>The Information 是我非常喜欢的海外科技媒体，它每天两篇 Newsletter 涵盖全球科技领域的重要新闻。</p>
+<p>Interconnected 是一个关注中美科技的个人博客，最明显的特点是每篇文章都是中英双语的，作者 KEVIN XU 特地写过一篇文章<a href="https://interconnected.blog/why-write-a-bilingual-english-chinese-tech-blog/#chinese-version-below">《为什么写中英双语的科技博客》</a>来解释这么做的原因，理由太动人了，你一定要读一读。</p>
+<p>The Markup 是一个非盈利组织，尤其关注科技企业如何用技术改变我们的社会。它最为人称道的是它以数据为导向的调研方法，只要有可能，他们都会公开自己在调研过程中用到的数据集、代码和分析方法，这不仅是在强化文章的可信度，也是一种由公众进行监督的纠错机制。</p>
+<p>以上内容，你除了可以在公众号或网站上找到外，也都可以在轻芒杂志上阅读，我的轻芒杂志邀请码是“竹本一世”，输入它，你可以解锁轻芒杂志 Pro 版，获得更多权限。<br>
+</br></p>
+<hr>
+<h3 id="蚂蚁金服-ipo-暂停">🗞 <a href="https://www.sohu.com/a/429389819_114986">蚂蚁金服 IPO 暂停</a></h3>
+<p>《第一财经》 11 月刊的研报部分即有关蚂蚁金服 IPO，非常详细地介绍了蚂蚁集团究竟怎么挣钱，以及哪里出了问题。值得强调的是，考虑到印刷和撰稿周期，第一财经肯定是在蚂蚁金服 IPO 被叫停前就写好了文章，绝非跟风之作。有些媒体将这一事件简化成了“马云叫板监管——政府快速响应——蚂蚁金服受到牵连，被迫暂停 IPO”，这显然低估了所有人（马云、政府、读者）。</p>
+<figure data-type="image" tabindex="1"><img src="http://p0.itc.cn/images01/20201104/50ccd4a8b1a3489ea7dbe12e47a692b7.jpeg" alt="img" loading="lazy"></figure>
+</br>
+<h3 id="为什么中国做不出好的b端产品">🗞 <a href="https://twitter.com/passluo/status/1281633979993473025">为什么中国做不出好的B端产品？</a></h3>
+<p>这是我在 Twitter 上读到的，作者@passluo 似乎是字节跳动的产品经理，他的观点主要是：</p>
+<p>国内的大型互联网企业无论是组织结构，还是赛道选择都不适合 2B 行业。腾讯、字节、美团、滴滴多发家于 2C，行业规模大、增长方法固定，多以广告作为主要收入来源，这些都和 2B 由巨大差异。从企业角度看，2B 产品的服务由于和企业发展切实相关，采购决策会更理性，周期也会更长，注定无法快速增长。现在市场上主流的 2B 企业大多是 2012 年前后做起来的，有些甚至更早：北森、帆软、金蝶、用友、金山……都花费了十多年的时间才积累了行业地位和护城河，还在不断受到新企业的挑战。</p>
+<p>事情难做、时间成本高、ROI 低，又有谁会愿意做呢？阿里的语雀、腾讯的 TAPD，亦或是字节的飞书，虽然名义上是 2B 产品，但多脱胎于内部需求，产品形态和运营方式更接近于 2C（回忆一下语雀，这太明显了）。</p>
+<p>这其中一个特例是阿里云，但众所周知的是，王坚一路走来也颇受争议，且始终得到马云的强力支持。</p>
+<p>这个话题也让我想到<a href="https://mp.weixin.qq.com/s/EM-aWr273GdHbDzhZ7UgOA">王兴在几年前说的话</a>：</p>
+<blockquote>
+<p>美国的 2B 科技企业做出来的，都是给企业或者给商家提供解决方案的。例如 salesforce 是销售团队管理解决方案，workday 是 HR 解决方案，都是给企业和商家提供解决方案的。为什么这些提供解决方案的公司在美国活得很好，在中国活得不好呢？因为美国这个国家商业周期非常长，因为商业周期长，所以任何一个企业所有能用来竞争和发展的东西基本上都用光了，他们的发展出现瓶颈了，当他们出现瓶颈的时候就开始搞内部提高效率，降低成本，创新服务。</p>
+<p>而他们要搞内部提高效率、降低成本、创新服务的时候，他们没有这些技术支持做不了，所以说白了就是美国的企业在过去这些年率先遇到了市场红利枯竭的状态，因为遇到市场红利枯竭，它就要寻求自己的效率成本和创新，它要寻求自身的效率成本和创新的时候就对各种新式的能提高效率降低成本的各种工具开始产生兴趣。</p>
+<p>所以，当企业赚钱不再那么容易时，就不得不开始在内部追求高效、增长了。</p>
+</blockquote>
+<p>另一个我观察到的现象是，Slack、Notion 等海外产品在一些垂直需求上大多选择和其他企业对接，例如 Notion 是不自己做流程图或思维导图的，而是使用 Miro 或 Whimsical 的服务。但无论是语雀还是飞书，似乎都选择了自研，哪怕国内已经有非常成熟的 XMind。</p>
+<p>我还联想到明道云创始人任向晖写的<a href="https://zhuanlan.zhihu.com/p/165405937">《谁该承担中国SaaS贫瘠生态的一点责任》</a>。</p>
+</br>
+<h2 id="encore">🎉 Encore</h2>
+<ul>
+<li>
+<p>2020 年美国大选的参与投票率为 120 年来最高，没错，上一次是 1900 年。<a href="https://qz.com/1929084/the-trump-biden-election-saw-the-most-voter-participation-in-120-years/">Link</a></p>
+</li>
+<li>
+<p>22 号提案通过，Uber 的胜利。去年，立法机构要求 Uber 和 Lyft 将司机当作雇员，但草案内容反而限制了自由职业者们的工作。随后法案被修正为针对 Uber 和 Lyft 生效，但现在，选民们投票倡议通过了新的法律，又禁止了政府的法案生效。一个浮士德式交易的经典案例。<a href="https://www.npr.org/2020/11/05/931561150/california-voters-give-uber-lyft-a-win-but-some-drivers-arent-so-sure?t=1604836580416&amp;utm_source=Premium+list&amp;utm_campaign=f85951c67e-Benedict%27s+newsletter+Premium&amp;utm_medium=email&amp;utm_term=0_52809a9e4b-f85951c67e-71175497&amp;mc_cid=f85951c67e&amp;mc_eid=6268a77188">Link</a></p>
+</li>
+<li>
+<p>TikTok 内测新 Tab “Learn on TikTok”，切入教育内容。这让我联想到任天堂尝试将游戏机用于网络购物等便民服务却最终失败的案例，一个娱乐产品要如何说服用户“你可以来我们这里做些正经事“呢？但另一方面，我身边的确有人使用抖音学习小知识，例如一些简单的编制技巧。而且，还记得 Alex Zhu 在创办 Musical.ly 之前，想要做的就是一个有关学习课程的短视频产品吗？ <a href="https://techcrunch.com/2020/11/05/tiktok-tests-a-learn-tab-to-showcase-education-and-how-to-videos/?utm_source=Daily+Lab+email+list&amp;utm_campaign=b16cc0d2a3-dailylabemail3&amp;utm_medium=email&amp;utm_term=0_d68264fd5e-b16cc0d2a3-396614124">Link</a></p>
+</li>
+<li>
+<p>纽约时报的数字订阅收入首次超过其收入。如果你想了解纽约时报的历史，我非常推荐张宁的这篇文章<a href="https://platformthinking.plus/the-new-york-times/">《The New York Times: 与时俱在》</a>。<a href="https://www.niemanlab.org/2020/11/for-the-first-time-the-new-york-times-digital-subscriptions-generate-more-revenue-than-its-print-ones/?utm_source=Daily+Lab+email+list&amp;utm_campaign=b16cc0d2a3-dailylabemail3&amp;utm_medium=email&amp;utm_term=0_d68264fd5e-b16cc0d2a3-396614124">Link</a></p>
+</li>
+<li>
+<p>为孩子做的新闻产品，该怎么和孩子解释这个世界正在发生什么呢？<a href="https://www.niemanlab.org/2020/11/with-many-children-still-learning-from-home-kid-focused-news-products-aim-to-fill-some-gaps/?utm_source=Daily+Lab+email+list&amp;utm_campaign=b16cc0d2a3-dailylabemail3&amp;utm_medium=email&amp;utm_term=0_d68264fd5e-b16cc0d2a3-396614124">Link</a></p>
+</li>
+<li>
+<p>带有扬声器的花洒，在浴室里边洗澡边听歌。它的结构非常有趣，通过水流发电。<a href="https://www.kickstarter.com/projects/ampere/shower-power-waterproof-bluetooth-speaker-hydropower">Link</a></p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[竹本一周：No.013]]></title>
         <id>https://ben9706.github.io/benedict.github.io/benweek-013/</id>
@@ -695,81 +761,6 @@ img{
 <p>美国民主党议员 Elizabeth Ann Warren 提议应该分拆苹果的硬件、软件和 App Store 业务。她举例说，铁路公司曾经不仅通过交通费盈利，还收购钢铁公司，降低自己公司钢铁材料的运输费用，并提升其他竞争对手的运输费用，得以成长为巨头。</p>
 <p>但对于苹果，恰恰是它高度控制所有业务，才能够为用户带来安全和优质的体验，很难想象通过拆分业务就能解决现在的问题。另一些人则认为，只要苹果允许用户通过其他途径下载 App，就能解决开发者和苹果的矛盾，但这恰恰是安卓为什么无法保证 App 质量的原因。</p>
 <p>一些人希望手机应该尽可能开放，另一些人则希望手机应该尽可能安全易用，苹果选择成为后者。无容置疑的是，目前模糊且固定的抽成方式不利于开发者，不利于创新，从长远看，也不利于苹果。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[竹本一周：No.005]]></title>
-        <id>https://ben9706.github.io/benedict.github.io/benweek-005/</id>
-        <link href="https://ben9706.github.io/benedict.github.io/benweek-005/">
-        </link>
-        <updated>2020-08-16T14:08:24.000Z</updated>
-        <content type="html"><![CDATA[<p>我一周的思考。</p>
-<ul>
-<li>Notion 正式推出韩语版</li>
-<li>大胃王吃播是独有的文化现象吗？</li>
-<li>分类理论和标签类笔记软件</li>
-<li>汽车替代马匹的技术思考</li>
-</ul>
-</br>
-<h3 id="notion-正式推出韩语版">🗞 Notion 正式推出韩语版</h3>
-<p>2 个月前，韩国中央日报<a href="https://news.joins.com/article/23804306">采访</a> Notion CEO Ivan Zhao 时，Ivan 就提到将在今年夏天推出韩语版本的 Notion，<a href="https://www.protocol.com/notion-app-korea">而本周，它正式上线了</a>。这是 Notion 首次推出外语版本，Notion 表示，韩国是除美国外的最大的市场，今年韩国用户数量同比增长了 263%。<a href="https://www.appannie.com/apps/google-play/app/notion.id/intelligence/?chart_app_intelligence_chart">根据 App Annie 的数据</a>，Notion 排在美韩后的几个主要市场，依次是巴西、俄罗斯和英国，而中国在这个排名中处于相对靠后的位置（这可能和一些人想的不同）。</p>
-<p>为什么韩国用户这么喜欢 Notion？坦白说，我不知道原因。我对韩国文化知之甚少，我几乎没有关注过韩国在科技领域的动态，我收看韩剧也是今年才开始的，所以接下来我只基于事实做一些分析：</p>
-<ul>
-<li>大部分用户主要通过电脑使用 Notion，而不是手机。这主要因为 Notion 的移动端体验并不好。如果你关注 Notion 在今年的几次迭代，你会发现大多数都是在优化移动端体验。考虑到中国的移动优先策略，这可能是为什么中国用户数没有那么庞大的一种原因（访问速度是另一个重要原因)。</li>
-<li>韩国支持移动支付、Visa、万事达卡、PayPal 等多种支付方式，这意味着 Notion 不需要重新改造整个支付系统（联系新的服务提供商，并面临监管问题），Ivan 表示自己最大的工作负担主要来自于解决这类问题上。</li>
-<li>法律是另一个地缘问题。<a href="https://www.appannie.com/account/login/?next=/apps/google-play/app/20600009962811/rank-history/%3Fvtype%3Dday%26countries%3DCN%26view%3Drank%26legends%3D222%26date%3D2020-04-26%7E2020-05-25">根据 App Annie 的数据</a>，今年 5 月，在宣布个人账号也能免费使用核心功能后，Notion 在中国安卓应用商店中迅速成为下载量最高的生产力 App（另一个助推剂可能是引发争议的<a href="https://zhuanlan.zhihu.com/p/143130294">寒舟事件</a>）。随后，用户发现无法在中国继续使用 Notion，这大约持续了 24 小时，随后恢复正常。笔记产品一般不会面临这种限制，但 Notion 几乎满足了个人建站的需求（我认为这也是一个非常好的跨领域切入市场的案例，想象一下此前  Webflow 等傻瓜式网页制作工具，或是 Wordpress 等搭建博客工具，Notion 的优势是巨大的）。</li>
-<li>翻译是一项巨大的工程。最初，Notion 估计大概几周能完成，但实际上他们几乎重构了一次代码（这不是指韩国 Notion 和美国 Notion 是不同的 ），一部分原因在于语言会影响 UI 样式，在表述相同意义时，一些语言会比其他语言更长，这意味着不得不改变按钮等组件样式。另外，Notion 也低估了翻译量，他们原本以为大约在几万字，但实际上达到 251,000（回忆一下 Notion 丰富的模版库）。</li>
-</ul>
-<p>基于上述分析，我猜测很长时间里都不会见到中文版的 Notion，但无论如何，Notion 都是我目前最爱的产品，没有之一。<br>
-</br></p>
-<h3 id="大胃王吃播是独有的文化现象吗">🗞 大胃王吃播是独有的文化现象吗？</h3>
-<p>我不打算讨论这件事的道德性，但我的确不太喜欢这种简单直白的家长式立法，因为它没有试图理解这种文化形成的原因。</p>
-<p>大胃王吃播让人想到<a href="https://en.wikipedia.org/wiki/Competitive_eating">竞吃（Competitive eating）</a>，即在限定时间里，比谁吃的更多。这类比赛通常在 10 分钟左右，消耗最多食物的人被宣布为获胜者，这在美国、加拿大和日本最受欢迎。竞吃也被认为是一种运动，不仅是因为它鼓励竞争，还因为参赛者需要经过长期训练才能在比赛中获取名次，例如他们需要学会抑制自己呕吐反射的本能，因为在比赛中不允许呕吐食物。</p>
-<p>这项运动不算小众，最知名的是 <a href="https://www.forbes.com/2009/07/01/joey-chestnut-nathans-business-sports-eating.html#37e91ac755ea">Major League Eating</a>，每年会举办 70 多场类似的活动，<a href="https://www.businessinsider.com/competitive-eating-contest-joey-chestnut-marketing-2020-1">这被认为对品牌和当地城市都有巨大的宣传作用。</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Mukbang">吃播（Mukbang）</a>则从 2010 年起在韩国开始流行，并蔓延至全球，但需要注意的是，Mukbang 更偏于直播性质的吃播，而不是经过后期剪辑的视频（否则造假成本太低），经济学人 2015 年的文章 <a href="https://www.economist.com/asia/2015/06/27/the-food-show-craze"><em>The food-show craze</em></a> 提到，这种饮食节目受欢迎的原因可能和韩国长期经济衰退有关，这导致韩国民众普遍感到焦虑，与其说节目有关烹饪和食物，不如说是一种享受。</p>
-<p>我比较认同这一文化现象和焦虑感有关，根据 <a href="https://apps.who.int/iris/bitstream/handle/10665/254610/WHO-MSD-MER-2017.2-eng.pdf;">WHO 有关全球心理健康的报告</a>，焦虑症最严重的地方依次是东南亚、美洲和亚太地区，占全球比例的 64%，这和我们了解到的情况基本符合，但我猜测还有一些其他的影响因素，例如科技发展水平，以及人们是否有其他途径消解这种焦虑感。<br>
-</br></p>
-<h3 id="分类理论和标签类笔记软件">🗞 分类理论和标签类笔记软件</h3>
-<p>站在演化的角度看，掌握分类能力（<a href="http://psychology.iresearchnet.com/developmental-psychology/cognitive-development/categorization/#:~:text=In%20cognitive%20psychology%2C%20categorization%20focuses,events">Categorization</a>）是必要的，人类可以用最少的时间尽可能获取更多的信息。有关分类的理论可以被分为两类。</p>
-<h4 id="基于相似性">基于相似性</h4>
-<p>基于相似性的理论认为分类的过程是：</p>
-<ul>
-<li>看到一个新东西</li>
-<li>记忆中某个已存在的分类被触发</li>
-<li>人类对相似性做判断得出一个分类结论</li>
-</ul>
-<p>这种分类方法最传统的表现是定义某个类目包含的东西共有的特征，例如任何矩形的 4 个内角都是 90 度，不符合该条件的就不是矩形。这种分类方式暗含所有事物都是二元对立的先决条件，但问题是许多分类并非泾渭分明。</p>
-<p><a href="https://en.wikipedia.org/wiki/Prototype_theory">Prototype theory</a> 认为，因为没有绝对的边界，我们可以认为一个类目下的东西比另个类目更有典型性，一个例子是人们判断知更鸟是鸟类的速度比判断企鹅要快，这是因为知更鸟比企鹅更像鸟类，在该理论看来，存在一种理想鸟，是人对于鸟的理解的平均值（这让我想起柏拉图的理型论）。</p>
-<p><a href="https://en.wikipedia.org/wiki/Exemplar_theory">Exemplar theory</a> 则认为，人们看到新的东西后，是和分类里已经存在的多个东西进行比较，一个容易理解两种理论差异的例子是如何分类只有三条腿的狗，在 Prototype theory 里，人们是无法将三条腿的狗定义为狗的（因为理想狗不是三条腿），但 Exemplar theory 则将三条腿的狗和之前遇到的实际例子对比，因而能够定义这是狗。</p>
-<h4 id="基于解释性">基于解释性</h4>
-<p>这种分类方式对不具有明显共同特征的东西能够比较良好的分类，如区分生命物体和无生命物体。</p>
-<p>上述知识对我理解以标签体系为核心的笔记软件（例如 Bear）有启发性：</p>
-<ul>
-<li>每个人都有基于自己知识储备的分类方法，这导致即使对同样的东西，也存在不同分类方法（蝙蝠、猫头鹰、海豹和企鹅，既可以分类成会飞还是会游泳，也可以分类成哺乳动物还是鸟类），但随着越来越多公开的知识信息，人类需要一套共用的分类方法（想想林奈命名法和杜威分类法）。</li>
-<li>人们可能很难区分一些抽象的东西，科技和互联网之间的区别是什么呢？此外，随着一个人知识储备的增长，对同一事物的区分方式也可能发生变化。这也是目前基于标签分类的笔记产品最大的问题：人们先有记录的东西，再去做分类，这一定会导致随着记录数量的增长，分类方式出现偏颇。</li>
-<li>即刻 App 的圈子也是一种分类方式，它的创新点是基于场景做分类（“一个想法不一定对”和“浴室沉思”很可能会被归结成“灵感”，但实际上二者有差异），然而，考虑一下即刻至今还没有开发创建圈子的入口，我认为这意味着良好分类的能力本身就是需要后天习得的，亦或是花费额外力气运营的，而非天生的。</li>
-</ul>
-<p>这看上去是一个鸡生蛋的矛盾问题，我不否认标签的作用，但如果仅依赖标签，这个笔记系统是不够完善的，因为它注定会越来越臃肿。Roam Research 尝试通过文档间的关系帮助用户联想，这绝对是一次革新，因为它不要求用户在记录信息时就做分类，但这种图谱也被一些人诟病没有成效。</p>
-<p>近期出现许多产品都试图融合 Roam Research 的双向链接和 Notion 的 Block，我认为这不是一个好的做法，并不仅仅因为没有带来新的创新之处，更在于这二者像是天平的两端，Notion 的 Block 是在鼓励用户去搭建自己的知识库，而 Roam Research 则刻意强调用户不需要思考写在哪里，直接写就好了。<br>
-</br></p>
-<h3 id="汽车替代马匹的技术思考">🗞 汽车替代马匹的技术思考</h3>
-<p>汽车第一次获得媒体的广泛关注是在 1888 年，当时，奔驰汽车发明人卡尔·本茨的妻子开车行驶约 100 公里，成功抵达母亲的住所。但如果翻看 1905 年纽约百老汇的照片，这条街上仍然全是马和马车。新技术从发展成熟到被广泛采用需要大量时间，就像比尔·盖茨所说的那样：“我们总是高估未来两年的变化，低估未来 10 年的变革。”当时间指向 1920 年时，在同一个十字路口上挤满了汽车和有轨电车，已经一匹马都看不见了。</p>
-<p>Bill Buxton 也观察到这一现象，并提出 <a href="https://www.billbuxton.com/01%20The%20Long%20Nose%20of%20Innovation%20Revised.pdf">The Long Nose of Innovation</a>。第一次公开演示鼠标是在 1968 年，然而直到 1995 年随着 Windows 95 的发布，鼠标才开始流行。多点触控技术首次作为论文被刊登是在 1985 年，而直到 2007 年 iPhone 的出现才被广泛使用。（也许是巧合，上述案例从被广泛关注到流行都间隔 20～30 年左右。）</p>
-<p>因为时间跨度大，这一过程总是包含着各种尝试和错误，而考虑到任何一次变革都会对就业和经济产生巨大影响，就不得不谨慎对待。（甚至不需要新技术，<a href="https://36kr.com/p/796845283582985">瑞幸咖啡造假带来的低价策略对咖啡市场造成了不可逆的破坏</a>）</p>
-<p>以史为镜，可以知兴替。刚刚提到的汽车替换了马匹，对就业和经济带来了哪些影响呢？当时一个农业统计学家 Z.R.Pettet 发布的论文 <a href="https://www2.census.gov/library/publications/decennial/1930/agriculture-farm-horse/1930sr-farm-horse.pdf"><em>The Farm Horse</em></a> 讨论了汽车替换马匹是如何造成经济大萧条的（1929 - 1933）：</p>
-<ul>
-<li>1870 年，美国的每个家庭都直接或间接依赖马匹。在全国范围内，每五个人就拥有一匹马，因为一匹马一般每天消耗的卡路里是一个人的 10 倍，所以农民对“为马种粮”看得比“为人种粮”还重要。</li>
-<li>1920 年至 1930 年，在汽车、卡车和农用机械三者的合力作用下，全国马匹数量急剧减少，从 1920 年普查时记录的 1980 万匹减少到 10 年后的 1350 万匹，几乎下降了1/3。随着马的数量减少，对马饲料的需求也随之减少，主要是干草、燕麦和玉米。</li>
-<li>农民转向种植人需要的农作物，拿出原来专门用于养马的 1800 万英亩土地，改种棉花、小麦和烟草。这些农作物大量涌入市场，压低价格，农产品价格下跌，农民的收入也随之缩水。农民从这三种农作物中获得的总收入从 1919 年的 49 亿美元下降到 1929 年的 26 亿美元，到 1932 年甚至仅为 8.57 亿美元。（当然还存在其他因素，但马数量减少是间接且残酷的）</li>
-<li>随着收入下降，全国的农村家庭无法抵押贷款，农业银行开始没收人们抵押的财产，但很快发现这无法偿还它们欠大银行的债务，而那些大银行占据整个国家的金融核心地位。</li>
-<li>Pettet 发现城市的许多工作岗位都依赖农业产业，如包装、制造业和农业机械。农业的恶化逐渐传染了整个国家。到 1933 年，不仅马失业了，还有将近 1300 万人也丢掉了工作，占全国劳动力的 1/4。</li>
-</ul>
-<p>从今天来看，汽车替换马匹是不可避免的，但也有人认为<a href="https://www.amazon.com/Horses-Work-Harnessing-Industrial-America/dp/0674031296">“与其说淘汰马匹是技术变革的结果，不如说是美国人对能源消费的文化选择。”</a>因为彼时汽车被认为比马车更有利于社会（想象一下满大街的马粪），人们选择汽车是因为这能够提高城市的效率、卫生和安全。这种解释强调了文化价值观和社会选择对科技变革的影响。</p>
-<p>总的来说，我对人类和技术都保持乐观，这取决于站在怎样的时间跨度看待，乔布斯在 <a href="https://www.youtube.com/watch?v=6kalMB8jDnY">1990 年的视频演讲</a>里谈到：</p>
-<blockquote>
-<p>我认为将我们和高等灵长类动物区分开的核心是，我们是工具的制造者。我读过一项研究，它测量了地球上不同物种的运动效率，秃鹰能够最少的能量移动一公里，在这项研究里，人类的表现平淡无奇，大约排在名单三分之一的位置。看上去很不妙，是吧？但《科学美国人》测试了一个骑自行车的人的运动效率，在运动效率上完胜秃鹫的表现。</p>
-</blockquote>
-<p>如果你对这一话题感兴趣，可以阅读<a href="https://book.douban.com/subject/34940580/">《工具，还是武器？》</a>第十三章。</p>
 ]]></content>
     </entry>
 </feed>
