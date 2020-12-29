@@ -1823,15 +1823,15 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #ffffff!important;
+          background: #F7F6F6!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #ffffff!important;
+          background: #F7F6F6!important;
         }
         
         .gt-bg-content-color-first {
-          background: #0C1E29!important;
+          background: #4b4b4b!important;
         }
         
         .gt-bg-content-color-second {
@@ -1847,15 +1847,15 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-theme-color-first {
-          color: #ffffff!important;
+          color: #F7F6F6!important;
         }
         
         .gt-c-theme-color-second {
-          color: #ffffff!important;
+          color: #F7F6F6!important;
         }
         
         .gt-c-content-color-first {
-          color: #0C1E29!important;
+          color: #4b4b4b!important;
         }
         
         .gt-c-content-color-second {
@@ -1871,7 +1871,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         body {
-          color: #0C1E29!important;
+          color: #4b4b4b!important;
         }
         
         a {
@@ -1880,20 +1880,20 @@ code::-webkit-scrollbar-thumb:hover {
         
         .post-content h1 {
           display: inline-block;
-          color: #0C1E29!important;
+          color: #4b4b4b!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(89,120,243,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #0C1E29!important;
+          color: #4b4b4b!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(89,120,243,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #0C1E29!important;
+          color: #4b4b4b!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(89,120,243,0.4) 0)!important;
         }
@@ -1916,8 +1916,8 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .search-input {
-          color: #0C1E29!important;
-          background-color: #ffffff!important;
+          color: #4b4b4b!important;
+          background-color: #F7F6F6!important;
         }
          
       /* 导航栏文本加粗体 */
@@ -1939,7 +1939,7 @@ code::-webkit-scrollbar-thumb:hover {
     margin-bottom: 18px;
     font-size: 16px;
     letter-spacing: 1.0382px;
-    color:#222426!important;
+    color:#4b4b4b!important;
 }
 
 .post-list-container .post-inner .post .post-left .post-title {
